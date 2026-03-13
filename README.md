@@ -5,6 +5,6 @@ This project demonstrates a complete custom IC design flow for a high-performanc
 - Synopsys Custom compiler
 - Synopsys Custome Waveview
 ## Schematic: 
-![CMOS Inverter Schematic](E:/VI MACH SO/INVERTER-LAB1/inverter/inv/schematic/snapshot.png)
+![CMOS Inverter Schematic](inverter/inv/schematic/snapshot.png)
 ## Layout: 
 ## Starrc: 
