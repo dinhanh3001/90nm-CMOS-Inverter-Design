@@ -7,4 +7,8 @@ This project demonstrates a complete custom IC design flow for a high-performanc
 ## Schematic: 
 ![CMOS Inverter Schematic](inverter/inv/schematic/snapshot.png)
 ## Layout: 
+![CMOS Inverter Layout](inverter/inv/layout/snapshot.png)
 ## Starrc: 
+![CMOS Inverter Starrc](inverter/inv/starrc/snapshot.png)
+## Author:
+- Nguyen Dinh Anh - Email: anhdinh30012005work@gmail.com
