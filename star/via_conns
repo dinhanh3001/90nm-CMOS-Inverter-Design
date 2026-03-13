@@ -1,0 +1,153 @@
+1_0V_BJT_BASE_cont
+UP: metal1
+DOWN: 1_0V_BJT_BASE
+1_0V_BJT_BASE_contL
+UP: metal1
+DOWN: 1_0V_BJT_BASEL
+1_0V_BJT_BASE_cont_NPN
+UP: metal1
+DOWN: 1_0V_BJT_BASE_NPN
+1_0V_BJT_BASE_cont_NPNL
+UP: metal1
+DOWN: 1_0V_BJT_BASE_NPNL
+1_0V_BJT_COLL_cont
+UP: metal1
+DOWN: 1_0V_BJT_COLL
+1_0V_BJT_COLL_contL
+UP: metal1
+DOWN: 1_0V_BJT_COLLL
+1_0V_BJT_COLL_cont_NPN
+UP: metal1
+DOWN: 1_0V_BJT_COLL_NPN
+1_0V_BJT_COLL_cont_NPNL
+UP: metal1
+DOWN: 1_0V_BJT_COLL_NPNL
+1_0V_BJT_EMIT_cont
+UP: metal1
+DOWN: 1_0V_BJT_EMIT
+1_0V_BJT_EMIT_contL
+UP: metal1
+DOWN: 1_0V_BJT_EMITL
+1_0V_BJT_EMIT_cont_NPN
+UP: metal1
+DOWN: 1_0V_BJT_EMIT_NPN
+1_0V_BJT_EMIT_cont_NPNL
+UP: metal1
+DOWN: 1_0V_BJT_EMIT_NPNL
+2_5V_BJT_BASE_cont
+UP: metal1
+DOWN: 2_5V_BJT_BASE
+2_5V_BJT_BASE_contL
+UP: metal1
+DOWN: 2_5V_BJT_BASEL
+2_5V_BJT_BASE_cont_NPN
+UP: metal1
+DOWN: 2_5V_BJT_BASE_NPN
+2_5V_BJT_BASE_cont_NPNL
+UP: metal1
+DOWN: 2_5V_BJT_BASE_NPNL
+2_5V_BJT_COLL_cont
+UP: metal1
+DOWN: 2_5V_BJT_COLL
+2_5V_BJT_COLL_contL
+UP: metal1
+DOWN: 2_5V_BJT_COLLL
+2_5V_BJT_COLL_cont_NPN
+UP: metal1
+DOWN: 2_5V_BJT_COLL_NPN
+2_5V_BJT_COLL_cont_NPNL
+UP: metal1
+DOWN: 2_5V_BJT_COLL_NPNL
+2_5V_BJT_EMIT_cont
+UP: metal1
+DOWN: 2_5V_BJT_EMIT
+2_5V_BJT_EMIT_contL
+UP: metal1
+DOWN: 2_5V_BJT_EMITL
+2_5V_BJT_EMIT_cont_NPN
+UP: metal1
+DOWN: 2_5V_BJT_EMIT_NPN
+2_5V_BJT_EMIT_cont_NPNL
+UP: metal1
+DOWN: 2_5V_BJT_EMIT_NPNL
+CBM_VIA
+UP: top_metex
+DOWN: CBM sec_top_met
+CTM_VIA
+UP: top_metex
+DOWN: CAP_MIMS
+V1S
+UP: eighth_top_met metal2
+DOWN: metal1
+V2S
+UP: metal3
+DOWN: metal2
+V3S
+UP: metal4
+DOWN: metal3
+V4S
+UP: metal5
+DOWN: metal4
+V5S
+UP: metal6
+DOWN: metal5
+V6S
+UP: metal7
+DOWN: metal6
+base_dnw_pnp_cont
+UP: metal1
+DOWN: base_dnw_pnp
+cap_top_via
+UP: top_metex
+DOWN: CAP_MIMS
+diffCont
+UP: metal1
+DOWN: resndiff resndiff_nS rpdiff_term rpdiff_term_nS subtie tndiff tndiff18 tndiff33 tpdiff varndiff varndiff25 varpdiff varpdiff25 welltie
+dnwCont
+UP: metal1
+DOWN: tndiff_dnwell
+emit_dnw_pnp_cont
+UP: metal1
+DOWN: emit_dnw_pnp
+fifth_top_via
+UP: fifth_top_met
+DOWN: sixth_top_met
+fourth_top_via
+UP: fourth_top_met
+DOWN: fifth_top_met
+nxwell_NWDIODE18_scon
+UP: welltie
+DOWN: nxwell_NWDIODE18
+nxwell_NWDIODE25_scon
+UP: welltie
+DOWN: nxwell_NWDIODE25
+nxwell_NWDIODE33_scon
+UP: welltie
+DOWN: nxwell_NWDIODE33
+nxwell_NWDIODE_scon
+UP: welltie
+DOWN: nxwell_NWDIODE
+nxwell_scon
+UP: welltie
+DOWN: nxwell
+polyCont
+UP: metal1
+DOWN: RTERMARKER hrpoly_term_NP hrpoly_term_PP poly preshterm rnpoly_poly rppoly_poly
+sec_top_via
+UP: sec_top_met
+DOWN: third_top_met
+seventh_top_via
+UP: seventh_top_met
+DOWN: eighth_top_met
+sixth_top_via
+UP: sixth_top_met
+DOWN: seventh_top_met
+subtie_scon
+UP: subtie
+DOWN: psub
+third_top_via
+UP: third_top_met
+DOWN: fourth_top_met
+top_via
+UP: top_metex
+DOWN: sec_top_met

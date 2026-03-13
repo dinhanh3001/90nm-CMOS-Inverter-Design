@@ -1,0 +1,28 @@
+sortTrie = 0
+_sort_def = 0
+checks = 0
+sortTrie = 0
+combine_loc (6879) = 0
+_sortInsArray = 0
+idxInit = 0
+token_task (6880) = 0
+dumpSigTokens = 0
+_open = 0
+_write_globals = 0
+_write_defs = 0
+_close = 0
+main_thread (6877) = 0
+free = 0
+  
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=331.3 
+LoadXF        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=335.1 
+BldXrefHN     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=335.4 
+ReadXHNdb     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=335.4 
+BldXrefTab    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=335.4 
+SNetSel       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=335.4 
+XrefHN        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=335.4 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=335.4 
+
+End Time: Fri Mar 13 08:08:40 2026
+

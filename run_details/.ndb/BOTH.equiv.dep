@@ -1,0 +1,3 @@
+inv::inv { P::P N::N }
+N::N { }
+P::P { }

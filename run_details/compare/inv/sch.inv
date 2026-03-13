@@ -1,0 +1,11 @@
+{NETLIST inv
+{VERSION 1 0 0}
+
+{CELL inv
+    {PORT gnd! vdd! out in }
+    {INST MM17=N {PROP n="N" Length=0.36 Width=0.36 Mult=1 }
+	{PIN in=GATE gnd!=SRC out=DRN }}
+    {INST MM18=P {PROP n="P" Length=0.36 Width=0.72 Mult=1 }
+	{PIN in=GATE vdd!=SRC out=DRN }}
+}
+}

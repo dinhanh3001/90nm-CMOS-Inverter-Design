@@ -1,0 +1,26 @@
+Parsing option_file: netlist.tech (EX-304)
+WARNING: INTERNAL Warning: unknown layer has been referenced: hrppoly_psub (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: hrpoly_psub (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: hrppoly_nxwell (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: rppolywo_nS_nxwell (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: rppolywo_r_nxwell (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: hrpoly_nxwell (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: rnpolywo_nS_nxwell (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: tndiff_dnwell25 (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: mom_cap_123_term (EX-202)
+WARNING: 'In layer mapping file line 187 'layer 'cbm' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 187 'layer 'cbm' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 187 'layer 'cbm' undefined in technology library. (EX-1993)
+WARNING: INTERNAL Warning: unknown layer has been referenced: rnpoly3t_poly (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: rppoly3t_poly (EX-202)
+WARNING: Physical shape and presistor of design layer 'M1S' ('77') is not available in parasitic
+         view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+WARNING: Physical shape and presistor of design layer 'POLYPIN' ('199') is not available in
+         parasitic view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+WARNING: Physical shape and presistor of design layer 'POLS' ('106') is not available in parasitic
+         view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+  
+Netlist       Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=541.3 
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=541.3 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=541.3 

@@ -1,0 +1,228 @@
++------------------------------------------------------------------------+
+|                          Hercules LVS Report                           |
+|                                                                        |
+|                       Schematic cell name = inv                        |
+|                       Layout cell name    = inv                        |
++------------------------------------------------------------------------+
+
+COMPARE (R) Hierarchical Layout Vs. Schematic
+        Version AMD.64 Release B-2008.09.SP5.26002 2012/07/10
+Copyright (C) Synopsys, Inc. All rights reserved.
+
+
++------------------------------------------------------------------------+
+|                           Comparison Result                            |
++------------------------------------------------------------------------+
+
+
+                       #####    ##    #####  #####
+                       #    #  #  #  #      #
+                       #####  ######  ####   ####
+                       #      #    #      #      #
+                       #      #    # #####  #####
+
+                               [inv == inv]
+
+Error summary:
+
+           0 unmatched schematic device 
+           0 unmatched schematic net 
+           0 unmatched layout device 
+           0 unmatched layout net 
+
+           2 matched devices
+           4 matched nets
+
+
+Post-compare summary (* = unmatched devices or nets):
+
+        Matched      Schematic    Layout           Instance types
+                     unmatched    unmatched        [schematic, layout]
+        ---------    ---------    ---------        --------------------
+                1            0            0        [N, N]
+                1            0            0        [P, P]
+        ---------    ---------    ---------        --------------------
+                2            0            0        Total instances
+
+                4            0            0        Total nets
+
+
++------------------------------------------------------------------------+
+|                          Detailed Information                          |
++------------------------------------------------------------------------+
+
++------------------------------------------------------------+
+|                   Comparison Information                   |
++------------------------------------------------------------+
+
+Device properties are compared because option COMPARE_PROPERTIES is TRUE.
+
+
++------------------------------------------------------------+
+|               Cross-Referencing Information                |
++------------------------------------------------------------+
+
+Port cross-reference table:
+    S: Schematic generated port
+    L: Layout generated port
+
+    Generated
+       port       Port class    Schematic port          Layout port
+    ----------    ----------    --------------------    --------------------
+                  3             gnd!                    GND
+                  1             in                      in
+                  2             out                     out
+                  4             vdd!                    vdd
+
+
++------------------------------------------------------------------------+
+|                           Statistics Report                            |
++------------------------------------------------------------------------+
+
+Schematic netlist statistics after filtering and merging
+
+    Initial  PushDown  Filter  Parallel  Path/Ser  Final    Device type
+    -------  --------  ------  --------  --------  -------  ----------------
+          1         0       0         0         0        1  N
+          1         0       0         0         0        1  P
+    -------  --------  ------  --------  --------  -------  ----------------
+          2         0       0         0         0        2  Total devices
+
+    Initial  PushDown  Dangle  0 Connect Path/Ser  Shorted  Total nets
+    -------  --------  ------  --------  --------  -------  ----------------
+          4         0       0         0         0        0        4
+
+
+Layout netlist statistics after filtering and merging
+
+    Initial  PushDown  Filter  Parallel  Path/Ser  Final    Device type
+    -------  --------  ------  --------  --------  -------  ----------------
+          1         0       0         0         0        1  N
+          1         0       0         0         0        1  P
+    -------  --------  ------  --------  --------  -------  ----------------
+          2         0       0         0         0        2  Total devices
+
+    Initial  PushDown  Dangle  0 Connect Path/Ser  Shorted  Total nets
+    -------  --------  ------  --------  --------  -------  ----------------
+          4         0       0         0         0        0        4
+
+
+Post merge netlist statistics: (* = different count)
+
+    Schematic       Layout          Device type [schematic, layout]
+    ---------       ---------       -------------------------------
+            1               1       [N, N]
+            1               1       [P, P]
+    ---------       ---------       -------------------------------
+            2               2       Total devices
+
+            4               4       Total nets
+
+
++------------------------------------------------------------------------+
+|                            Compare Options                             |
+|                                                                        |
+|       * = Different from Hercules default setting                      |
+|       @ = Different setting between runset and equivalence point       |
++------------------------------------------------------------------------+
+
+    == Compare options ==
+
+    add_width_for_parallel_merge   = FALSE
+    all_ports_texted               = FALSE
+    auto_exclude_equiv             = TRUE
+    combine_output_files           = FALSE
+ *  compare_properties             = TRUE
+    delete_lay                     = [none]
+    delete_sch                     = [none]
+    detect_permutable_ports        = FALSE
+    equate_by_device_name          = FALSE
+ *  equate_by_net_name             = TRUE
+    equiv_by_name                  = FALSE
+ *  explode_on_error               = TRUE
+ *  filter                         = TRUE
+    find_additional_equivs        
+        ignore_case                = FALSE
+        name_full                  = TRUE
+        name_substring             = TRUE
+        name_prefix                = TRUE
+        statistical                = TRUE
+        single_device_cell         = FALSE
+        filter_multi_equivs        = FALSE
+        full_equiv                 = FALSE
+        duplicate_equivs           = FALSE
+    find_duplicate_equivs          = FALSE
+    generate_black_box             = [none]
+    html_output                    = FALSE
+ *  match_by_property              = TRUE
+    matched_ports_continue         = FALSE
+    memory_array_comparison        = TRUE
+    merge_all_caps                 = FALSE
+    merge_all_ind                  = FALSE
+    merge_all_res                  = FALSE
+    merge_net_range                = 100 1000
+ *  merge_parallel                 = TRUE
+    merge_paths                    = FALSE
+    merge_paths_device_limit       = 0
+ *  merge_series                   = TRUE
+    merge_series_gates             = FALSE
+    net_print_limit                = 10
+    one_connection_warning         = FALSE
+ *  optional_pins                  = FALSE
+ *  parallel_merge_ratio           = TRUE
+    port_swap_on_top_block         = FALSE
+    print_ignore_equiv             = [none]
+    property_errors_continue       = FALSE
+    property_tolerance             = 0.1000
+    property_warning               = FALSE
+ *  push_down_devices              = TRUE
+ *  push_down_pins                 = TRUE
+ *  remove_dangling_nets           = TRUE
+    require_texted_ports_match     = FALSE
+    require_texted_nets_match      = FALSE
+    restrict_merge_by_length       = FALSE
+    restrict_merge_by_width        = FALSE
+    restrict_merge_series          = FALSE
+    restrict_parallel_merging      = FALSE
+    restrict_series_merging        = FALSE
+ *  retain_new_data                = TRUE
+    retain_previous_data           = FALSE
+    schematic_vs_schematic         = FALSE
+    short_equivalent_nodes         = FALSE
+    static_equated_nets            = TRUE
+ *  stop_on_error                  = FALSE
+    stop_on_no_explode_error       = FALSE
+    text_resolves_port_swap        = TRUE
+    tolerance_device_count         = [none]
+    tolerance_net_count            = [none]
+    tolerance_type                 = RELATIVE
+    use_total_width                = FALSE
+    write_netlists                 = TRUE
+    zero_connection_warning        = FALSE
+
+    == Evaccess options ==
+
+    create_msg_view                = FALSE
+    create_netlist_view            = FALSE
+    create_xref_view               = FALSE
+
+    == General options ==
+
+ *  create_vue_output              = TRUE
+    ignore_case                    = FALSE
+    layout_global                  = [none]
+ *  layout_ground                  = VSS GND 
+ *  layout_power                   = VCC VDD 
+    lvs_report_level               = [none]
+    lvs_report_old_format          = FALSE
+    lvs_report_record_limit        = 50
+    message_enable                 = [none]
+    message_error                  = [none]
+    message_identifiers            = FALSE
+    message_suppress               = [none]
+    print_precision                = 4
+ *  schematic_global               = gnd! vdd! 
+ *  schematic_ground               = gnd! VSS GND 
+ *  schematic_power                = vdd! VCC VDD 
+
+

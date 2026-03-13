@@ -1,0 +1,11 @@
+  
+ReadHNdb            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=331.3 
+XtrNet              Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=331.3 
+NETLIST_SELECT_NETS Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=331.3 
+WrtSelectNets       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=331.3 
+WritePowerNets      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=331.4 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=331.4 
+
+End Time: Fri Mar 13 08:08:40 2026
+

@@ -1,0 +1,9 @@
+OPTIONS {
+	AUTO_SCHEMATIC_GLOBAL_ON=TRUE
+	SCHEMATIC_GLOBAL = { gnd! vdd! }
+	SCHEMATIC_GROUND = { gnd! }
+	SCHEMATIC_POWER = { vdd! }
+}
+HEADER {
+	EQUIVALENCE = run_details/equiv.run
+}

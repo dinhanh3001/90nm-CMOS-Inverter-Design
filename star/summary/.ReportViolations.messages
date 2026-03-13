@@ -1,0 +1,13 @@
+Num parts for violation reports = 0
+  Parsing summary/xtract.sum
+  Parsing shorts binary files ...
+WARNING: Found shorted nets (see file shorts_all.sum). The capacitances of these nets may be
+         unreliable due to the shorts. (SX-0955)
+  
+ReportShorts  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=331.5 
+ReportOpens   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=331.5 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=331.5 
+
+End Time: Fri Mar 13 08:08:40 2026
+

@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME             |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup                     Elp=00:00:01 Cpu=00:00:00 Mem=429    |Mar 13 08:08:39 |localhost.localdomain
+CPU_01 |*Layers                    Elp=00:00:01 Cpu=00:00:00 Mem=429.1  |Mar 13 08:08:40 |localhost.localdomain
+CPU_01 |*Cells                     Elp=00:00:00 Cpu=00:00:00 Mem=429.1  |Mar 13 08:08:40 |localhost.localdomain
+CPU_01 |*HN                        Elp=00:00:00 Cpu=00:00:00 Mem=445.1  |Mar 13 08:08:40 |localhost.localdomain
+CPU_01 |*Models                    Elp=00:00:00 Cpu=00:00:00 Mem=429.1  |Mar 13 08:08:40 |localhost.localdomain
+CPU_01 |*Netlist                   Elp=00:00:00 Cpu=00:00:00 Mem=541.3  |Mar 13 08:08:40 |localhost.localdomain
+CPU_01 |*NetlistSetup              Elp=00:00:00 Cpu=00:00:00 Mem=331.4  |Mar 13 08:08:40 |localhost.localdomain
+CPU_01 |*ReportViolations          Elp=00:00:00 Cpu=00:00:00 Mem=331.5  |Mar 13 08:08:40 |localhost.localdomain
+CPU_01 |*Translate                 Elp=00:00:00 Cpu=00:00:00 Mem=429.1  |Mar 13 08:08:40 |localhost.localdomain
+CPU_01 |*XrefHN                    Elp=00:00:00 Cpu=00:00:00 Mem=335.4  |Mar 13 08:08:40 |localhost.localdomain
+CPU_01 |*xTract                    Elp=00:00:00 Cpu=00:00:00 Mem=356.3  |Mar 13 08:08:40 |localhost.localdomain
+CPU_01 |*xTractPP                  Elp=00:00:00 Cpu=00:00:00 Mem=226    |Mar 13 08:08:40 |localhost.localdomain
+----------------------------------------------------------------------------------------------
+Start Time: Fri Mar 13 08:08:38 2026
+End Time: Fri Mar 13 08:08:40 2026
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:00:02 Cpu= 00:00:01
+PreXtraction:    Elp=00:00:02 Cpu= 00:00:01
+Xtraction:       Elp=00:00:00 Cpu= 00:00:00
+PostXtraction:   Elp=00:00:00 Cpu= 00:00:00
+----------------------------------------------------------------------------------------------
+Spef Output:     Elp= 00:00:00 Cpu= 00:00:00
+----------------------------------------------------------------------------------------------

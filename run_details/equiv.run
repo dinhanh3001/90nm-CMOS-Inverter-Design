@@ -1,0 +1,13 @@
+/* User-defined equivalence points are listed in this section */
+
+/* Generated equivalence points are listed in this section ordered by option */
+/* by NAME_FULL */
+
+/* by NAME_PREFIX */
+
+/* by NAME_SUBSTRING */
+
+/* by STATISTICAL */
+
+/* TOP */
+equiv inv=inv { }

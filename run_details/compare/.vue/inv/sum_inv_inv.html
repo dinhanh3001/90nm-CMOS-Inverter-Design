@@ -1,0 +1,543 @@
+<html><body>
+COMPARE (R) Hierarchical Layout Vs. Schematic<br>Version <b>AMD.64 Release B-2008.09.SP5.26002 2012/07/10</b><br>Copyright (C) Synopsys, Inc. All rights reserved.<br><br>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top>
+<tr align=center>
+<td align=center colspan=3 bgcolor=navy><font color=white><b><a name="Compare Options">Compare option<br>* = Different from Hercules default setting<br>@ = Different from setting in runset</a></b></font></td>
+<tr align=center>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=left><b>Compare options</b></td>
+<td bgcolor=lightgrey align=left><b>Value</b></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">add_width_for_parallel_merge</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">all_ports_texted</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">auto_exclude_equiv</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">combine_output_files</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">compare_properties</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">delete_lay</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">delete_sch</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">detect_permutable_ports</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">equate_by_device_name</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">equate_by_net_name</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">equiv_by_name</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">explode_on_error</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">filter</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black"> </font></td>
+<td><font color="black">find_additional_equivs</font></td>
+<td><font color="black"> </font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;ignore_case</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;name_full</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;name_substring</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;name_prefix</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;statistical</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;single_device_cell</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;filter_multi_equivs</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;full_equiv</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;duplicate_equivs</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">find_duplicate_equivs</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">generate_black_box</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">html_output</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">match_by_property</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">matched_ports_continue</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">memory_array_comparison</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">merge_all_caps</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">merge_all_ind</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">merge_all_res</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">merge_net_range</font></td>
+<td><font color="black">100&nbsp;1000</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">merge_parallel</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">merge_paths</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">merge_paths_device_limit</font></td>
+<td><font color="black">0</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">merge_series</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">merge_series_gates</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">net_print_limit</font></td>
+<td><font color="black">10</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">one_connection_warning</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">optional_pins</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">parallel_merge_ratio</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">port_swap_on_top_block</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">print_ignore_equiv</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">property_errors_continue</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">property_tolerance</font></td>
+<td><font color="black">0.1000</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">property_warning</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">push_down_devices</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">push_down_pins</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">remove_dangling_nets</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">require_texted_ports_match</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">require_texted_nets_match</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">restrict_merge_by_length</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">restrict_merge_by_width</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">restrict_merge_series</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">restrict_parallel_merging</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">restrict_series_merging</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">retain_new_data</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">retain_previous_data</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">schematic_vs_schematic</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">short_equivalent_nodes</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">static_equated_nets</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">stop_on_error</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">stop_on_no_explode_error</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">text_resolves_port_swap</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black"> </font></td>
+<td><font color="black">tolerance_device_count</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black"> </font></td>
+<td><font color="black">tolerance_net_count</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">tolerance_type</font></td>
+<td><font color="black">RELATIVE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">use_total_width</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">write_netlists</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">zero_connection_warning</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=left><b>Evaccess options</b></td>
+<td bgcolor=lightgrey align=left><b>Value</b></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">create_msg_view</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">create_netlist_view</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">create_xref_view</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=left><b>General options</b></td>
+<td bgcolor=lightgrey align=left><b>Value</b></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">create_vue_output</font></td>
+<td><font color="black">TRUE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">ignore_case</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">layout_global</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">layout_ground</font></td>
+<td><font color="black">VSS GND </font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">layout_power</font></td>
+<td><font color="black">VCC VDD </font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">lvs_report_level</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">lvs_report_old_format</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">lvs_report_record_limit</font></td>
+<td><font color="black">50</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">message_enable</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">message_error</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">message_identifiers</font></td>
+<td><font color="black">FALSE</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">message_suppress</font></td>
+<td><font color="black">[none]</font></td>
+<tr align=left>
+<td><font color="black">  </font></td>
+<td><font color="black">print_precision</font></td>
+<td><font color="black">4</font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">schematic_global</font></td>
+<td><font color="black">gnd! vdd! </font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">schematic_ground</font></td>
+<td><font color="black">gnd! VSS GND </font></td>
+<tr align=left>
+<td><font color="black">* </font></td>
+<td><font color="black">schematic_power</font></td>
+<td><font color="black">vdd! VCC VDD </font></td>
+</table>
+</p>
+<br>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top>
+<tr align=center>
+<td align=center colspan=7 bgcolor=navy><font color=white><a name="Schematic"><b>Schematic Netlist Statistics</b></a></font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b>Initial</b></td>
+<td bgcolor=lightgrey align=center><b>PushDown</b></td>
+<td bgcolor=lightgrey align=center><b>Filter</b></td>
+<td bgcolor=lightgrey align=center><b>Parallel</b></td>
+<td bgcolor=lightgrey align=center><b>Path/Ser</b></td>
+<td bgcolor=lightgrey align=center><b>Final</b></td>
+<td bgcolor=lightgrey align=center><b>Device</b></td>
+<tr>
+<td bgcolor=white align=center>1</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>1</td>
+<td bgcolor=white align=center>N</td>
+<tr>
+<td bgcolor=white align=center>1</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>1</td>
+<td bgcolor=white align=center>P</td>
+<tr align=center>
+<tr align=center>
+<tr align=center>
+<tr>
+<td bgcolor=lightgrey align=center>2</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>2</td>
+<td bgcolor=lightgrey align=left><em><b>Total devices</b></em></td>
+<tr>
+<td bgcolor=lightgrey align=center>4</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>4</td>
+<td bgcolor=lightgrey align=left><em><b>Total nets</b></em></td>
+</table>
+</p>
+<br>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top>
+<tr align=center>
+<td align=center colspan=7 bgcolor=navy><font color=white><a name="Layout"><b>Layout Netlist Statistics</b></a></font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b>Initial</b></td>
+<td bgcolor=lightgrey align=center><b>PushDown</b></td>
+<td bgcolor=lightgrey align=center><b>Filter</b></td>
+<td bgcolor=lightgrey align=center><b>Parallel</b></td>
+<td bgcolor=lightgrey align=center><b>Path/Ser</b></td>
+<td bgcolor=lightgrey align=center><b>Final</b></td>
+<td bgcolor=lightgrey align=center><b>Device</b></td>
+<tr>
+<td bgcolor=white align=center>1</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>1</td>
+<td bgcolor=white align=center>N</td>
+<tr>
+<td bgcolor=white align=center>1</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>1</td>
+<td bgcolor=white align=center>P</td>
+<tr align=center>
+<tr align=center>
+<tr align=center>
+<tr>
+<td bgcolor=lightgrey align=center>2</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>2</td>
+<td bgcolor=lightgrey align=left><em><b>Total devices</b></em></td>
+<tr>
+<td bgcolor=lightgrey align=center>4</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>4</td>
+<td bgcolor=lightgrey align=left><em><b>Total nets</b></em></td>
+</table>
+</p>
+<br>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top>
+<tr align=center>
+<td align=center colspan=3 bgcolor=navy><font color=white><b><a name="Post Merge">Post-Merge Netlist Statistics</a></b></font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b>Schematic</b></td>
+<td bgcolor=lightgrey align=center><b>Layout</b></td>
+<td bgcolor=lightgrey align=center><b>Devices</b></td>
+<tr align=center>
+<td><font color="black">1</font></td>
+<td><font color="black">1</font></td>
+<td><font color="black">[N, N]</font></td>
+<tr align=center>
+<td><font color="black">1</font></td>
+<td><font color="black">1</font></td>
+<td><font color="black">[P, P]</font></td>
+<tr align=center>
+<tr align=center>
+<tr>
+<td bgcolor=lightgrey align=center>2</td>
+<td bgcolor=lightgrey align=center>2</td>
+<td bgcolor=lightgrey align=left><em><b>Total devices</b></em></td>
+<tr>
+<td bgcolor=lightgrey align=center>4</td>
+<td bgcolor=lightgrey align=center>4</td>
+<td bgcolor=lightgrey align=left><em><b>Total nets</b></em></td>
+</table>
+</p>
+<br>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top>
+<tr align=center>
+<td align=center colspan=5 bgcolor=navy><font color=white><a name="Port Xref"><b>Port cross-reference table<br>&nbsp;&nbsp;&nbsp;&nbsp;S: Schematic generated port&nbsp;&nbsp;&nbsp;&nbsp;L: Layout generated port</b></a></font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b>Generated port</b></td>
+<td bgcolor=lightgrey align=center><b>Port class</b></td>
+<td bgcolor=lightgrey align=center><b>Schematic port</b></td>
+<td bgcolor=lightgrey align=center><b>Layout port</b></td>
+<tr>
+<td><font color="black"></font></td>
+<td><font color="black">3</font></td>
+<td><font color="black"><a href="xref://SNMG//gnd!">gnd!</a></font></td>
+<td><font color="black"><a href="xref://LNMG//GND">GND</a></font></td>
+<tr>
+<td><font color="black"></font></td>
+<td><font color="black">1</font></td>
+<td><font color="black"><a href="xref://SNMI//in">in</a></font></td>
+<td><font color="black"><a href="xref://LNMI//in">in</a></font></td>
+<tr>
+<td><font color="black"></font></td>
+<td><font color="black">2</font></td>
+<td><font color="black"><a href="xref://SNMI//out">out</a></font></td>
+<td><font color="black"><a href="xref://LNMI//out">out</a></font></td>
+<tr>
+<td><font color="black"></font></td>
+<td><font color="black">4</font></td>
+<td><font color="black"><a href="xref://SNMP//vdd!">vdd!</a></font></td>
+<td><font color="black"><a href="xref://LNMI//vdd">vdd</a></font></td>
+</table>
+</p>
+<br>
+<br>
+<br>
+<br>
+</font></body>
+</html>

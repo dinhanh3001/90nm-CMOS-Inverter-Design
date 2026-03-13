@@ -1,0 +1,30 @@
+### Custom WaveView ADV log file, revision N-2017.12-SP2 (build May 31, ) ###
+### created at 09:21:13 on Fri Mar 13 2026 (Linux AMD64) ###
+### Host Name: localhost.localdomain   User ID: itsupport   PID: 6597   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_open_sim_file_read {netlist.tr0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:netlist.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:netlist.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {net3} 1
+wv_select_list_item {Custom WaveView} {} {sigview} {net3} 1
+wv_list_context_menu {Custom WaveView} {} {sigview} {net3} 1 47 23
+wv_select_list_item {Custom WaveView} {} {sigview} {net3} 1
+wv_dclick_list_item {Custom WaveView} {} {sigview} {net3} 1
+wv_select_list_item {Custom WaveView} {} {sigview} {output} 2
+wv_dclick_list_item {Custom WaveView} {} {sigview} {output} 2
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_move_window {MeasurementTool} {} 605 101
+wv_move_window {MeasurementTool} {} 615 159
+wv_select_dialog {MeasurementTool} 
+wv_select_combox_item {MeasurementTool} {} {Signal} "output netlist.tr0" 1
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 610 432
+wv_move_wv_item WV1.MEAS1 533 492

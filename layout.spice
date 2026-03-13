@@ -1,0 +1,14 @@
+* SPICE INPUT		Fri Mar 13 08:07:50 2026	inv
+* EV_NETLIST Version AMD.64 Release B-2008.09.SP5.26005 2012/07/14
+*
+*The following line needed for Star-CR:
+*CRU_OPT (KEEP_ELEMENTS "^[CR]D")
+*
+*The following line needed for CDL:
+*.BIPOLAR
+
+* Top of hierarchy  cell=inv
+.subckt inv vdd! gnd! out in
+M_MM17 gnd! in out ln_N_9 N  l=0.360u w=0.360u
+M_MM18 vdd! in out ln_N_11 P  l=0.360u w=0.720u
+.ends inv

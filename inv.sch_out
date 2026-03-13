@@ -1,0 +1,246 @@
+{netlist inv.sch_out
+{version 1 1 0 }
+/* nettran: AMD.64 Release B-2008.09.SP5.26004 2012/07/19 */ 
+/* Created:  3/13/2026   8:07   */
+/* Options: -cdl /home/itsupport/Desktop/lab1vlsi/synopsys_custom/inv.hercules.lvs/inv.custom_compiler.sp -sp /home/itsupport/Desktop/lab1vlsi/PDK/hercules/lvs/empty.subckt -cdl-a -cdl-p -mprop -slash -logFile /home/itsupport/Desktop/lab1vlsi/run_details/nettran.log -outName inv.sch_out  */
+
+{net_global vdd! gnd! }
+{cell inv
+{port in out}
+{inst MM18=P
+{prop M=1 NF=1 L=0.36 W=0.72}
+{pin out=DRN in=GATE vdd!=SRC vdd!=BULK}}
+{inst MM17=N
+{prop M=1 NF=1 L=0.36 W=0.36}
+{pin out=DRN in=GATE gnd!=SRC gnd!=BULK}}
+}
+
+{cell MOSVAR_1V2
+{port PLUS MINUS BULK}
+}
+
+{cell NDN25
+{port DRN GATE SRC PW PSUB DNW}
+{inst q2=DNWPNP
+{pin PW=COLL PSUB=BASE DNW=EMIT}}
+{inst m1=N25
+{pin D=DRN G=GATE S=SRC PW=BULK}}
+}
+
+{cell NDN
+{port DRN GATE SRC PW PSUB DNW}
+{inst q2=DNWPNP
+{pin PW=COLL PSUB=BASE DNW=EMIT}}
+{inst m1=N
+{pin D=DRN G=GATE S=SRC PW=BULK}}
+}
+
+{cell INDSYMCT
+{port PLUS MINUS CTAP BULK}
+}
+
+{cell INDSYM
+{port PLUS MINUS BULK}
+}
+
+{cell SYNSTD
+{port PLUS MINUS BULK}
+}
+
+{cell VARDIO
+{port PLUS MINUS}
+}
+
+{cell XJVAR
+{port PLUS MINUS BULK}
+}
+
+{cell PVAR2
+{port PLUS MINUS}
+}
+
+{cell PVAR1
+{port PLUS MINUS}
+}
+
+{cell NVAR2
+{port PLUS MINUS}
+}
+
+{cell NVAR1
+{port PLUS MINUS}
+}
+
+{cell DNWDIODE
+{port PW DNW PSUB}
+}
+
+{cell cmom
+{port PLUS MINUS BULK}
+}
+
+{cell cmim_3t
+{port PLUS MINUS BULK}
+}
+
+{cell cmim_2t
+{port PLUS MINUS}
+}
+
+{cell rpolyhc
+{port PLUS MINUS BULK}
+}
+
+{cell rpolyc
+{port PLUS MINUS BULK}
+}
+
+{cell rpolyhrf
+{port PLUS MINUS}
+}
+
+{cell rpolyrf
+{port PLUS MINUS}
+}
+
+{cell rpolyh
+{port PLUS MINUS}
+}
+
+{cell rpoly
+{port PLUS MINUS}
+}
+
+{cell rmt
+{port PLUS MINUS}
+}
+
+{cell rm8
+{port PLUS MINUS}
+}
+
+{cell rm7
+{port PLUS MINUS}
+}
+
+{cell rm6
+{port PLUS MINUS}
+}
+
+{cell rm5
+{port PLUS MINUS}
+}
+
+{cell rm4
+{port PLUS MINUS}
+}
+
+{cell rm3
+{port PLUS MINUS}
+}
+
+{cell rm2
+{port PLUS MINUS}
+}
+
+{cell rm1
+{port PLUS MINUS}
+}
+
+{cell hrppoly_3t
+{port PLUS MINUS BULK}
+}
+
+{cell hrnpoly_3t
+{port PLUS MINUS BULK}
+}
+
+{cell hrppoly
+{port PLUS MINUS}
+}
+
+{cell hrnpoly
+{port PLUS MINUS}
+}
+
+{cell rnwdiff_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rnwell_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rnwdiff
+{port PLUS MINUS}
+}
+
+{cell rnwell
+{port PLUS MINUS}
+}
+
+{cell rpdiffS_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rndiffS_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rpdiff_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rndiff_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rppolyS_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rnpolyS_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rppoly_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rnpoly_3t
+{port PLUS MINUS BULK}
+}
+
+{cell rpdiffS
+{port PLUS MINUS}
+}
+
+{cell rndiffS
+{port PLUS MINUS}
+}
+
+{cell rpdiff
+{port PLUS MINUS}
+}
+
+{cell rndiff
+{port PLUS MINUS}
+}
+
+{cell rppolyS
+{port PLUS MINUS}
+}
+
+{cell rnpolyS
+{port PLUS MINUS}
+}
+
+{cell rppoly
+{port PLUS MINUS}
+}
+
+{cell rnpoly
+{port PLUS MINUS}
+}
+
+}

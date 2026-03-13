@@ -1,0 +1,16 @@
+run_in_same_process: start time = 1773364120
+INTERNAL Warning: '3' items are not found in POWER_NETS, updated them in tech_filecreate_xin_writer; sort_xin_in_memory YES cut_trap YES text_counter NO track_fill_detection NO
+original # tiles 0 < 225
+
+SKIP_CELLS:
+< No skip_cells! >
+  
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=429.1 
+NetSelect     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=429.1 
+CellSelect    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=429.1 
+PlaceTerm     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=429.1 
+PlaceText     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=429.1 
+Db2Xin        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=429.1 
+Translate     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=429.1 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=429.1 

@@ -1,0 +1,87 @@
+Parsing option_file: netlist.tech (EX-304)
+Running Amd_64b    
+$LD_LIBRARY_PATH=/usr/synopsys/starrc/O-2018.06-SP1/linux64_starrc/lib:/usr/synopsys/starrc/O-2018.06-SP1/linux64_starrc/lib/std_oa/linux64/lib/opt:/usr/synopsys/starrc/O-2018.06-SP1/lib:/usr/synopsys/starrc/O-2018.06-SP1/lib/std_oa/O-2018.06-SP1/lib/opt:/usr/synopsys/starrc/O-2018.06-SP1/linux64_starrc/lib:/usr/synopsys/starrc/O-2018.06-SP1/linux64_starrc/lib/std_oa/linux64/lib/opt:/usr/synopsys/starrc/O-2018.06-SP1/linux64_starrc/lib:/usr/synopsys/starrc/O-2018.06-SP1/linux64_starrc/lib/oa_qsco_2018.06_prod/amd64/lib/opt
+/usr/synopsys/starrc/O-2018.06-SP1/linux64_starrc/lib/oa_qsco_2018.06_prod/linux64/lib/opt
+/usr/synopsys/starrc/O-2018.06-SP1/linux64_starrc/lib/oa_qsco_2018.06_prod/suse64/lib/opt:/usr/lib:.:.
+$TCL_LIBRARY=/usr/synopsys/starrc/O-2018.06-SP1/etc/auxx/tcllib/lib/tcl8.6
+loading /usr/synopsys/starrc/O-2018.06-SP1/linux64_starrc/lib/liboaStar-O.so
+NetSelector filter is added
+Could not open file parallel_devices
+Could not open file parallel_devices
+OA lib version: 22.50.064
+OaOpenLibDefListObserver::onPostOpenLibs:
+Got Lib Def: Logical Library Name = snpsDefTechLib
+Got Lib Def: Logical Library Name = basic
+Got Lib Def: Logical Library Name = analogLib
+Got Lib Def: Logical Library Name = verilogaLib
+Got Lib Def: Logical Library Name = sheets
+Got Lib Def: Logical Library Name = sample
+Got Lib Def: Logical Library Name = parasitics
+Got Lib Def: Logical Library Name = reference90RF
+Got Lib Def: Logical Library Name = inverter
+lib dmSystemName: oaDMFileSys
+lib path: /home/itsupport/Desktop/lab1vlsi/inverter
+Unable to set references on tech because conflicts would result.
+unitStr: micron xoutDbu: 10 xinDbu: 10 hnDbu: 1 techDbu: 1000 makersize: 100
+done init design ... init mappers
+OaParasiticViewWriter initMappers
+WARNING: INTERNAL Warning: unknown layer has been referenced: hrppoly_psub (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: hrpoly_psub (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: hrppoly_nxwell (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: rppolywo_nS_nxwell (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: rppolywo_r_nxwell (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: hrpoly_nxwell (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: rnpolywo_nS_nxwell (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: tndiff_dnwell25 (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: mom_cap_123_term (EX-202)
+WARNING: 'In layer mapping file line 187 'layer 'cbm' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 187 'layer 'cbm' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 187 'layer 'cbm' undefined in technology library. (EX-1993)
+WARNING: INTERNAL Warning: unknown layer has been referenced: rnpoly3t_poly (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: rppoly3t_poly (EX-202)
+Writing tech command to OA view...
+Done writing tech command.
+done init writers.
+Parasitic device model pres[starrc] is not defined, the default model pres will be used.
+Parasitic device model pcap[starrc] is not defined, the default model pcap will be used.
+done init formats.
+done init instance section.
+MultipleDeclareCircuitOutput filter is added
+done init circuit output.
+Completed   2%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed   7%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed  12%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+WARNING: Physical shape and presistor of design layer 'M1S' ('77') is not available in parasitic
+         view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed  28%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed  35%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed  43%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed  51%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed  58%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed  66%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed  74%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed  82%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.262
+Completed  89%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.324
+WARNING: Physical shape and presistor of design layer 'POLYPIN' ('199') is not available in
+         parasitic view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+WARNING: Physical shape and presistor of design layer 'POLS' ('106') is not available in parasitic
+         view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+Completed  97%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.324
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=541.324
+Xout2CircuitOutput::endBucket. Mem= 541.324
+Memory usage at the start of instance section: 541.324
+InstanceSection Time=00:00:00
+Memory usage at the end of instance section: 541.324
+Process ports from input netlist
+Write TotalNetCap value to each net group.
+OaParasiticViewWriter destructor
+Merging xin and writting to OA...
+Dumping merged xin to OA
+Done merging xin
+  
+Netlist       Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=541.3 
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=541.3 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=541.3 
+

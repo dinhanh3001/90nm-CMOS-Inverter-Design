@@ -1,0 +1,29 @@
+========== Cache Usage Status ==========
+Initial cache size:              16384K bytes
+Largest cache size:              32768K bytes
+Current cache size:              16384K bytes
+
+Largest number of cache blocks:     2
+Current number of cache blocks:     1
+Current number of cache pages:   4088
+========================================
+
+
+Milkyway db session terminated successfully!
+
+
+Starting a non page replacement mode Milkyway db session... 
+========== Cache Usage Status ==========
+Initial cache size:              16384K bytes
+Largest cache size:              32768K bytes
+Current cache size:              16384K bytes
+
+Largest number of cache blocks:     2
+Current number of cache blocks:     1
+Current number of cache pages:   4088
+========================================
+
+
+Milkyway db session terminated successfully!
+
+Exit hercules!

@@ -1,0 +1,315 @@
+HLVS (R) Hierarchical Layout Versus Schematic, AMD.64 Release B-2008.09.SP5.26002 2012/07/10
+
+  (C) Copyright 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+                2006, 2007, 2008, 2009, 2010, 2011, 2012.
+  Synopsys, Inc.  All rights reserved.
+
+Call as: lsh -s inv.sch_out -stb inv -Q -b inv -ev-off /home/itsupport/Desktop/lab1vlsi/reference_lvs.lvs.evx
+
+RUNSET WARNING : /home/itsupport/Desktop/lab1vlsi/reference_lvs.lvs.evx:1038: 
+	Variable set but never used ->  "w"
+RUNSET WARNING : /home/itsupport/Desktop/lab1vlsi/reference_lvs.lvs.evx:1038: 
+	Variable set but never used ->  "l"
+RUNSET WARNING : /home/itsupport/Desktop/lab1vlsi/reference_lvs.lvs.evx:16: (HEADER) SCHEMATIC file "inv.custom_compiler.sp" does not exist.
+RUNSET WARNING : /home/itsupport/Desktop/lab1vlsi/reference_lvs.lvs.evx:2052: CALCULATE_CLASS in runset is obsolete and ignored
+
+WARNING:  CREATE_VUE_OUTPUT is set to TRUE, therefore WRITE_NETLISTS is set to TRUE.
+Hercules LVS compare start time    : 2026-03-13 08:07:49
+
++------------------------------------------------------------------------+
+|                            Environment Status                          |
++------------------------------------------------------------------------+
+
+Hostname            = localhost.localdomain
+Platform type       = AMD64_L24
+Runset file         = /home/itsupport/Desktop/lab1vlsi/reference_lvs.lvs.evx
+Working directory   = /home/itsupport/Desktop/lab1vlsi
+Top block           = inv
+Layout netlist      = inv.net
+Schematic netlist   = inv.sch_out
+Equivalence file    = [automatic]
+Compare directory   = run_details/compare
+
+WARNING:  Option explode_on_error overriding stop_on_error.
+
+
++------------------------------------------------------------------------+
+|                             Options Listing                            |
+|                   * = different from Hercules default                  |
++------------------------------------------------------------------------+
+
+    == Compare options ==
+
+    add_width_for_parallel_merge   = FALSE 
+    all_ports_texted               = FALSE 
+    auto_exclude_equiv             = TRUE 
+    combine_output_files           = FALSE 
+  * compare_properties             = TRUE 
+    delete_lay                     = [none]
+    delete_sch                     = [none]
+  * detect_permutable_ports        = TRUE 
+    equate_by_device_name          = FALSE 
+  * equate_by_net_name             = TRUE 
+    equiv_by_name                  = FALSE 
+  * explode_on_error               = TRUE 
+  * filter                         = TRUE 
+    find_additional_equivs         
+        ignore_case                = FALSE 
+        name_full                  = TRUE 
+        name_substring             = TRUE 
+        name_prefix                = TRUE 
+        statistical                = TRUE 
+        single_device_cell         = FALSE 
+        filter_multi_equivs        = FALSE 
+        full_equiv                 = FALSE 
+        duplicate_equivs           = FALSE 
+    find_duplicate_equivs          = FALSE 
+    generate_black_box             = [none] 
+    html_output                    = FALSE 
+  * match_by_property              = TRUE 
+    matched_ports_continue         = FALSE 
+    memory_array_comparison        = TRUE 
+    merge_all_caps                 = FALSE 
+    merge_all_ind                  = FALSE 
+    merge_all_res                  = FALSE 
+    merge_net_range                = 100 1000 
+  * merge_parallel                 = TRUE 
+    merge_paths                    = FALSE 
+    merge_paths_device_limit       = 0 
+  * merge_series                   = TRUE 
+    merge_series_gates             = FALSE 
+    net_print_limit                = 10 
+    one_connection_warning         = FALSE 
+  * optional_pins                  = FALSE 
+  * parallel_merge_ratio           = TRUE 
+    port_swap_on_top_block         = FALSE 
+    print_ignore_equiv             = [none] 
+    property_errors_continue       = FALSE 
+    property_tolerance             = 0.10 
+    property_warning               = FALSE 
+  * push_down_devices              = TRUE 
+  * push_down_pins                 = TRUE 
+  * remove_dangling_nets           = TRUE 
+    require_texted_ports_match     = FALSE 
+    require_texted_nets_match      = FALSE 
+    restrict_merge_by_length       = FALSE 
+    restrict_merge_by_width        = FALSE 
+    restrict_merge_series          = FALSE 
+    restrict_parallel_merging      = FALSE 
+    restrict_series_merging        = FALSE 
+  * retain_new_data                = TRUE 
+    retain_previous_data           = FALSE 
+    schematic_vs_schematic         = FALSE 
+    short_equivalent_nodes         = FALSE 
+    static_equated_nets            = TRUE 
+  * stop_on_error                  = FALSE 
+    stop_on_no_explode_error       = FALSE 
+    text_resolves_port_swap        = TRUE 
+    tolerance_device_count         = [none] 
+    tolerance_net_count            = [none] 
+    tolerance_type                 = RELATIVE 
+    use_total_width                = FALSE 
+    write_netlists                 = TRUE 
+    zero_connection_warning        = FALSE 
+
+    == General options ==
+
+    auto_schematic_global_on       = TRUE 
+  * create_vue_output              = TRUE 
+    ignore_case                    = FALSE 
+    layout_global                  = [none] 
+  * layout_ground                  = VSS GND 
+  * layout_power                   = VCC VDD 
+    lvs_report_level               = prop-2 xpin-0 dpin-1 
+    lvs_report_old_format          = FALSE 
+    lvs_report_record_limit        = 50 
+    message_enable                 = [none]
+    message_error                  = [none]
+    message_identifiers            = FALSE 
+    message_suppress               = [none]
+    print_precision                = 4 
+    schematic_global               = [none] 
+  * schematic_ground               = VSS GND 
+  * schematic_power                = VCC VDD 
+
++------------------------------------------------------------------------+
+|                           Preprocessing Stage                          |
++------------------------------------------------------------------------+
+
+Purging compare directory ... OK
+WARNING: Undefined user property T for equate cmim_2t = cmim_2t.. 
+WARNING: Undefined user property T for equate cmim_3t = cmim_3t.. 
+
+Reading schematic netlist ... 
+    Generating schematic index file ... WARNING: Schematic empty cell rnpoly is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rppoly is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rnpolyS is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rppolyS is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rndiff is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rpdiff is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rndiffS is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rpdiffS is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rnwell is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rnwdiff is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell hrnpoly is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell hrppoly is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rm1 is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rm2 is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rm3 is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rm4 is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rm5 is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rm6 is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rm7 is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rm8 is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rmt is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rpoly is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rpolyh is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rpolyrf is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell rpolyhrf is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell cmim_2t is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell cmim_3t is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell cmom is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell DNWDIODE is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell XJVAR is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell VARDIO is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell SYNSTD is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell INDSYM is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell INDSYMCT is defined in EQUATE command, treat it as a primitive device
+WARNING: Schematic empty cell MOSVAR_1V2 is defined in EQUATE command, treat it as a primitive device
+
+Reading schematic time = 0:00:00 User=0.00 Sys=0.01 Mem=20.818
+
+Reading layout netlist ... 
+    Generating layout index file ... 
+
+    
+Reading layout time = 0:00:00 User=0.00 Sys=0.00 Mem=23.052
+
+Processing schematic netlist ... 
+    Propagating schematic globals ... 
+    Propagating schematic globals time = 0:00:00 User=0.00 Sys=0.00 Mem=20.076
+
+Processing schematic time = 0:00:00 User=0.00 Sys=0.00 Mem=21.083
+
+Processing layout netlist ... 
+Processing layout time = 0:00:00 User=0.00 Sys=0.00 Mem=20.122
+
+Creating tree files ... 
+    Schematic netlist top block: inv        Unique cell count: 1
+    Layout netlist top block: inv        Unique cell count: 1
+Creating tree files time = 0:00:00 User=0.00 Sys=0.00 Mem=20.107
+
+Removing dangling nets and pushing down connected pins ... 
+Dangling nets, push down pins time = 0:00:00 User=0.00 Sys=0.00 Mem=20.216
+
+Pushing down devices ... 
+Push down device time = 0:00:00 User=0.00 Sys=0.00 Mem=21.208
+
+User-provided equivalence point file: [none].
+
+NOTE: Since no equivalence file is specified, COMPARE option FIND_ADDITIONAL_EQUIVS is automatically turned on to find the equivalence points.
+
+Finding equivalence points ... 
+
+    The final equivalence point file: 'run_details/equiv.run'.
+
+Finding equivalence points time = 0:00:00 User=0.00 Sys=0.00 Mem=21.208
+
+Writing generated runset information ... 
+    File exists, the old one will be renamed to 'run_details/lvsflow/lvs_include.ev.bak'.
+    The information is saved in 'run_details/lvsflow/lvs_include.ev'.
+Writing generated runset time = 0:00:00 User=0.00 Sys=0.00 Mem=21.177
+
+Memory array comparison time = 0:00:00 User=0.00 Sys=0.00 Mem=20.161
+
+Removed empty schematic cells: 
+    [none].
+
+Removed empty layout cells: 
+    [none].
+
+Preprocessing schematic data ... OK
+
+Preprocessing layout data ... OK
+
+Preprocessing stage finished successfully.
+Preprocessing stage time = 0:00:00 User=0.00 Sys=0.01 Mem=23.099
+
+
++------------------------------------------------------------------------+
+|                             Comparing Stage                            |
++------------------------------------------------------------------------+
+
+
++------------------------------------------------------------+
+|                           Level 0                          |
++------------------------------------------------------------+
+
+
+Equivalence point: [inv, inv] Level = 0
+
+    Flattening schematic netlist ... 
+        2 dangling nets are found.
+        total device and net count: 2 4
+    Flattening time = 0:00:00 User=0.00 Sys=0.00 Mem=23.411
+
+    Merging and filtering schematic devices ... 
+    Merging and filtering time = 0:00:00 User=0.00 Sys=0.00 Mem=23.411
+
+    Flattening layout netlist ... 
+        2 dangling nets are found.
+        total device and net count: 2 4
+    Flattening time = 0:00:00 User=0.00 Sys=0.00 Mem=23.442
+
+    Merging and filtering layout devices ... 
+    Merging and filtering time = 0:00:00 User=0.00 Sys=0.00 Mem=23.427
+
+    Comparing circuit logic ... 
+        Matching unique nets/devices ... 
+        Matching 100% elements time = 0:00:00 User=0.00 Sys=0.00 Mem=23.395
+
+    Comparing device properties ... 
+    Comparing properties time = 0:00:00 User=0.00 Sys=0.00 Mem=23.395
+
+    Writing cross-reference database ... 
+    Writing time = 0:00:00 User=0.00 Sys=0.00 Mem=23.395
+
+Result: PASS [inv, inv]
+    Summary file: run_details/compare/inv/sum.inv.inv
+
+Elapsed time = 0:00:00 User=0.00 Sys=0.00 Mem=23.458
+
++------------------------------------------------------------+
+|                                                            |
+|Level 0:                                                    |
+|                                                            |
+|    Passed equivalence point(s):                            |
+|        inv == inv                                          |
+|                                                            |
+|    Level 0 time = 0:00:00 User=0.00 Sys=0.00 Mem=24.333    |
+|                                                            |
++------------------------------------------------------------+
+
+Clean-up all unresolved suspended equivalence points.
+Elapsed time = 0:00:00 User=0.00 Sys=0.00 Mem=22.247
+
++------------------------------------------------------------------------+
+|                       Hercules LVS Compare Summary                     |
++------------------------------------------------------------------------+
+
+Final comparison result: PASS 
+
+    Categorized by pass or fail: 
+
+        1 passed equivalence point(s): 
+            inv == inv  (level 0)
+
+
+1 equivalence points checked:
+    1 passed
+    0 failed
+Top equivalence point [inv, inv] passed.
+
+Hercules LVS compare end time      : 2026-03-13 08:07:49
+Total runtime for Hercules LVS compare = 0:00:00 User=0.01 Sys=0.03 Mem=24.333
+

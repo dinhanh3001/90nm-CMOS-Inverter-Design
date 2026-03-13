@@ -1,0 +1,32 @@
+Parsing option_file: xtract.tech (EX-304)
+Initializing extraction ... (EX-724)
+Reading binary grd file /home/itsupport/Desktop/lab1vlsi/PDK/starrc/reference_90nm_9lm_typ.nxtgrd
+... (EX-135)
+WARNING: Two Overlapping rectangles with different cap_levels and same picture levels Layer POLS
+         overlaps with ngate Suggested Fix in Transistor Level: Use Boolean Not in runset to remove
+         the overlap r1= R0,  x(-8450,-4850)  ; y(850,20500) ideal=4 act_level=106 pic_level=2
+         cap_level=3 r2= R0,  x(-8450,-4850)  ; y(2150,5750) ideal=4 act_level=40 pic_level=2
+         cap_level=2 (EX-78)
+WARNING: Two Overlapping rectangles with different cap_levels and same picture levels Layer POLS
+         overlaps with ngate Suggested Fix in Transistor Level: Use Boolean Not in runset to remove
+         the overlap r1= R0,  x(-8450,-4850)  ; y(850,20500) ideal=4 act_level=106 pic_level=2
+         cap_level=3 r2= R0,  x(-6650,-6650)  ; y(3950,3950) ideal=4 act_level=40 pic_level=2
+         cap_level=2 (EX-78)
+WARNING: Two Overlapping rectangles with different cap_levels and same picture levels Layer POLS
+         overlaps with pgate Suggested Fix in Transistor Level: Use Boolean Not in runset to remove
+         the overlap r1= R0,  x(-8450,-4850)  ; y(850,20500) ideal=4 act_level=106 pic_level=2
+         cap_level=3 r2= R0,  x(-8450,-4850)  ; y(12000,19200) ideal=4 act_level=57 pic_level=2
+         cap_level=2 (EX-78)
+WARNING: Two Overlapping rectangles with different cap_levels and same picture levels Layer POLS
+         overlaps with pgate Suggested Fix in Transistor Level: Use Boolean Not in runset to remove
+         the overlap r1= R0,  x(-8450,-4850)  ; y(850,20500) ideal=4 act_level=106 pic_level=2
+         cap_level=3 r2= R0,  x(-6650,-6650)  ; y(15600,15600) ideal=4 act_level=57 pic_level=2
+         cap_level=2 (EX-78)
+Extracted 36 capacitors, 210 resistors, 123 nodes
+Reduced to 39 nodes,  (68.2927%)
+Reduced to 35 resistors,  (83.3333%)
+Increased the number of caps to 38 capacitors,  (keep nodes on a skip polygons?)
+  
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=356.3 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=356.3 

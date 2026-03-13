@@ -1,0 +1,10 @@
+-oa2dspf
+-oa_lib_name inverter
+-oa_cell_name inv
+-oa_view_name starrc
+-o ../starrc.dspf
+-oa_output_file ../starrc.oa.out
+-netlist_header_file netlist.hdr
+-oa_lib_def /home/itsupport/Desktop/lab1vlsi/lib.defs
+-layer_info layer_info
+-ground_node_name 0

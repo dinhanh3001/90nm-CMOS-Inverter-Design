@@ -1,0 +1,6520 @@
+
+Hercules (R) Hierarchical Design Verification, AMD.64 Release B-2008.09.SP5.26005 2012/07/14
+
+  (C) Copyright 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+                2006, 2007, 2008, 2009, 2010, 2011, 2012.
+  Synopsys, Inc.  All rights reserved.
+
+Called as: /usr/synopsys/hercules/B-2008.09-SP5/bin/amd64/hercules -f openaccess -i inverter -b inv -p . -O gdsii -o inv_result.gds /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx
+
+
+
+Parsing runset "/home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx"
+
+
+RUNSET WARNING : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:36: (OPENACCESS_OPTIONS) LAYER_MAPPING_FILE "/remote/dept-seg-cae2/FTK/agarwals/PERFORCE/IPL/reference/90nm/techfiles/reference90RF_layer.map" does not exist.
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:108: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:130: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:135: SELECT command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:139: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:140: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:178: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:186: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:187: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:207: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:210: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:213: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:214: SELECT command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:215: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:216: SELECT command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:1039: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:1040: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:1041: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:1042: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:2196: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:2197: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:2199: SELECT command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:2200: SELECT command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:2220: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:2221: SELECT command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:2222: BOOLEAN command removed; it has no contribution
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:2223: SELECT command removed; it has no contribution
+NOTE : Optimization removed 26 unneeded commands
+NOTE : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:1314: SELECT command replaced with COPY
+NOTE : Optimization replaced 1 commands with COPY commands
+RUNSET WARNING : /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx:2525: 	NETTRAN_OPTIONS specified along with a Hercules format schematic.
+	NETTRAN_OPTIONS will be ignored and nettran will not be called.
+Enable Multiple Hierarchy
+Fri Mar 13 08:07:21 2026
+EV_Engine (R) Hierarchical Design Rule Checker, AMD.64 Release B-2008.09.SP5.26009 2012/07/19
+
+  (C) Copyright 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+                2006, 2007, 2008, 2009, 2010, 2011, 2012.
+  Synopsys, Inc.  All rights reserved.
+
+
+Running Multi-Threaded code with 2 thread(s)
+
+Runset file ......................  /home/itsupport/Desktop/lab1vlsi/reference_drc.drc.evx
+Current Directory ................  /home/itsupport/Desktop/lab1vlsi
+Hostname .........................  localhost.localdomain
+Platform type ....................  AMD64_L24
+Platform type ....................  AMD64_L24
+Platform type ....................  AMD64_L24
+GDSII output file name ...........  /home/itsupport/Desktop/lab1vlsi/inv_result.gds
+GDSII output_block name ..........  EV_OUTPUT
+Run details ......................  /home/itsupport/Desktop/lab1vlsi/run_details
+Group file directory .............  /home/itsupport/Desktop/lab1vlsi/run_details/group
+Retain group files ...............  smart
+Check reference structures .......  yes
+
+Warning: Setting the environment variable TCL_LIBRARY to /usr/synopsys/hercules/B-2008.09-SP5/etc/tcl-u to enable OpenAccess reading. 
+Initialize OpenAccess libraries successfully
+Input Library Format:  127 char cellnames
+Output Library Format:  No output library
+[liboa] WARNING: ignore data in OpenAccess (65;251)
+[liboa] WARNING: ignore data in OpenAccess (65;251)
+
+  Reading hierarchy time = 0:00:00  User=0.09 Sys=0.02 Mem=19.816
+
+  Updating hierarchy time = 0:00:00  User=0.00 Sys=0.00 Mem=18.364
+
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+top cell extent -2690 -1580 -70 5910
+top cell trap_flat_cnt 47.000000
+  Exploding time = 0:00:00  User=0.00 Sys=0.00 Mem=18.364
+
+TECHNOLOGY_OPTIONS {
+	VCELL_PASS   {
+		STYLE = PAIRS
+		ITERATE_MAX = 15
+		ARRAY_ID = TRUE
+		EXPLODE_INTO_VCELL = SMART
+		MIN_COUNT = 20
+		TOP_PERCENT_OF_VALUE = 40 
+	}
+}
+Preprocess Step 2 : Vcell_pass Arrays and Pairs Iteration 1
+    Pairs time = 0:00:00  User=0.00 Sys=0.00 Mem=18.426
+
+VCELL_PASS 1, no changes.
+
+   Combined VCELL time = 0:00:00  User=0.00 Sys=0.01 Mem=18.426
+
+Preprocess Step 3 : Post-VCell Explodes
+
+small_memory stop_memory 0 250000000
+
+placement_count stop_count 1 100000000
+   Post VCell time = 0:00:00  User=0.00 Sys=0.00 Mem=18.380
+
+   Determine Region time = 0:00:00  User=0.00 Sys=0.00 Mem=18.380
+
+0 Total self_intersect errors found.
+   Create Layer Setup time = 0:00:00  User=0.00 Sys=0.00 Mem=19.380
+
+  Preprocessing time = 0:00:00  User=0.00 Sys=0.01 Mem=19.380
+
+Checking database:
+
+CREATE_LAYER NWELL  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=NWELL
+1 unique polygon written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.551
+
+CREATE_LAYER DIFN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=DIFN
+2 unique polygons written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+CREATE_LAYER POLS POLS.TEXT  {
+	CREATE_TEXT = TRUE
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=POLS TEXT=POLS.TEXT
+1 unique polygon written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+CREATE_LAYER POLYPIN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=POLYPIN
+1 unique polygon written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+CREATE_LAYER PPS  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=PPS
+1 unique polygon written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+CREATE_LAYER NPS  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=NPS
+1 unique polygon written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.614
+
+CREATE_LAYER SAB  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=SAB
+No output written.
+Layer "SAB" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER CONTS  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=CONTS
+8 unique polygons written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.614
+
+CREATE_LAYER M1S M1S.TEXT  {
+	CREATE_TEXT = TRUE
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M1S TEXT=M1S.TEXT
+3 unique polygons written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.660
+
+CREATE_LAYER M1PIN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M1PIN
+1 unique polygon written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.614
+
+CREATE_LAYER M2S M2S.TEXT  {
+	CREATE_TEXT = TRUE
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M2S TEXT=M2S.TEXT
+2 unique polygons written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.660
+
+CREATE_LAYER M2PIN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M2PIN
+2 unique polygons written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.614
+
+CREATE_LAYER M3S M3S.TEXT  {
+	CREATE_TEXT = TRUE
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M3S TEXT=M3S.TEXT
+No output written.
+Layer "M3S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+CREATE_LAYER M3PIN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M3PIN
+No output written.
+Layer "M3PIN" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER M4S M4S.TEXT  {
+	CREATE_TEXT = TRUE
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M4S TEXT=M4S.TEXT
+No output written.
+Layer "M4S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+CREATE_LAYER M4PIN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M4PIN
+No output written.
+Layer "M4PIN" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER V1S  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=V1S
+4 unique polygons written.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.614
+
+CREATE_LAYER V2S  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=V2S
+No output written.
+Layer "V2S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER V3S  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=V3S
+No output written.
+Layer "V3S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER CAP_MIMS  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=CAP_MIMS
+No output written.
+Layer "CAP_MIMS" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER MBCAP  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=MBCAP
+No output written.
+Layer "MBCAP" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER DNWELL  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=DNWELL
+No output written.
+Layer "DNWELL" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER NWDMY  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=NWDMY
+No output written.
+Layer "NWDMY" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER RMARKER  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=RMARKER
+No output written.
+Layer "RMARKER" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER DIODE  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=DIODE
+No output written.
+Layer "DIODE" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER NAT  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=NAT
+No output written.
+Layer "NAT" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER DIFF25  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=DIFF25
+No output written.
+Layer "DIFF25" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER HRIMP  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=HRIMP
+No output written.
+Layer "HRIMP" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER DUM_INDS  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=DUM_INDS
+No output written.
+Layer "DUM_INDS" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER VARMARKER  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=VARMARKER
+No output written.
+Layer "VARMARKER" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER RMDMY  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=RMDMY
+No output written.
+Layer "RMDMY" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER BJTDUMMY  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=BJTDUMMY
+No output written.
+Layer "BJTDUMMY" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER M1SLOT  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M1SLOT
+No output written.
+Layer "M1SLOT" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER DIFF18  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=DIFF18
+No output written.
+Layer "DIFF18" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER DIFF33  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=DIFF33
+No output written.
+Layer "DIFF33" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER lowvtn  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=lowvtn
+No output written.
+Layer "lowvtn" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER highvtn  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=highvtn
+No output written.
+Layer "highvtn" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER medvtn  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=medvtn
+No output written.
+Layer "medvtn" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER lowvtp  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=lowvtp
+No output written.
+Layer "lowvtp" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER highvtp  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=highvtp
+No output written.
+Layer "highvtp" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER medvtp  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=medvtp
+No output written.
+Layer "medvtp" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.01 Sys=0.01 Mem=14.395
+
+CREATE_LAYER MOMDMY1  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=MOMDMY1
+No output written.
+Layer "MOMDMY1" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER MOMDMY2  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=MOMDMY2
+No output written.
+Layer "MOMDMY2" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER MOMDMY3  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=MOMDMY3
+No output written.
+Layer "MOMDMY3" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER MOMDMY4  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=MOMDMY4
+No output written.
+Layer "MOMDMY4" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER RFDMY  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=RFDMY
+No output written.
+Layer "RFDMY" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER PINDMY  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=PINDMY
+No output written.
+Layer "PINDMY" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER RTERMMARKER  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=RTERMMARKER
+No output written.
+Layer "RTERMMARKER" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER CTM_DMY  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=CTM_DMY
+No output written.
+Layer "CTM_DMY" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER M5S M5S.TEXT  {
+	CREATE_TEXT = TRUE
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M5S TEXT=M5S.TEXT
+No output written.
+Layer "M5S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+CREATE_LAYER M5PIN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M5PIN
+No output written.
+Layer "M5PIN" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER M6S M6S.TEXT  {
+	CREATE_TEXT = TRUE
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M6S TEXT=M6S.TEXT
+No output written.
+Layer "M6S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+CREATE_LAYER M6PIN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M6PIN
+No output written.
+Layer "M6PIN" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER M7S M7S.TEXT  {
+	CREATE_TEXT = TRUE
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M7S TEXT=M7S.TEXT
+No output written.
+Layer "M7S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+CREATE_LAYER M7PIN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M7PIN
+No output written.
+Layer "M7PIN" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER M8S M8S.TEXT  {
+	CREATE_TEXT = TRUE
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M8S TEXT=M8S.TEXT
+No output written.
+Layer "M8S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+CREATE_LAYER M8PIN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M8PIN
+No output written.
+Layer "M8PIN" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER M9S M9S.TEXT  {
+	CREATE_TEXT = TRUE
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M9S TEXT=M9S.TEXT
+No output written.
+Layer "M9S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+CREATE_LAYER M9PIN  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=M9PIN
+No output written.
+Layer "M9PIN" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER V4S  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=V4S
+No output written.
+Layer "V4S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER V5S  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=V5S
+No output written.
+Layer "V5S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER V6S  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=V6S
+No output written.
+Layer "V6S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER V7S  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=V7S
+No output written.
+Layer "V7S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+CREATE_LAYER V8S  {
+	SNAP_OPTIONS = {
+		SNAP = 0.001
+		VERBOSE = TRUE
+	}
+} TEMP=V8S
+No output written.
+Layer "V8S" is empty.
+0 Total self_intersect errors found.
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+HIERARCHY_CLEANUP HIERARCHY = ERR_2.HIERARCHY
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.364
+
+REMOVE_HIERARCHY { HIERARCHY = ERR_1.HIERARCHY }
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.349
+
+CLEAN_PREPROCESSOR
+    Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.349
+
+   Total Create Layer time = 0:00:00  User=0.01 Sys=0.01 Mem=18.348
+
+GRID_CHECK  {
+	ASSIGN_LAYERS=TRUE
+	NWELL={ CHECK_45=TRUE GRID=0.005 }
+	DIFN={ CHECK_45=TRUE GRID=0.005 }
+	POLS={ CHECK_45=TRUE GRID=0.005 }
+	POLYPIN={ CHECK_45=TRUE GRID=0.005 }
+	PPS={ CHECK_45=TRUE GRID=0.005 }
+	NPS={ CHECK_45=TRUE GRID=0.005 }
+	SAB={ CHECK_45=TRUE GRID=0.005 }
+	CONTS={ CHECK_45=TRUE GRID=0.005 }
+	M1S={ CHECK_45=TRUE GRID=0.005 }
+	M1PIN={ CHECK_45=TRUE GRID=0.005 }
+	M2S={ CHECK_45=TRUE GRID=0.005 }
+	M2PIN={ CHECK_45=TRUE GRID=0.005 }
+	M3S={ CHECK_45=TRUE GRID=0.005 }
+	M3PIN={ CHECK_45=TRUE GRID=0.005 }
+	M4S={ CHECK_45=TRUE GRID=0.005 }
+	M4PIN={ CHECK_45=TRUE GRID=0.005 }
+	V1S={ CHECK_45=TRUE GRID=0.005 }
+	V2S={ CHECK_45=TRUE GRID=0.005 }
+	V3S={ CHECK_45=TRUE GRID=0.005 }
+	CAP_MIMS={ CHECK_45=TRUE GRID=0.005 }
+	MBCAP={ CHECK_45=TRUE GRID=0.005 }
+	DNWELL={ CHECK_45=TRUE GRID=0.005 }
+	NWDMY={ CHECK_45=TRUE GRID=0.005 }
+	RMARKER={ CHECK_45=TRUE GRID=0.005 }
+	DIODE={ CHECK_45=TRUE GRID=0.005 }
+	NAT={ CHECK_45=TRUE GRID=0.005 }
+	DIFF25={ CHECK_45=TRUE GRID=0.005 }
+	HRIMP={ CHECK_45=TRUE GRID=0.005 }
+	DUM_INDS={ CHECK_45=TRUE GRID=0.005 }
+	VARMARKER={ CHECK_45=TRUE GRID=0.005 }
+	RMDMY={ CHECK_45=TRUE GRID=0.005 }
+	BJTDUMMY={ CHECK_45=TRUE GRID=0.005 }
+	M1SLOT={ CHECK_45=TRUE GRID=0.005 }
+	DIFF18={ CHECK_45=TRUE GRID=0.005 }
+	DIFF33={ CHECK_45=TRUE GRID=0.005 }
+	lowvtn={ CHECK_45=TRUE GRID=0.005 }
+	highvtn={ CHECK_45=TRUE GRID=0.005 }
+	medvtn={ CHECK_45=TRUE GRID=0.005 }
+	lowvtp={ CHECK_45=TRUE GRID=0.005 }
+	highvtp={ CHECK_45=TRUE GRID=0.005 }
+	medvtp={ CHECK_45=TRUE GRID=0.005 }
+	MOMDMY1={ CHECK_45=TRUE GRID=0.005 }
+	MOMDMY2={ CHECK_45=TRUE GRID=0.005 }
+	MOMDMY3={ CHECK_45=TRUE GRID=0.005 }
+	MOMDMY4={ CHECK_45=TRUE GRID=0.005 }
+	RFDMY={ CHECK_45=TRUE GRID=0.005 }
+	PINDMY={ CHECK_45=TRUE GRID=0.005 }
+	RTERMMARKER={ CHECK_45=TRUE GRID=0.005 }
+	CTM_DMY={ CHECK_45=TRUE GRID=0.005 }
+	M5S={ CHECK_45=TRUE GRID=0.005 }
+	M5PIN={ CHECK_45=TRUE GRID=0.005 }
+	M6S={ CHECK_45=TRUE GRID=0.005 }
+	M6PIN={ CHECK_45=TRUE GRID=0.005 }
+	M7S={ CHECK_45=TRUE GRID=0.005 }
+	M7PIN={ CHECK_45=TRUE GRID=0.005 }
+	M8S={ CHECK_45=TRUE GRID=0.005 }
+	M8PIN={ CHECK_45=TRUE GRID=0.005 }
+	M9S={ CHECK_45=TRUE GRID=0.005 }
+	M9PIN={ CHECK_45=TRUE GRID=0.005 }
+	V4S={ CHECK_45=TRUE GRID=0.005 }
+	V5S={ CHECK_45=TRUE GRID=0.005 }
+	V6S={ CHECK_45=TRUE GRID=0.005 }
+	V7S={ CHECK_45=TRUE GRID=0.005 }
+	V8S={ CHECK_45=TRUE GRID=0.005 }
+}(200)
+0 grid violations found.
+0 non-45 violations found.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=18.489
+
+
+BOOLEAN (POLS AND DIFN) NOT VARMARKER { } TEMP=allgate
+Input layer "VARMARKER" is empty.
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.536
+
+BOOLEAN ((allgate AND NPS) NOT DIFF25 NOT DIFF18 NOT DIFF33 NOT lowvtn NOT highvtn NOT medvtn) NOT NAT NOT NWELL { } TEMP=ngate
+Input layer "DIFF25" is empty.
+Input layer "DIFF18" is empty.
+Input layer "DIFF33" is empty.
+Input layer "lowvtn" is empty.
+Input layer "highvtn" is empty.
+Input layer "medvtn" is empty.
+Input layer "NAT" is empty.
+1 unique polygon written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+BOOLEAN ((allgate AND NPS) NOT DIFF25 NOT DIFF18 NOT DIFF33 NOT lowvtn NOT highvtn NOT medvtn) AND (NAT NOT NWELL) { } TEMP=nangate
+Input layer "DIFF25" is empty.
+Input layer "DIFF18" is empty.
+Input layer "DIFF33" is empty.
+Input layer "lowvtn" is empty.
+Input layer "highvtn" is empty.
+Input layer "medvtn" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "nangate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+BOOLEAN ((allgate AND NPS) AND DIFF25) NOT NAT NOT NWELL { } TEMP=n25gate
+Input layer "DIFF25" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "n25gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+BOOLEAN ((allgate AND NPS) AND DIFF25) AND (NAT NOT NWELL) { } TEMP=na25ngate
+Input layer "DIFF25" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "na25ngate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+BOOLEAN ((allgate AND NPS) AND DIFF18) NOT NAT NOT NWELL { } TEMP=n18gate
+Input layer "DIFF18" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "n18gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+BOOLEAN ((allgate AND NPS) AND DIFF18) AND (NAT NOT NWELL) { } TEMP=na18gate
+Input layer "DIFF18" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "na18gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+BOOLEAN ((allgate AND NPS) AND DIFF33) NOT NAT NOT NWELL { } TEMP=n33gate
+Input layer "DIFF33" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "n33gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+BOOLEAN ((allgate AND NPS) AND DIFF33) AND (NAT NOT NWELL) { } TEMP=na33gate
+Input layer "DIFF33" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "na33gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+BOOLEAN ((allgate AND NPS) AND lowvtn) NOT NAT NOT NWELL { } TEMP=nlgate
+Input layer "lowvtn" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "nlgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+BOOLEAN ((allgate AND NPS) AND highvtn) NOT NAT NOT NWELL { } TEMP=nhgate
+Input layer "highvtn" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "nhgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+BOOLEAN ((allgate AND NPS) AND medvtn) NOT NAT NOT NWELL { } TEMP=nmgate_tmp
+Input layer "medvtn" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "nmgate_tmp" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+BOOLEAN nmgate_tmp NOT DIFF25 { } TEMP=nmgate
+Input layer "nmgate_tmp" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "nmgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.364
+
+BOOLEAN nmgate_tmp AND DIFF25 { } TEMP=nm25gate
+Input layer "nmgate_tmp" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "nm25gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.364
+
+
+BOOLEAN (((allgate AND PPS) NOT DIFF25 NOT DIFF18 NOT DIFF33 NOT lowvtp NOT highvtp NOT medvtp) NOT NAT) AND NWELL { } TEMP=pgate
+Input layer "DIFF25" is empty.
+Input layer "DIFF18" is empty.
+Input layer "DIFF33" is empty.
+Input layer "lowvtp" is empty.
+Input layer "highvtp" is empty.
+Input layer "medvtp" is empty.
+Input layer "NAT" is empty.
+1 unique polygon written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.676
+
+BOOLEAN (((allgate AND PPS) AND DIFF25) NOT NAT) AND NWELL { } TEMP=p25gate
+Input layer "DIFF25" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "p25gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.676
+
+BOOLEAN (((allgate AND PPS) AND DIFF18) NOT NAT) AND NWELL { } TEMP=p18gate
+Input layer "DIFF18" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "p18gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.676
+
+BOOLEAN (((allgate AND PPS) AND DIFF33) NOT NAT) AND NWELL { } TEMP=p33gate
+Input layer "DIFF33" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "p33gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.676
+
+BOOLEAN (((allgate AND PPS) AND lowvtp) NOT NAT) AND NWELL { } TEMP=plgate
+Input layer "lowvtp" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "plgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.676
+
+BOOLEAN (((allgate AND PPS) AND highvtp) NOT NAT) AND NWELL { } TEMP=phgate
+Input layer "highvtp" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "phgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.676
+
+BOOLEAN (((allgate AND PPS) AND medvtp) NOT NAT) AND NWELL { } TEMP=pmgate_tmp
+Input layer "medvtp" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "pmgate_tmp" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.676
+
+BOOLEAN pmgate_tmp NOT DIFF25 { } TEMP=pmgate
+Input layer "pmgate_tmp" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "pmgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.411
+
+
+BOOLEAN DIFN NOT VARMARKER { } TEMP=all_diff
+Input layer "VARMARKER" is empty.
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+BOOLEAN all_diff AND NPS { } TEMP=all_ndiff
+1 unique polygon written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.676
+
+BOOLEAN all_diff AND PPS { } TEMP=all_pdiff
+1 unique polygon written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.707
+
+
+SELECT all_ndiff INTERACT ngate {}TEMP=alln_srcdrn
+1 unique polygon written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.816
+
+BOOLEAN (all_ndiff AND NAT) NOT DIFF25 { } TEMP=allna_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "allna_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.504
+
+BOOLEAN (all_ndiff NOT NAT) AND DIFF25 { } TEMP=alln25_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "alln25_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_ndiff AND NAT) AND DIFF25 { } TEMP=allna25_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "allna25_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.504
+
+BOOLEAN (all_ndiff NOT NAT) AND DIFF18 { } TEMP=alln18_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF18" is empty.
+No output written.
+Layer "alln18_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_ndiff AND NAT) AND DIFF18 { } TEMP=allna18_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF18" is empty.
+No output written.
+Layer "allna18_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.504
+
+BOOLEAN (all_ndiff NOT NAT) AND DIFF33 { } TEMP=alln33_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF33" is empty.
+No output written.
+Layer "alln33_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_ndiff AND NAT) AND DIFF33 { } TEMP=allna33_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF33" is empty.
+No output written.
+Layer "allna33_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.504
+
+BOOLEAN (all_ndiff NOT NAT) AND lowvtn { } TEMP=allnl_srcdrn
+Input layer "NAT" is empty.
+Input layer "lowvtn" is empty.
+No output written.
+Layer "allnl_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_ndiff NOT NAT) AND highvtn { } TEMP=allnh_srcdrn
+Input layer "NAT" is empty.
+Input layer "highvtn" is empty.
+No output written.
+Layer "allnh_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_ndiff NOT NAT) AND medvtn { } TEMP=allnm_srcdrn_tmp
+Input layer "NAT" is empty.
+Input layer "medvtn" is empty.
+No output written.
+Layer "allnm_srcdrn_tmp" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN allnm_srcdrn_tmp AND DIFF25 { } TEMP=allnm25_srcdrn
+Input layer "allnm_srcdrn_tmp" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "allnm25_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.504
+
+BOOLEAN allnm_srcdrn_tmp NOT DIFF25 { } TEMP=allnm_srcdrn
+Input layer "allnm_srcdrn_tmp" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "allnm_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.504
+
+
+BOOLEAN (all_pdiff NOT NAT) AND DIFF25 { } TEMP=allp25_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "allp25_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_pdiff NOT NAT) NOT DIFF25 { } TEMP=allp_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF25" is empty.
+1 unique polygon written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_pdiff NOT NAT) AND DIFF18 { } TEMP=allp18_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF18" is empty.
+No output written.
+Layer "allp18_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_pdiff NOT NAT) AND DIFF33 { } TEMP=allp33_srcdrn
+Input layer "NAT" is empty.
+Input layer "DIFF33" is empty.
+No output written.
+Layer "allp33_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_pdiff NOT NAT) AND lowvtp { } TEMP=allpl_srcdrn
+Input layer "NAT" is empty.
+Input layer "lowvtp" is empty.
+No output written.
+Layer "allpl_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_pdiff NOT NAT) AND highvtp { } TEMP=allph_srcdrn
+Input layer "NAT" is empty.
+Input layer "highvtp" is empty.
+No output written.
+Layer "allph_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN (all_pdiff NOT NAT) AND medvtp { } TEMP=allpm_srcdrn_tmp
+Input layer "NAT" is empty.
+Input layer "medvtp" is empty.
+No output written.
+Layer "allpm_srcdrn_tmp" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+BOOLEAN allpm_srcdrn_tmp AND DIFF25 { } TEMP=allpm25_srcdrn
+Input layer "allpm_srcdrn_tmp" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "allpm25_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.504
+
+BOOLEAN allpm_srcdrn_tmp NOT DIFF25 { } TEMP=allpm_srcdrn
+Input layer "allpm_srcdrn_tmp" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "allpm_srcdrn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.504
+
+
+BOOLEAN allp_srcdrn NOT pgate { } TEMP=p_sd
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.785
+
+BOOLEAN allp25_srcdrn NOT p25gate { } TEMP=p25_sd
+Input layer "allp25_srcdrn" is empty.
+Input layer "p25gate" is empty.
+No output written.
+Layer "p25_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+BOOLEAN alln_srcdrn NOT ngate { } TEMP=n_sd
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.832
+
+BOOLEAN alln25_srcdrn NOT n25gate { } TEMP=n25_sd
+Input layer "alln25_srcdrn" is empty.
+Input layer "n25gate" is empty.
+No output written.
+Layer "n25_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allna_srcdrn NOT nangate { } TEMP=na_sd
+Input layer "allna_srcdrn" is empty.
+Input layer "nangate" is empty.
+No output written.
+Layer "na_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allna25_srcdrn NOT na25ngate { } TEMP=na25_sd
+Input layer "allna25_srcdrn" is empty.
+Input layer "na25ngate" is empty.
+No output written.
+Layer "na25_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN alln18_srcdrn NOT n18gate { } TEMP=n18_sd
+Input layer "alln18_srcdrn" is empty.
+Input layer "n18gate" is empty.
+No output written.
+Layer "n18_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allna18_srcdrn NOT na18gate { } TEMP=na18_sd
+Input layer "allna18_srcdrn" is empty.
+Input layer "na18gate" is empty.
+No output written.
+Layer "na18_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN alln33_srcdrn NOT n33gate { } TEMP=n33_sd
+Input layer "alln33_srcdrn" is empty.
+Input layer "n33gate" is empty.
+No output written.
+Layer "n33_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allna33_srcdrn NOT na33gate { } TEMP=na33_sd
+Input layer "allna33_srcdrn" is empty.
+Input layer "na33gate" is empty.
+No output written.
+Layer "na33_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allnl_srcdrn NOT nlgate { } TEMP=nl_sd
+Input layer "allnl_srcdrn" is empty.
+Input layer "nlgate" is empty.
+No output written.
+Layer "nl_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allnh_srcdrn NOT nhgate { } TEMP=nh_sd
+Input layer "allnh_srcdrn" is empty.
+Input layer "nhgate" is empty.
+No output written.
+Layer "nh_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allnm_srcdrn NOT nmgate { } TEMP=nm_sd
+Input layer "allnm_srcdrn" is empty.
+Input layer "nmgate" is empty.
+No output written.
+Layer "nm_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allnm25_srcdrn NOT nm25gate { } TEMP=nm25_sd
+Input layer "allnm25_srcdrn" is empty.
+Input layer "nm25gate" is empty.
+No output written.
+Layer "nm25_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allp18_srcdrn NOT p18gate { } TEMP=p18_sd
+Input layer "allp18_srcdrn" is empty.
+Input layer "p18gate" is empty.
+No output written.
+Layer "p18_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allp33_srcdrn NOT p33gate { } TEMP=p33_sd
+Input layer "allp33_srcdrn" is empty.
+Input layer "p33gate" is empty.
+No output written.
+Layer "p33_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allpl_srcdrn NOT plgate { } TEMP=pl_sd
+Input layer "allpl_srcdrn" is empty.
+Input layer "plgate" is empty.
+No output written.
+Layer "pl_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allph_srcdrn NOT phgate { } TEMP=ph_sd
+Input layer "allph_srcdrn" is empty.
+Input layer "phgate" is empty.
+No output written.
+Layer "ph_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN allpm_srcdrn NOT pmgate { } TEMP=pm_sd
+Input layer "allpm_srcdrn" is empty.
+Input layer "pmgate" is empty.
+No output written.
+Layer "pm_sd" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN all_ndiff NOT (alln_srcdrn AND allna_srcdrn AND alln25_srcdrn AND allna25_srcdrn AND alln18_srcdrn AND allna18_srcdrn AND alln33_srcdrn AND allna33_srcdrn AND allnl_srcdrn AND allnh_srcdrn AND allnm_srcdrn AND allnm25_srcdrn) { } TEMP=welltie
+Input layer "allna_srcdrn" is empty.
+Input layer "alln25_srcdrn" is empty.
+Input layer "allna25_srcdrn" is empty.
+Input layer "alln18_srcdrn" is empty.
+Input layer "allna18_srcdrn" is empty.
+Input layer "alln33_srcdrn" is empty.
+Input layer "allna33_srcdrn" is empty.
+Input layer "allnl_srcdrn" is empty.
+Input layer "allnh_srcdrn" is empty.
+Input layer "allnm_srcdrn" is empty.
+Input layer "allnm25_srcdrn" is empty.
+1 unique polygon written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.660
+
+BOOLEAN all_pdiff NOT (allp_srcdrn AND allp_srcdrn AND allp25_srcdrn AND allp25_srcdrn AND allp18_srcdrn AND allp33_srcdrn AND allpl_srcdrn AND allph_srcdrn AND allpm_srcdrn AND allpm25_srcdrn) { } TEMP=subtie
+Input layer "allp25_srcdrn" is empty.
+Input layer "allp25_srcdrn" is empty.
+Input layer "allp18_srcdrn" is empty.
+Input layer "allp33_srcdrn" is empty.
+Input layer "allpl_srcdrn" is empty.
+Input layer "allph_srcdrn" is empty.
+Input layer "allpm_srcdrn" is empty.
+Input layer "allpm25_srcdrn" is empty.
+1 unique polygon written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.660
+
+
+SELECT DIFN INTERACT NWDMY {}TEMP=diff_nwres
+Input layer "NWDMY" is empty.
+No output written.
+Layer "diff_nwres" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN DIFN NOT diff_nwres { } TEMP=DIFN
+Input layer "diff_nwres" is empty.
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+BOOLEAN (DIFN NOT BJTDUMMY) NOT (NPS OR PPS) { 
+	COMMENT = " DIFF Must be enclosed by NPS or PPS"} (100)
+Input layer "BJTDUMMY" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.910
+
+
+BOOLEAN alln_srcdrn AND CONTS { } TEMP=ndiff_cont
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.941
+
+
+BOOLEAN allp_srcdrn AND CONTS { } TEMP=pdiff_cont
+6 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.957
+
+
+BOOLEAN allna_srcdrn AND CONTS { } TEMP=nadiff_cont
+Input layer "allna_srcdrn" is empty.
+No output written.
+Layer "nadiff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN alln25_srcdrn AND CONTS { } TEMP=n25diff_cont
+Input layer "alln25_srcdrn" is empty.
+No output written.
+Layer "n25diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allna25_srcdrn AND CONTS { } TEMP=na25diff_cont
+Input layer "allna25_srcdrn" is empty.
+No output written.
+Layer "na25diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allp25_srcdrn AND CONTS { } TEMP=p25diff_cont
+Input layer "allp25_srcdrn" is empty.
+No output written.
+Layer "p25diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN alln18_srcdrn AND CONTS { } TEMP=n18diff_cont
+Input layer "alln18_srcdrn" is empty.
+No output written.
+Layer "n18diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allna18_srcdrn AND CONTS { } TEMP=na18diff_cont
+Input layer "allna18_srcdrn" is empty.
+No output written.
+Layer "na18diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN alln33_srcdrn AND CONTS { } TEMP=n33diff_cont
+Input layer "alln33_srcdrn" is empty.
+No output written.
+Layer "n33diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allna33_srcdrn AND CONTS { } TEMP=na33diff_cont
+Input layer "allna33_srcdrn" is empty.
+No output written.
+Layer "na33diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allnl_srcdrn AND CONTS { } TEMP=nldiff_cont
+Input layer "allnl_srcdrn" is empty.
+No output written.
+Layer "nldiff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allnh_srcdrn AND CONTS { } TEMP=nhdiff_cont
+Input layer "allnh_srcdrn" is empty.
+No output written.
+Layer "nhdiff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allnm_srcdrn AND CONTS { } TEMP=nmdiff_cont
+Input layer "allnm_srcdrn" is empty.
+No output written.
+Layer "nmdiff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allnm25_srcdrn AND CONTS { } TEMP=nm25diff_cont
+Input layer "allnm25_srcdrn" is empty.
+No output written.
+Layer "nm25diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allp18_srcdrn AND CONTS { } TEMP=p18diff_cont
+Input layer "allp18_srcdrn" is empty.
+No output written.
+Layer "p18diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allp33_srcdrn AND CONTS { } TEMP=p33diff_cont
+Input layer "allp33_srcdrn" is empty.
+No output written.
+Layer "p33diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allpl_srcdrn AND CONTS { } TEMP=pldiff_cont
+Input layer "allpl_srcdrn" is empty.
+No output written.
+Layer "pldiff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allph_srcdrn AND CONTS { } TEMP=phdiff_cont
+Input layer "allph_srcdrn" is empty.
+No output written.
+Layer "phdiff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN allpm_srcdrn AND CONTS { } TEMP=pmdiff_cont
+Input layer "allpm_srcdrn" is empty.
+No output written.
+Layer "pmdiff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN DIFN NOT DIFF25 NOT DIFF18 NOT DIFF33 NOT lowvtn NOT highvtn NOT medvtn NOT medvtp NOT NAT NOT lowvtp NOT highvtp NOT VARMARKER { } TEMP=plain_diff_temp
+Input layer "DIFF25" is empty.
+Input layer "DIFF18" is empty.
+Input layer "DIFF33" is empty.
+Input layer "lowvtn" is empty.
+Input layer "highvtn" is empty.
+Input layer "medvtn" is empty.
+Input layer "medvtp" is empty.
+Input layer "NAT" is empty.
+Input layer "lowvtp" is empty.
+Input layer "highvtp" is empty.
+Input layer "VARMARKER" is empty.
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.754
+
+SELECT plain_diff_temp INTERACT POLS {}TEMP=plain_diff
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.050
+
+
+BOOLEAN DIFN AND ((medvtn OR medvtp OR lowvtp OR lowvtn OR highvtn OR highvtp) NOT DIFF25 NOT DIFF18 NOT DIFF33 NOT VARMARKER NOT NAT) { } TEMP=othervt_diff
+Input layer "medvtn" is empty.
+Input layer "medvtp" is empty.
+Input layer "lowvtp" is empty.
+Input layer "lowvtn" is empty.
+Input layer "highvtn" is empty.
+Input layer "highvtp" is empty.
+Input layer "DIFF25" is empty.
+Input layer "DIFF18" is empty.
+Input layer "DIFF33" is empty.
+Input layer "VARMARKER" is empty.
+Input layer "NAT" is empty.
+No output written.
+Layer "othervt_diff" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+
+BOOLEAN DIFN AND ((DIFF18 OR DIFF25 OR DIFF33 OR NAT) NOT VARMARKER) { } TEMP=voltage_diff
+Input layer "DIFF18" is empty.
+Input layer "DIFF25" is empty.
+Input layer "DIFF33" is empty.
+Input layer "NAT" is empty.
+Input layer "VARMARKER" is empty.
+No output written.
+Layer "voltage_diff" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.738
+
+EXTERNAL ndiff_cont ngate { 
+	COMMENT = "1.1: N gate to Contact spacing >= 0.08"
+	SPACING<0.08 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.175
+
+
+EXTERNAL nadiff_cont nangate { 
+	COMMENT = "1.2: NA gate to Contact spacing >= 0.08"
+	SPACING<0.08 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "nadiff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL n25diff_cont n25gate { 
+	COMMENT = "1.3: N25 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "n25diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL na25diff_cont na25ngate { 
+	COMMENT = "1.4: NA25 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "na25diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL p25diff_cont p25gate { 
+	COMMENT = "1.5: P25 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "p25diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL pdiff_cont pgate { 
+	COMMENT = "1.6: P gate to Contact spacing >= 0.08"
+	SPACING<0.08 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.01 Mem=15.222
+
+
+EXTERNAL ngate { 
+	COMMENT = "1.83: N Gate-Gate minimum spacing >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.050
+
+EXTERNAL nlgate { 
+	COMMENT = "1.83: NL Gate-Gate minimum spacing >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "nlgate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL nhgate { 
+	COMMENT = "1.83: NH Gate-Gate minimum spacing >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "nhgate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL nangate { 
+	COMMENT = "1.84: NA Gate-Gate minimum spacing >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "nangate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL na25ngate { 
+	COMMENT = "1.85: NA Gate-Gate minimum spacing >= 0.35"
+	SPACING<0.35 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "na25ngate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL na18gate { 
+	COMMENT = "1.85: NA Gate-Gate minimum spacing >= 0.35"
+	SPACING<0.35 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "na18gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL na33gate { 
+	COMMENT = "1.85: NA Gate-Gate minimum spacing >= 0.35"
+	SPACING<0.35 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "na33gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL n25gate { 
+	COMMENT = "1.86: N25 & NM25 Gate-Gate minimum spacing >= 0.35"
+	SPACING<0.35 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "n25gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL n18gate { 
+	COMMENT = "1.86: N18 Gate-Gate minimum spacing >= 0.35"
+	SPACING<0.35 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "n18gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL n33gate { 
+	COMMENT = "1.86: N33 Gate-Gate minimum spacing >= 0.35"
+	SPACING<0.35 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "n33gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL pgate { 
+	COMMENT = "1.87: P Gate-Gate minimum spacing >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.01 Sys=0.00 Mem=15.050
+
+EXTERNAL plgate { 
+	COMMENT = "1.87: PL Gate-Gate minimum spacing >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "plgate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL phgate { 
+	COMMENT = "1.87: PH Gate-Gate minimum spacing >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "phgate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL pmgate { 
+	COMMENT = "1.87: PM Gate-Gate minimum spacing >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "pmgate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL p25gate { 
+	COMMENT = "1.88: PH Gate-Gate minimum spacing >= 0.35"
+	SPACING<0.35 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "p25gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL p25gate { 
+	COMMENT = "1.88: P25 Gate-Gate minimum spacing >= 0.35"
+	SPACING<0.35 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL p33gate { 
+	COMMENT = "1.88: P33 Gate-Gate minimum spacing >= 0.35"
+	SPACING<0.35 
+	POINT_TOUCH=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "p33gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+ENCLOSE allgate BY NPS {
+	COMMENT = "1.8: Enclosure of Gate within Implant >= 0.13"
+	SPACING<0.13 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.175
+
+ENCLOSE allgate BY PPS {
+	COMMENT = "1.8: Enclosure of Gate within Inplant >= 0.13"
+	SPACING<0.13 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.175
+
+ENCLOSE ngate BY medvtn {
+	COMMENT = "1.891: Enclosure of N-Gate within medvtn >= 0.22"
+	SPACING<0.22 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "medvtn" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+ENCLOSE pgate BY medvtn {
+	COMMENT = "1.891: Enclosure of N-Gate within medvtn >= 0.22"
+	SPACING<0.22 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "medvtn" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+ENCLOSE ngate BY lowvtn {
+	COMMENT = "1.892: Enclosure of N-Gate within lowvtn >= 0.12"
+	SPACING<0.12 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "lowvtn" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+ENCLOSE pgate BY lowvtn {
+	COMMENT = "1.892: Enclosure of N-Gate within lowvtn >= 0.12"
+	SPACING<0.12 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "lowvtn" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+
+ENCLOSE ngate BY highvtn {
+	COMMENT = "1.893: Enclosure of N-Gate within highvtn >= 0.12"
+	SPACING<0.12 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "highvtn" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+ENCLOSE pgate BY highvtn {
+	COMMENT = "1.893: Enclosure of N-Gate within highvtn >= 0.12"
+	SPACING<0.12 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "highvtn" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+
+ENCLOSE DIFN BY NAT {
+	COMMENT = "1.9: Enclosure of Diffusion within NAT >= 0.28"
+	SPACING<0.28 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "NAT" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+ENCLOSE DIFN BY DIFF25 {
+	COMMENT = "1.10: Enclosure of Diffusion within 25Volt Diffusion (DIFF25) >= 0.30"
+	SPACING<0.3 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "DIFF25" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+EXTERNAL NAT DIFN { 
+	COMMENT = "1.18: NAT to Diffusion spacing >= 0.20"
+	SPACING<0.2 
+	OVERLAP=TRUE } (100)
+Input layer "NAT" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+
+ENCLOSE allgate BY DIFF25 {
+	COMMENT = "1.19: DIFF25 to gate Enclosure >= 0.35"
+	SPACING<0.35 
+	OVERLAP=TRUE } (100)
+Input layer "DIFF25" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+ENCLOSE allgate BY DIFF18 {
+	COMMENT = "1.19: DIFF18 to gate Enclosure >= 0.35"
+	SPACING<0.35 
+	OVERLAP=TRUE } (100)
+Input layer "DIFF18" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+ENCLOSE allgate BY DIFF33 {
+	COMMENT = "1.19: DIFF33 to gate Enclosure >= 0.35"
+	SPACING<0.35 
+	OVERLAP=TRUE } (100)
+Input layer "DIFF33" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+ENCLOSE DIFN BY DIFF18 {
+	COMMENT = "1.187: Enclosure of Diffusion within 25Volt Diffusion (DIFF25) >= 0.30"
+	SPACING<0.3 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "DIFF18" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+
+ENCLOSE DIFN BY DIFF33 {
+	COMMENT = "1.10: Enclosure of Diffusion within 25Volt Diffusion (DIFF25) >= 0.30"
+	SPACING<0.3 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "DIFF33" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+
+SELECT DIFN INTERACT POLS {}TEMP=diff_int_poly
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.066
+
+EXTERNAL diff_int_poly DIFN { 
+	COMMENT = "1.11: Active Diffusion (touching Polysilicon) spacing to Active Diffusion  >= 0.13"
+	SPACING<0.13 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.300
+
+
+EXTERNAL n18diff_cont n18gate { 
+	COMMENT = "1.117: N18 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "n18diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL na18diff_cont na18gate { 
+	COMMENT = "1.119: NA18 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "na18diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL n33diff_cont n33gate { 
+	COMMENT = "1.118: N33 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "n33diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL na33diff_cont na33gate { 
+	COMMENT = "1.120: NA33 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "na33diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL nldiff_cont nlgate { 
+	COMMENT = "1.124: NL gate to Contact spacing >= 0.11"
+	SPACING<0.11 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "nldiff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL nhdiff_cont nhgate { 
+	COMMENT = "1.125: NH gate to Contact spacing >= 0.11"
+	SPACING<0.11 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "nhdiff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL nmdiff_cont nmgate { 
+	COMMENT = "1.123: NM gate to Contact spacing >= 0.08"
+	SPACING<0.08 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "nmdiff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL nm25diff_cont nm25gate { 
+	COMMENT = "1.126: NM25 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "nm25diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+EXTERNAL nm25diff_cont nm25gate { 
+	COMMENT = "1.126: PM25 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL p18diff_cont p18gate { 
+	COMMENT = "1.122: P18 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "p18diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL p33diff_cont p33gate { 
+	COMMENT = "1.121: P33 gate to Contact spacing >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "p33diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL pldiff_cont plgate { 
+	COMMENT = "1.129: PL gate to Contact spacing >= 0.11"
+	SPACING<0.11 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "pldiff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL phdiff_cont phgate { 
+	COMMENT = "1.130: PH gate to Contact spacing >= 0.11"
+	SPACING<0.11 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "phdiff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+EXTERNAL pmdiff_cont pmgate { 
+	COMMENT = "1.127: PM gate to Contact spacing >= 0.08"
+	SPACING<0.08 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "pmdiff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+
+MOSCHECK pgate p_sd p_sd {
+	COMMENT = "1.12/1.13/1.16/1.17: Minimum Width (of P model Device) >= 0.12;Maximum Width (of P model Device) <= 900; Minimum length (of P model Device) >= 0.1;Maximum length (of P model Device) <= 20"
+	EQUATIONS {
+	IF (EV_WMIN < 0.12) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.1) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Checked 1 unique 3-terminal device.
+0 violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.159
+
+
+MOSCHECK p25gate p25_sd p25_sd {
+	COMMENT = "1.14/1.15/1.18/1.19: Minimum Width (of P25 model Device) >= 0.4;Maximum Width (of P25 model Device) <= 900; Minimum length (of P25 model Device) >= 0.28;Maximum length (of P25 model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.4) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.28) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 900) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "p25gate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.660
+
+
+MOSCHECK p18gate p18_sd p18_sd {
+	COMMENT = "1.132/1.133/1.142/1.143: Minimum Width (of P18 model Device) >= 0.4;Maximum Width (of P18 model Device) <= 900; Minimum length (of P18 model Device) >= 0.28;Maximum length (of N18 model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.4) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.28) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 900) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "p18gate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+
+MOSCHECK p33gate p33_sd p33_sd {
+	COMMENT = "1.138/1.139/1.148/1.149: Minimum Width (of N33 model Device) >= 0.4;Maximum Width (of N33 model Device) <= 900; Minimum length (of N33 model Device) >= 0.28;Maximum length (of N33 model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.4) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.28) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 900) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "p33gate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+
+MOSCHECK plgate pl_sd pl_sd {
+	COMMENT = "1.134/1.135/1.142/1.143: Minimum Width (of NL model Device) >= 0.3;Maximum Width (of NL model Device) <= 900; Minimum length (of NL model Device) >= 0.15;Maximum length (of NL model Device) <= 20"
+	EQUATIONS {
+	IF (EV_WMIN < 0.3) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.15) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "plgate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+
+MOSCHECK phgate ph_sd ph_sd {
+	COMMENT = "1.140/1.141/1.150/1.151: Minimum Width (of NH model Device) >= 0.3;Maximum Width (of NH model Device) <= 900; Minimum length (of NH model Device) >= 0.15;Maximum length (of NH model Device) <= 20"
+	EQUATIONS {
+	IF (EV_WMIN < 0.3) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.15) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "phgate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+
+MOSCHECK pmgate pm_sd pm_sd {
+	COMMENT = "1.136/1.137/1.146/1.147: Minimum Width (of NM model Device) >= 0.3;Maximum Width (of NM model Device) <= 900; Minimum length (of NM model Device) >= 0.15;Maximum length (of NM model Device) <= 20"
+	EQUATIONS {
+	IF (EV_WMIN < 0.3) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.15) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "pmgate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+
+MOSCHECK ngate n_sd n_sd {
+	COMMENT = "1.20/1.21/1.28/1.29: Minimum Width (of N model Device) >= 0.12;Maximum Width (of N model Device) <= 900; Minimum length (of N model Device) >= 0.1;Maximum length (of N model Device) <= 20"
+	EQUATIONS {
+	IF (EV_WMIN < 0.12) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.1) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Checked 1 unique 3-terminal device.
+0 violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.113
+
+
+MOSCHECK n25gate n25_sd n25_sd {
+	COMMENT = "1.22/1.23/1.30/1.31:  Minimum Width (of P25 model Device) >= 0.4;Maximum Width (of P25 model Device) <= 900; Minimum length (of P25 model Device) >= 0.28;Maximum length (of P25 model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.4) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.28) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 900) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "n25gate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.614
+
+
+MOSCHECK nangate na_sd na_sd {
+	COMMENT = "1.24/1.25/1.32/1.33: Minimum Width (of NA model Device) >= 0.12;Maximum Width (of NA model Device) <= 900; Minimum length (of NA model Device) >= 0.1;Maximum length (of NA model Device) <= 20"
+	EQUATIONS {
+	IF (EV_WMIN < 0.5) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.2) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "nangate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+MOSCHECK na25ngate na25_sd na25_sd {
+	COMMENT = "1.26/1.27/1.34/1.35: Minimum Width (of NA25 model Device) >= 0.4;Maximum Width (of NA25 model Device) <= 900; Minimum length (of NA25 model Device) >= 0.28;Maximum length (of NA25 model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.5) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 1.2) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 900) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "na25ngate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+MOSCHECK n18gate n18_sd n18_sd {
+	COMMENT = "1.155/1.156/1.175/1.176: Minimum Width (of N18 model Device) >= 0.4;Maximum Width (of N18 model Device) <= 900; Minimum length (of N18 model Device) >= 0.28;Maximum length (of N18 model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.4) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.28) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 900) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "n18gate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+MOSCHECK na18gate na18_sd na18_sd {
+	COMMENT = "1.157/1.158/1.177/1.178: Minimum Width (of NA18 model Device) >= 0.4;Maximum Width (of NA18 model Device) <= 900; Minimum length (of NA18 model Device) >= 1.2;Maximum length (of NA18 model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.5) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 1.2) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "na18gate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+MOSCHECK n33gate n33_sd n33_sd {
+	COMMENT = "1.162/1.163/1.181/1.182: Minimum Width (of N33 model Device) >= 0.4;Maximum Width (of N33 model Device) <= 900; Minimum length (of N33 model Device) >= 0.28;Maximum length (of N33 model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.4) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.28) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 900) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "n33gate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN CONTS NOT DIFN { } TEMP=COPO
+No output written.
+Layer "COPO" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.785
+
+EXTERNAL COPO DIFN { 
+	COMMENT = "1.41  {CO inside PO} space to OD >= 0.12 "
+	SPACING<0.12 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "COPO" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+
+MOSCHECK na33gate na33_sd na33_sd {
+	COMMENT = "1.164/1.165/1.183/1.184: Minimum Width (of NA33 model Device) >= 0.4;Maximum Width (of NA33 model Device) <= 900; Minimum length (of NA33 model Device) >= 1.2;Maximum length (of NA33 model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.5) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 1.2) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "na33gate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+
+MOSCHECK nlgate nl_sd nl_sd {
+	COMMENT = "1.159/1.161/1.179/1.180: Minimum Width (of NL model Device) >= 0.3;Maximum Width (of NL model Device) <= 900; Minimum length (of NL model Device) >= 0.15;Maximum length (of NL model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.3) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.15) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "nlgate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+
+MOSCHECK nhgate nh_sd nh_sd {
+	COMMENT = "1.166/1.167/1.185/1.186: Minimum Width (of NH model Device) >= 0.3;Maximum Width (of NH model Device) <= 900; Minimum length (of NH model Device) >= 0.15;Maximum length (of NH model Device) <= 20"
+	EQUATIONS {
+	IF (EV_WMIN < 0.3) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.15) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "nhgate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+
+MOSCHECK nmgate nm_sd nm_sd {
+	COMMENT = "1.152/1.153/1.171/1.172: Minimum Width (of NM model Device) >= 0.3;Maximum Width (of NM model Device) <= 900; Minimum length (of NM model Device) >= .15;Maximum length (of NM model Device) <= 20"
+	EQUATIONS {
+	IF (EV_WMIN < 0.3) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.15) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 20) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "nmgate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+
+MOSCHECK nm25gate nm25_sd nm25_sd {
+	COMMENT = "1.168/1.169/1.173/1.174: Minimum Width (of NM25 model Device) >= 0.4;Maximum Width (of NM model Device) <= 900; Minimum length (of NM model Device) >= 0.28;Maximum length (of NM model Device) <= 900"
+	EQUATIONS {
+	IF (EV_WMIN < 0.4) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 900) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.28) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 900) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(102;171)
+Input layer "nm25gate" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+
+SELECT POLS INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=poly_hole
+No output written.
+Layer "poly_hole" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.879
+
+AREA poly_hole { 
+	COMMENT = "1.35: Enclosed Poly hole area can not be > 0.2 sq.u "
+	RANGE = [0.001,0.2]} (102;172)
+Input layer "poly_hole" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN POLS AND RMARKER { } TEMP=resbody
+Input layer "RMARKER" is empty.
+No output written.
+Layer "resbody" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN resbody AND NPS { } TEMP=nresbody
+Input layer "resbody" is empty.
+No output written.
+Layer "nresbody" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN resbody AND PPS { } TEMP=presbody
+Input layer "resbody" is empty.
+No output written.
+Layer "presbody" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN nresbody AND (SAB NOT HRIMP) { } TEMP=rnpoly_body
+Input layer "SAB" is empty.
+Input layer "HRIMP" is empty.
+Input layer "nresbody" is empty.
+No output written.
+Layer "rnpoly_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT nresbody OUTSIDE SAB {
+	POINT_TOUCH=FALSE 
+	LINE_TOUCH=FALSE }TEMP=rnpolys_poss_body
+Input layer "nresbody" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rnpolys_poss_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN rnpolys_poss_body NOT SAB NOT HRIMP { } TEMP=rnpolys_body
+Input layer "rnpolys_poss_body" is empty.
+Input layer "SAB" is empty.
+Input layer "HRIMP" is empty.
+No output written.
+Layer "rnpolys_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SIZE rnpolys_body { 
+	OVERSIZE=0.01 } TEMP=rnpolys_poss_term
+Input layer "rnpolys_body" is empty.
+No output written.
+Layer "rnpolys_poss_term" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN POLS AND (rnpolys_poss_term NOT rnpolys_body) { } TEMP=rnpolys_term
+Input layer "rnpolys_poss_term" is empty.
+Input layer "rnpolys_body" is empty.
+No output written.
+Layer "rnpolys_term" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN presbody AND (SAB NOT HRIMP) { } TEMP=rppoly_body
+Input layer "SAB" is empty.
+Input layer "HRIMP" is empty.
+Input layer "presbody" is empty.
+No output written.
+Layer "rppoly_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT presbody OUTSIDE SAB {
+	POINT_TOUCH=FALSE 
+	LINE_TOUCH=FALSE }TEMP=rppolys_poss_body
+Input layer "presbody" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rppolys_poss_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN rppolys_poss_body NOT SAB NOT HRIMP { } TEMP=rppolys_body
+Input layer "rppolys_poss_body" is empty.
+Input layer "SAB" is empty.
+Input layer "HRIMP" is empty.
+No output written.
+Layer "rppolys_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SIZE rppolys_body { 
+	OVERSIZE=0.01 } TEMP=rppolys_poss_term
+Input layer "rppolys_body" is empty.
+No output written.
+Layer "rppolys_poss_term" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN POLS AND (rppolys_poss_term NOT rppolys_body) { } TEMP=rppolys_term
+Input layer "rppolys_poss_term" is empty.
+Input layer "rppolys_body" is empty.
+No output written.
+Layer "rppolys_term" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT DIFN INTERACT RMARKER {}TEMP=diffres
+Input layer "RMARKER" is empty.
+No output written.
+Layer "diffres" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN DIFN AND RMARKER { } TEMP=diffresbody
+Input layer "RMARKER" is empty.
+No output written.
+Layer "diffresbody" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN diffresbody AND NPS { } TEMP=ndiffresbody
+Input layer "diffresbody" is empty.
+No output written.
+Layer "ndiffresbody" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN diffresbody AND PPS { } TEMP=pdiffresbody
+Input layer "diffresbody" is empty.
+No output written.
+Layer "pdiffresbody" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN ndiffresbody AND SAB { } TEMP=rndiff_body
+Input layer "ndiffresbody" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rndiff_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT ndiffresbody OUTSIDE SAB {
+	POINT_TOUCH=FALSE 
+	LINE_TOUCH=FALSE }TEMP=rndiffs_poss_body
+Input layer "ndiffresbody" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rndiffs_poss_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN rndiffs_poss_body NOT SAB { } TEMP=rndiffs_body
+Input layer "rndiffs_poss_body" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rndiffs_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SIZE rndiffs_body { 
+	OVERSIZE=0.01 } TEMP=rndiffs_poss_term
+Input layer "rndiffs_body" is empty.
+No output written.
+Layer "rndiffs_poss_term" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN DIFN AND (rndiffs_poss_term NOT rndiffs_body) { } TEMP=rndiffs_term
+Input layer "rndiffs_poss_term" is empty.
+Input layer "rndiffs_body" is empty.
+No output written.
+Layer "rndiffs_term" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN pdiffresbody AND SAB { } TEMP=rpdiff_body
+Input layer "pdiffresbody" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rpdiff_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT pdiffresbody OUTSIDE SAB {
+	POINT_TOUCH=FALSE 
+	LINE_TOUCH=FALSE }TEMP=rpdiffs_poss_body
+Input layer "pdiffresbody" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rpdiffs_poss_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN rpdiffs_poss_body NOT SAB { } TEMP=rpdiffs_body
+Input layer "rpdiffs_poss_body" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rpdiffs_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SIZE rpdiffs_body { 
+	OVERSIZE=0.01 } TEMP=rpdiffs_poss_term
+Input layer "rpdiffs_body" is empty.
+No output written.
+Layer "rpdiffs_poss_term" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN DIFN AND (rpdiffs_poss_term NOT rpdiffs_body) { } TEMP=rpdiffs_term
+Input layer "rpdiffs_poss_term" is empty.
+Input layer "rpdiffs_body" is empty.
+No output written.
+Layer "rpdiffs_term" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE rnpoly_body TOUCHING SAB {}TEMP=rnpoly_wid
+Input layer "rnpoly_body" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rnpoly_wid" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT_EDGE rnpoly_body TOUCHING RMARKER {}TEMP=rnpoly_len
+Input layer "rnpoly_body" is empty.
+Input layer "RMARKER" is empty.
+No output written.
+Layer "rnpoly_len" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE rppoly_body TOUCHING SAB {}TEMP=rppoly_wid
+Input layer "rppoly_body" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rppoly_wid" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT_EDGE rppoly_body TOUCHING RMARKER {}TEMP=rppoly_len
+Input layer "rppoly_body" is empty.
+Input layer "RMARKER" is empty.
+No output written.
+Layer "rppoly_len" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE rndiff_body TOUCHING SAB {}TEMP=rndiff_wid
+Input layer "rndiff_body" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rndiff_wid" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT_EDGE rndiff_body TOUCHING RMARKER {}TEMP=rndiff_len
+Input layer "rndiff_body" is empty.
+Input layer "RMARKER" is empty.
+No output written.
+Layer "rndiff_len" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE rpdiff_body TOUCHING SAB {}TEMP=rpdiff_wid
+Input layer "rpdiff_body" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "rpdiff_wid" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT_EDGE rpdiff_body TOUCHING RMARKER {}TEMP=rpdiff_len
+Input layer "rpdiff_body" is empty.
+Input layer "RMARKER" is empty.
+No output written.
+Layer "rpdiff_len" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT SAB INTERACT NPS {}TEMP=rpols_int_nps
+Input layer "SAB" is empty.
+No output written.
+Layer "rpols_int_nps" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT SAB INTERACT PPS {}TEMP=rpols_int_pps
+Input layer "SAB" is empty.
+No output written.
+Layer "rpols_int_pps" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN (resbody AND rpols_int_nps AND HRIMP) NOT NPS { } TEMP=hrnpoly_body
+Input layer "resbody" is empty.
+Input layer "rpols_int_nps" is empty.
+Input layer "HRIMP" is empty.
+No output written.
+Layer "hrnpoly_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN (resbody AND rpols_int_pps AND HRIMP) NOT PPS { } TEMP=hrppoly_body
+Input layer "resbody" is empty.
+Input layer "rpols_int_pps" is empty.
+Input layer "HRIMP" is empty.
+No output written.
+Layer "hrppoly_body" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE hrnpoly_body TOUCHING NPS {}TEMP=hrnpoly_wid
+Input layer "hrnpoly_body" is empty.
+No output written.
+Layer "hrnpoly_wid" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT_EDGE hrnpoly_body TOUCHING RMARKER {}TEMP=hrnpoly_len
+Input layer "hrnpoly_body" is empty.
+Input layer "RMARKER" is empty.
+No output written.
+Layer "hrnpoly_len" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE hrppoly_body TOUCHING PPS {}TEMP=hrppoly_wid
+Input layer "hrppoly_body" is empty.
+No output written.
+Layer "hrppoly_wid" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT_EDGE hrppoly_body TOUCHING RMARKER {}TEMP=hrppoly_len
+Input layer "hrppoly_body" is empty.
+Input layer "RMARKER" is empty.
+No output written.
+Layer "hrppoly_len" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rnpoly_wid { 
+	COMMENT = "2.1: Minimum Width ( for RNPOLY device)  >= 0.15"
+	SPACING<0.15 } (102;171)
+Input layer "rnpoly_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH rnpoly_wid { 
+	COMMENT = "2.14: Maximum Width ( for RNPOLY device)  <= 100"
+	SPACING>100 } (102;171)
+Input layer "rnpoly_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+MOSCHECK rnpolys_body rnpolys_term rnpolys_term {
+	COMMENT = "2.1.1/2.7.1/2.13/2.14: Minimum Width for RNPOLYS 0.15;Maximum Width (of RNPOLYS ) <= 100; Minimum length >= 0.8;Maximum length <= 1000"
+	EQUATIONS {
+	IF (EV_WMIN < 0.15) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 100) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.8) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 1000) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(121)
+Input layer "rnpolys_body" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rppoly_wid { 
+	COMMENT = "2.2: Minimum Width ( for RPPOLY device)  >= 0.18"
+	SPACING<0.18 } (102;171)
+Input layer "rppoly_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+MOSCHECK rppolys_body rppolys_term rppolys_term {
+	COMMENT = "2.2.1/2.8.1/2.13/2.14: Minimum Width for RPPOLYS 0.12;Maximum Width (of RPPOLYS ) <= 100; Minimum length >= 0.6;Maximum length <= 1000"
+	EQUATIONS {
+	IF (EV_WMIN < 0.12) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 100) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.6) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 1000) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(121)
+Input layer "rppolys_body" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rppoly_wid { 
+	COMMENT = "2.16: Maximum Width ( for RPPOLY device) <= 100"
+	SPACING>100 } (102;171)
+Input layer "rppoly_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rndiff_wid { 
+	COMMENT = "2.3: Minimum Width ( for RNDIFF device)  >= 0.16"
+	SPACING<0.16 } (102;171)
+Input layer "rndiff_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+MOSCHECK rndiffs_body rndiffs_term rndiffs_term {
+	COMMENT = "2.3.1/2.9.1/2.13/2.14: Minimum Width for RNDIFFS 0.14;Maximum Width <= 100; Minimum length >= 0.7;Maximum length <= 1000"
+	EQUATIONS {
+	IF (EV_WMIN < 0.14) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 100) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.7) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 1000) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(121)
+Input layer "rndiffs_body" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rndiff_wid { 
+	COMMENT = "2.14: Maximum Width ( for RNDIFF device) <= 100"
+	SPACING>100 } (102;171)
+Input layer "rndiff_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rpdiff_wid { 
+	COMMENT = "2.4: Minimum Width ( for RPDIFF device)  >= 0.18"
+	SPACING<0.18 } (102;171)
+Input layer "rpdiff_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+MOSCHECK rpdiffs_body rpdiffs_term rpdiffs_term {
+	COMMENT = "2.4.1/2.10.1/2.13/2.14: Minimum Width for RPDIFFS 0.14; Maximum Width <= 100; Minimum length >= 0.5; Maximum length <= 1000"
+	EQUATIONS {
+	IF (EV_WMIN < 0.14) {
+	    EV_ERROR_WMIN = EV_WMIN;
+	}
+
+	IF (EV_WMAX > 100) {
+	    EV_ERROR_WMAX = EV_WMAX;
+	}
+
+	IF (EV_LMIN < 0.5) {
+	    EV_ERROR_LMIN = EV_LMIN;
+	}
+
+	IF (EV_LMAX > 1000) {
+	    EV_ERROR_LMAX = EV_LMAX;
+	}
+	}
+
+}(121)
+Input layer "rpdiffs_body" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rpdiff_wid { 
+	COMMENT = "2.14: Maximum Width ( for RPDIFF device) <= 100"
+	SPACING>100 } (102;171)
+Input layer "rpdiff_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH hrnpoly_wid { 
+	COMMENT = "2.5: Minimum Width ( for HRNPOLY device)  >= 1.2"
+	SPACING<1.2 } (102;171)
+Input layer "hrnpoly_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH hrnpoly_wid { 
+	COMMENT = "2.14: Maximum Width ( for HRNPOLY device) <= 100"
+	SPACING>100 } (102;171)
+Input layer "hrnpoly_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH hrppoly_wid { 
+	COMMENT = "2.6: Minimum Width ( for HRPPOLY device)  >= 1.3"
+	SPACING<1.3 } (102;171)
+Input layer "hrppoly_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH hrppoly_wid { 
+	COMMENT = "2.14: Maximum Width ( for HRNPOLY device) <= 100"
+	SPACING>100 } (102;171)
+Input layer "hrppoly_wid" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rnpoly_len { 
+	COMMENT = "2.7: Minimum Length ( for RNPOLY device)  >= 0.8"
+	SPACING<0.8 } (102;171)
+Input layer "rnpoly_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH rnpoly_len { 
+	COMMENT = "2.13: Maximum Length ( for RNPOLY device) <= 1000"
+	SPACING>1000 } (102;171)
+Input layer "rnpoly_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rppoly_len { 
+	COMMENT = "2.8: Minimum Length ( for RPPOLY device)  >= 1.0"
+	SPACING<1 } (102;171)
+Input layer "rppoly_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH rppoly_len { 
+	COMMENT = "2.13: Maximum Length ( for RPPOLY device) <= 1000"
+	SPACING>1000 } (102;171)
+Input layer "rppoly_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rndiff_len { 
+	COMMENT = "2.9: Minimum Length ( for RNDIFF device)  >= 2.0"
+	SPACING<2 } (102;171)
+Input layer "rndiff_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH rndiff_len { 
+	COMMENT = "2.13: Maximum Length ( for RNDIFF device) <= 1000"
+	SPACING>1000 } (102;171)
+Input layer "rndiff_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH rpdiff_len { 
+	COMMENT = "2.10: Minimum Length ( for RPDIFF device)  >= 2.0"
+	SPACING<2 } (102;171)
+Input layer "rpdiff_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH rpdiff_len { 
+	COMMENT = "2.13: Maximum Length ( for RPDIFF device) <= 1000"
+	SPACING>1000 } (102;171)
+Input layer "rpdiff_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH hrnpoly_len { 
+	COMMENT = "2.11: Minimum Length ( for HRNPOLY device)  >= 1.2"
+	SPACING<1.2 } (102;171)
+Input layer "hrnpoly_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH hrnpoly_len { 
+	COMMENT = "2.13: Maximum Length ( for HRNPOLY device) <= 1000"
+	SPACING>1000 } (102;171)
+Input layer "hrnpoly_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH hrppoly_len { 
+	COMMENT = "2.12: Minimum Length ( for HRPPOLY device)  >= 1.3"
+	SPACING<1.3 } (102;171)
+Input layer "hrppoly_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH hrppoly_len { 
+	COMMENT = "2.13: Maximum Length ( for HRPPOLY device) <= 1000"
+	SPACING>1000 } (102;171)
+Input layer "hrppoly_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+ENCLOSE SAB BY POLS {
+	COMMENT = "2.16: Minimum enclosure of RPOLY within Poly >= 0.5"
+	SPACING<0.5 
+	TOUCH=TRUE } (100)
+Input layer "SAB" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+ENCLOSE SAB BY DIFN {
+	COMMENT = "2.17: Minimum enclosure of RPOLY within Diffusion >= 0.8"
+	SPACING<0.8 
+	TOUCH=TRUE } (100)
+Input layer "SAB" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+ENCLOSE diffres BY NPS {
+	COMMENT = "2.18: Minimum enclosure of Resistor Diffusion within Implant >= 0.2"
+	SPACING<0.2 
+	TOUCH=TRUE } (100)
+Input layer "diffres" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+ENCLOSE diffres BY PPS {
+	COMMENT = "2.18: Minimum enclosure of Resistor Diffusion within Implant >= 0.2"
+	SPACING<0.2 
+	TOUCH=TRUE } (100)
+Input layer "diffres" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN SAB AND NPS AND HRIMP { } TEMP=nplus_rpol
+Input layer "SAB" is empty.
+Input layer "HRIMP" is empty.
+No output written.
+Layer "nplus_rpol" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN SAB AND PPS AND HRIMP { } TEMP=pplus_rpol
+Input layer "SAB" is empty.
+Input layer "HRIMP" is empty.
+No output written.
+Layer "pplus_rpol" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+INTERNAL nplus_rpol {
+	COMMENT = "2.19: Minimum NPLUS RPOLY overlap = 0.18"
+	DIMENSIONS = [0.18,*] } (100;1)
+Input layer "nplus_rpol" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL pplus_rpol {
+	COMMENT = "2.20: Minimum PPLUS RPOLY overlap = 0.18"
+	DIMENSIONS = [0.18,*] } (100;1)
+Input layer "pplus_rpol" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+ENCLOSE POLS BY HRIMP {
+	COMMENT = "2.21: Minimum Enclosure of Poly within HR-implant >= 0.23"
+	SPACING<0.23 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "HRIMP" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+EXTERNAL HRIMP { 
+	COMMENT = "2.22: Minimum HR-implant spacing >= 0.2"
+	SPACING<0.2 
+	POINT_TOUCH=TRUE } (100)
+Input layer "HRIMP" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN DIFN AND DIODE { } TEMP=diff_diode
+Input layer "DIODE" is empty.
+No output written.
+Layer "diff_diode" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN diff_diode AND PPS AND NWELL { } TEMP=poss_pndiode
+Input layer "diff_diode" is empty.
+No output written.
+Layer "poss_pndiode" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT poss_pndiode OUTSIDE POLS {}TEMP=pndiode1
+Input layer "poss_pndiode" is empty.
+No output written.
+Layer "pndiode1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT pndiode1 OUTSIDE DNWELL {}TEMP=pndiode
+Input layer "pndiode1" is empty.
+Input layer "DNWELL" is empty.
+No output written.
+Layer "pndiode" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN (diff_diode AND NPS) NOT NWELL { } TEMP=poss_npdiode
+Input layer "diff_diode" is empty.
+No output written.
+Layer "poss_npdiode" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT poss_npdiode OUTSIDE POLS {}TEMP=npdiode1
+Input layer "poss_npdiode" is empty.
+No output written.
+Layer "npdiode1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT npdiode1 OUTSIDE DNWELL {}TEMP=npdiode
+Input layer "npdiode1" is empty.
+Input layer "DNWELL" is empty.
+No output written.
+Layer "npdiode" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL npdiode {
+	COMMENT = "3.1/3.2: Minimum width ( NP Model Device) >= 0.2;Minimum length ( NP Model Device) >= 0.2"
+	SPACING<0.2 
+	POINT_TOUCH=TRUE } (100)
+Input layer "npdiode" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+INTERNAL npdiode {
+	COMMENT = "3.3/3.4: Minimum width ( PN Model Device) >= 0.2;Minimum length ( PN Model Device) >= 0.2"
+	SPACING<0.2 
+	POINT_TOUCH=TRUE } (100)
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SIZE npdiode { 
+	COMMENT = "3.5/3.6: Maximum width ( NP Model Device) >= 100;Maximum length ( NP Model Device) >= 100"
+	UNDER_OVER=50 } (100)
+Input layer "npdiode" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SIZE pndiode { 
+	COMMENT = "3.7/3.8: Maximum width ( PN Model Device) >= 100;Maximum length ( PN Model Device) >= 100"
+	UNDER_OVER=50 } (100)
+Input layer "pndiode" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL CAP_MIMS {
+	COMMENT = "4.1: Minimum width of a capacitor plate >= 1"
+	SPACING<1 
+	POINT_TOUCH=TRUE } (100)
+Input layer "CAP_MIMS" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SIZE CAP_MIMS { 
+	COMMENT = "4.2: Maximum width of a capacitor plate <= 100"
+	UNDER_OVER=50 } (100)
+Input layer "CAP_MIMS" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+ENCLOSE V8S BY CAP_MIMS {
+	COMMENT = "4.3: Enclosure of Via within the capacitor layer >= 0.24"
+	SPACING<0.24 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (101)
+Input layer "CAP_MIMS" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+ENCLOSE V8S BY MBCAP {
+	COMMENT = "4.13: CBM Enclosure of Via8 within the capacitor layer >= 0.2"
+	SPACING<0.2 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (101)
+Input layer "MBCAP" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+ENCLOSE CAP_MIMS BY M8S {
+	COMMENT = "4.4: Enclose of Capacitor layer within M3 >= 0.3"
+	SPACING<0.3 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M8S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN V8S AND CAP_MIMS { } TEMP=via8_within_cap
+Input layer "V8S" is empty.
+Input layer "CAP_MIMS" is empty.
+No output written.
+Layer "via8_within_cap" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+ENCLOSE via8_within_cap BY M9S {
+	COMMENT = "4.12: Enclose of (via within Capacitor layer) within M9 >= 0.06"
+	SPACING<0.06 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M9S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN DIFN AND VARMARKER { } TEMP=var_diff
+Input layer "VARMARKER" is empty.
+No output written.
+Layer "var_diff" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN var_diff AND (NPS NOT DIFF25) { } TEMP=var_model_n1
+Input layer "DIFF25" is empty.
+Input layer "var_diff" is empty.
+No output written.
+Layer "var_model_n1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+BOOLEAN var_diff AND NPS AND DIFF25 { } TEMP=var_model_n2
+Input layer "var_diff" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "var_model_n2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN var_diff AND (PPS NOT DIFF25) { } TEMP=var_model_p1
+Input layer "DIFF25" is empty.
+Input layer "var_diff" is empty.
+No output written.
+Layer "var_model_p1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+BOOLEAN var_diff AND PPS AND DIFF25 { } TEMP=var_model_p2
+Input layer "var_diff" is empty.
+Input layer "DIFF25" is empty.
+No output written.
+Layer "var_model_p2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN POLS AND var_model_n1 { } TEMP=varbody_model_n1
+Input layer "var_model_n1" is empty.
+No output written.
+Layer "varbody_model_n1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN POLS AND var_model_n2 { } TEMP=varbody_model_n2
+Input layer "var_model_n2" is empty.
+No output written.
+Layer "varbody_model_n2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN POLS AND var_model_p1 { } TEMP=varbody_model_p1
+Input layer "var_model_p1" is empty.
+No output written.
+Layer "varbody_model_p1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN POLS AND var_model_p2 { } TEMP=varbody_model_p2
+Input layer "var_model_p2" is empty.
+No output written.
+Layer "varbody_model_p2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE varbody_model_n1 TOUCHING var_diff {}TEMP=varbody_model_n1_len
+Input layer "varbody_model_n1" is empty.
+Input layer "var_diff" is empty.
+No output written.
+Layer "varbody_model_n1_len" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT_EDGE varbody_model_n2 TOUCHING var_diff {}TEMP=varbody_model_n2_len
+Input layer "varbody_model_n2" is empty.
+Input layer "var_diff" is empty.
+No output written.
+Layer "varbody_model_n2_len" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT_EDGE varbody_model_p1 TOUCHING var_diff {}TEMP=varbody_model_p1_len
+Input layer "varbody_model_p1" is empty.
+Input layer "var_diff" is empty.
+No output written.
+Layer "varbody_model_p1_len" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT_EDGE varbody_model_p2 TOUCHING var_diff {}TEMP=varbody_model_p2_len
+Input layer "varbody_model_p2" is empty.
+Input layer "var_diff" is empty.
+No output written.
+Layer "varbody_model_p2_len" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_model_n1_len { 
+	COMMENT = "5.1 Minimum length (for NVAR1 device) >= 0.20"
+	SPACING<0.2 } (101;1)
+Input layer "varbody_model_n1_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_model_n2_len { 
+	COMMENT = "5.1 Minimum length (for NVAR2 device) >= 0.50"
+	SPACING<0.5 } (101;1)
+Input layer "varbody_model_n2_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_model_p1_len { 
+	COMMENT = "5.3 Minimum length (for PVAR1 device) >= 0.20"
+	SPACING<0.2 } (101;1)
+Input layer "varbody_model_p1_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_model_p2_len { 
+	COMMENT = "5.4 Minimum length (for PVAR2 device) >= 0.50"
+	SPACING<0.5 } (101;1)
+Input layer "varbody_model_p2_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_model_n1_len { 
+	COMMENT = "5.5 Maximum length (for NVAR1 device) <= 50"
+	SPACING>50 } (101;1)
+Input layer "varbody_model_n1_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_model_n2_len { 
+	COMMENT = "5.6 Maximum length (for NVAR2 device) <= 50"
+	SPACING>50 } (101;1)
+Input layer "varbody_model_n2_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_model_p1_len { 
+	COMMENT = "5.7 Maximum length (for PVAR1 device) <= 50"
+	SPACING>50 } (101;1)
+Input layer "varbody_model_p1_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_model_p2_len { 
+	COMMENT = "5.8 Maximum length (for PVAR2 device) <= 50"
+	SPACING>50 } (101;1)
+Input layer "varbody_model_p2_len" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN var_diff NOT varbody_model_n1 { } TEMP=var_diff_sd_n1
+Input layer "var_diff" is empty.
+Input layer "varbody_model_n1" is empty.
+No output written.
+Layer "var_diff_sd_n1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN var_diff NOT varbody_model_n2 { } TEMP=var_diff_sd_n2
+Input layer "var_diff" is empty.
+Input layer "varbody_model_n2" is empty.
+No output written.
+Layer "var_diff_sd_n2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN var_diff NOT varbody_model_p1 { } TEMP=var_diff_sd_p1
+Input layer "var_diff" is empty.
+Input layer "varbody_model_p1" is empty.
+No output written.
+Layer "var_diff_sd_p1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN var_diff NOT varbody_model_p2 { } TEMP=var_diff_sd_p2
+Input layer "var_diff" is empty.
+Input layer "varbody_model_p2" is empty.
+No output written.
+Layer "var_diff_sd_p2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT_EDGE varbody_model_n1 TOUCHING var_diff_sd_n1 {}TEMP=varbody_model_n1_len_wid
+Input layer "varbody_model_n1" is empty.
+Input layer "var_diff_sd_n1" is empty.
+No output written.
+Layer "varbody_model_n1_len_wid" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE varbody_model_n2 TOUCHING var_diff_sd_n2 {}TEMP=varbody_model_n2_len_wid
+Input layer "varbody_model_n2" is empty.
+Input layer "var_diff_sd_n2" is empty.
+No output written.
+Layer "varbody_model_n2_len_wid" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE varbody_model_p1 TOUCHING var_diff_sd_p1 {}TEMP=varbody_model_p1_len_wid
+Input layer "varbody_model_p1" is empty.
+Input layer "var_diff_sd_p1" is empty.
+No output written.
+Layer "varbody_model_p1_len_wid" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE varbody_model_p2 TOUCHING var_diff_sd_p2 {}TEMP=varbody_model_p2_len_wid
+Input layer "varbody_model_p2" is empty.
+Input layer "var_diff_sd_p2" is empty.
+No output written.
+Layer "varbody_model_p2_len_wid" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LEVEL varbody_model_n1 { 
+	PREFIX=FALSE } TEMP=lvl_varbody_model_n1
+Layer "varbody_model_n1" is empty.
+No output written.
+Layer "lvl_varbody_model_n1" is empty.
+No output written.
+Layer "lvl_varbody_model_n1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+POLYGON_FEATURES lvl_varbody_model_n1  {
+	VERTICES [ 
+	   SIZE=0.01 
+	   STYLE=SQUARE 
+	   PLACE=CENTERED 
+	   ANGLES=[ 90]
+ ] 
+} TEMP=gate_90_corner_n1
+Input layer "lvl_varbody_model_n1" is empty.
+No output written.
+Layer "gate_90_corner_n1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT gate_90_corner_n1 OUTSIDE varbody_model_n1_len {}TEMP=varbody_90_corner_out_len_n1
+Input layer "gate_90_corner_n1" is empty.
+Input layer "varbody_model_n1_len" is empty.
+No output written.
+Layer "varbody_90_corner_out_len_n1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN varbody_model_n1_len_wid NOT varbody_90_corner_out_len_n1 { } TEMP=poss_varbody_len_wid_n1
+Input layer "varbody_model_n1_len_wid" is empty.
+Input layer "varbody_90_corner_out_len_n1" is empty.
+No output written.
+Layer "poss_varbody_len_wid_n1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SIZE poss_varbody_len_wid_n1 { 
+	OVERSIZE=0.01 } TEMP=poss_varbody_len_wid_n1_os
+Input layer "poss_varbody_len_wid_n1" is empty.
+No output written.
+Layer "poss_varbody_len_wid_n1_os" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT poss_varbody_len_wid_n1_os INTERACT varbody_90_corner_out_len_n1 {
+	RANGE = [1,1]}TEMP=varbody_wid_n1
+Input layer "poss_varbody_len_wid_n1_os" is empty.
+Input layer "varbody_90_corner_out_len_n1" is empty.
+No output written.
+Layer "varbody_wid_n1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE varbody_model_n1 TOUCHING varbody_wid_n1 {}TEMP=varbody_wid_n1_edge
+Input layer "varbody_model_n1" is empty.
+Input layer "varbody_wid_n1" is empty.
+No output written.
+Layer "varbody_wid_n1_edge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH varbody_wid_n1_edge { 
+	COMMENT = "5.9 : Minimum width (for NVAR1 device) >= 0.5"
+	SPACING<0.5 } (100)
+Input layer "varbody_wid_n1_edge" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_wid_n1_edge { 
+	COMMENT = "5.13 : Maximum width (for NVAR1 device) <= 50"
+	SPACING>50 } (100)
+Input layer "varbody_wid_n1_edge" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LEVEL varbody_model_n2 { 
+	PREFIX=FALSE } TEMP=lvl_varbody_model_n2
+Layer "varbody_model_n2" is empty.
+No output written.
+Layer "lvl_varbody_model_n2" is empty.
+No output written.
+Layer "lvl_varbody_model_n2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+POLYGON_FEATURES lvl_varbody_model_n2  {
+	VERTICES [ 
+	   SIZE=0.01 
+	   STYLE=SQUARE 
+	   PLACE=CENTERED 
+	   ANGLES=[ 90]
+ ] 
+} TEMP=gate_90_corner_n2
+Input layer "lvl_varbody_model_n2" is empty.
+No output written.
+Layer "gate_90_corner_n2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT gate_90_corner_n2 OUTSIDE varbody_model_n2_len {}TEMP=varbody_90_corner_out_len_n2
+Input layer "gate_90_corner_n2" is empty.
+Input layer "varbody_model_n2_len" is empty.
+No output written.
+Layer "varbody_90_corner_out_len_n2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN varbody_model_n2_len_wid NOT varbody_90_corner_out_len_n2 { } TEMP=poss_varbody_len_wid_n2
+Input layer "varbody_model_n2_len_wid" is empty.
+Input layer "varbody_90_corner_out_len_n2" is empty.
+No output written.
+Layer "poss_varbody_len_wid_n2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SIZE poss_varbody_len_wid_n2 { 
+	OVERSIZE=0.01 } TEMP=poss_varbody_len_wid_n2_os
+Input layer "poss_varbody_len_wid_n2" is empty.
+No output written.
+Layer "poss_varbody_len_wid_n2_os" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT poss_varbody_len_wid_n2_os INTERACT varbody_90_corner_out_len_n2 {
+	RANGE = [1,1]}TEMP=varbody_wid_n2
+Input layer "poss_varbody_len_wid_n2_os" is empty.
+Input layer "varbody_90_corner_out_len_n2" is empty.
+No output written.
+Layer "varbody_wid_n2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE varbody_model_n2 TOUCHING varbody_wid_n2 {}TEMP=varbody_wid_n2_edge
+Input layer "varbody_model_n2" is empty.
+Input layer "varbody_wid_n2" is empty.
+No output written.
+Layer "varbody_wid_n2_edge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH varbody_wid_n2_edge { 
+	COMMENT = "5.10 : Minimum width (for NVAR2 device) >= 1.5"
+	SPACING<1.5 } (100)
+Input layer "varbody_wid_n2_edge" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_wid_n2_edge { 
+	COMMENT = "5.14 : Maximum width (for NVAR2 device) <= 50"
+	SPACING>50 } (100)
+Input layer "varbody_wid_n2_edge" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LEVEL varbody_model_p1 { 
+	PREFIX=FALSE } TEMP=lvl_varbody_model_p1
+Layer "varbody_model_p1" is empty.
+No output written.
+Layer "lvl_varbody_model_p1" is empty.
+No output written.
+Layer "lvl_varbody_model_p1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+POLYGON_FEATURES lvl_varbody_model_p1  {
+	VERTICES [ 
+	   SIZE=0.01 
+	   STYLE=SQUARE 
+	   PLACE=CENTERED 
+	   ANGLES=[ 90]
+ ] 
+} TEMP=gate_90_corner_p1
+Input layer "lvl_varbody_model_p1" is empty.
+No output written.
+Layer "gate_90_corner_p1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT gate_90_corner_p1 OUTSIDE varbody_model_p1_len {}TEMP=varbody_90_corner_out_len_p1
+Input layer "gate_90_corner_p1" is empty.
+Input layer "varbody_model_p1_len" is empty.
+No output written.
+Layer "varbody_90_corner_out_len_p1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN varbody_model_p1_len_wid NOT varbody_90_corner_out_len_p1 { } TEMP=poss_varbody_len_wid_p1
+Input layer "varbody_model_p1_len_wid" is empty.
+Input layer "varbody_90_corner_out_len_p1" is empty.
+No output written.
+Layer "poss_varbody_len_wid_p1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SIZE poss_varbody_len_wid_p1 { 
+	OVERSIZE=0.01 } TEMP=poss_varbody_len_wid_p1_os
+Input layer "poss_varbody_len_wid_p1" is empty.
+No output written.
+Layer "poss_varbody_len_wid_p1_os" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT poss_varbody_len_wid_p1_os INTERACT varbody_90_corner_out_len_p1 {
+	RANGE = [1,1]}TEMP=varbody_wid_p1
+Input layer "poss_varbody_len_wid_p1_os" is empty.
+Input layer "varbody_90_corner_out_len_p1" is empty.
+No output written.
+Layer "varbody_wid_p1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE varbody_model_p1 TOUCHING varbody_wid_p1 {}TEMP=varbody_wid_p1_edge
+Input layer "varbody_model_p1" is empty.
+Input layer "varbody_wid_p1" is empty.
+No output written.
+Layer "varbody_wid_p1_edge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH varbody_wid_p1_edge { 
+	COMMENT = "5.11 : Minimum width (for PVAR1 device) >= 0.5"
+	SPACING<0.5 } (100)
+Input layer "varbody_wid_p1_edge" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_wid_p1_edge { 
+	COMMENT = "5.15 : Maximum width (for PVAR1 device) <= 50"
+	SPACING>50 } (100)
+Input layer "varbody_wid_p1_edge" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LEVEL varbody_model_p2 { 
+	PREFIX=FALSE } TEMP=lvl_varbody_model_p2
+Layer "varbody_model_p2" is empty.
+No output written.
+Layer "lvl_varbody_model_p2" is empty.
+No output written.
+Layer "lvl_varbody_model_p2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+POLYGON_FEATURES lvl_varbody_model_p2  {
+	VERTICES [ 
+	   SIZE=0.01 
+	   STYLE=SQUARE 
+	   PLACE=CENTERED 
+	   ANGLES=[ 90]
+ ] 
+} TEMP=gate_90_corner_p2
+Input layer "lvl_varbody_model_p2" is empty.
+No output written.
+Layer "gate_90_corner_p2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT gate_90_corner_p2 OUTSIDE varbody_model_p2_len {}TEMP=varbody_90_corner_out_len_p2
+Input layer "gate_90_corner_p2" is empty.
+Input layer "varbody_model_p2_len" is empty.
+No output written.
+Layer "varbody_90_corner_out_len_p2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN varbody_model_p2_len_wid NOT varbody_90_corner_out_len_p2 { } TEMP=poss_varbody_len_wid_p2
+Input layer "varbody_model_p2_len_wid" is empty.
+Input layer "varbody_90_corner_out_len_p2" is empty.
+No output written.
+Layer "poss_varbody_len_wid_p2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SIZE poss_varbody_len_wid_p2 { 
+	OVERSIZE=0.01 } TEMP=poss_varbody_len_wid_p2_os
+Input layer "poss_varbody_len_wid_p2" is empty.
+No output written.
+Layer "poss_varbody_len_wid_p2_os" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT poss_varbody_len_wid_p2_os INTERACT varbody_90_corner_out_len_p2 {
+	RANGE = [1,1]}TEMP=varbody_wid_p2
+Input layer "poss_varbody_len_wid_p2_os" is empty.
+Input layer "varbody_90_corner_out_len_p2" is empty.
+No output written.
+Layer "varbody_wid_p2" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT_EDGE varbody_model_p2 TOUCHING varbody_wid_p2 {}TEMP=varbody_wid_p2_edge
+Input layer "varbody_model_p2" is empty.
+Input layer "varbody_wid_p2" is empty.
+No output written.
+Layer "varbody_wid_p2_edge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+LENGTH varbody_wid_p2_edge { 
+	COMMENT = "5.12 : Minimum width (for PVAR2 device) >= 1.5"
+	SPACING<1.5 } (100)
+Input layer "varbody_wid_p2_edge" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+LENGTH varbody_wid_p2_edge { 
+	COMMENT = "5.16 : Maximum width (for PVAR2 device) <= 50"
+	SPACING>50 } (100)
+Input layer "varbody_wid_p2_edge" is empty.
+No output written.
+0 length violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+SELECT POLS INTERACT VARMARKER {}TEMP=poly_var
+Input layer "VARMARKER" is empty.
+No output written.
+Layer "poly_var" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+BOOLEAN CONTS AND poly_var { } TEMP=var_poly_cont
+Input layer "poly_var" is empty.
+No output written.
+Layer "var_poly_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+BOOLEAN CONTS AND var_diff { } TEMP=var_diff_cont
+Input layer "var_diff" is empty.
+No output written.
+Layer "var_diff_cont" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+EXTERNAL var_poly_cont var_diff { 
+	COMMENT = "5.17: Minimum Poly contact to Diffusion >= 0.12"
+	SPACING<0.12 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "var_poly_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+ENCLOSE DIFN BY VARMARKER {
+	COMMENT = "5.18: Minimum Enclosure of Diffusion within VARMARKER layer >= 0.22"
+	SPACING<0.22 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (101)
+Input layer "VARMARKER" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+EXTERNAL var_diff_cont varbody_model_n1 { 
+	COMMENT = "5.20: Minimum Diffusion contact to poly (for NVAR1 device) >= 0.08"
+	SPACING<0.08 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "var_diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+EXTERNAL var_diff_cont varbody_model_n2 { 
+	COMMENT = "5.21: Minimum Diffusion contact to poly (for NVAR2 device) >= 0.13"
+	SPACING<0.13 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "var_diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+EXTERNAL var_diff_cont varbody_model_p1 { 
+	COMMENT = "5.22: Minimum Diffusion contact to poly (for PVAR1 device) >= 0.13"
+	SPACING<0.13 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "var_diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+EXTERNAL var_diff_cont varbody_model_p2 { 
+	COMMENT = "5.23: Minimum Diffusion contact to poly (for PVAR2 device) >= 0.13"
+	SPACING<0.13 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "var_diff_cont" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL NWELL {
+	COMMENT = "7.1: Minimum width for Nwell >= 0.55"
+	SPACING<0.55 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.004
+
+EXTERNAL NWELL { 
+	COMMENT = "7.2: Minimum spacing for Nwell >= 0.55"
+	SPACING<0.55 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.988
+
+AREA NWELL { 
+	COMMENT = "7.3: Minimum area of Nwell >= 1.2"
+	RANGE = [0.001,1.1999]} (101)
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.785
+
+SELECT NWELL INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_nwell
+No output written.
+Layer "encl_nwell" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.879
+
+AREA encl_nwell { 
+	COMMENT = "7.4: Minimum Enclosed area of Nwell >= 1.2"
+	RANGE = [0.001,1.1999]} (101)
+Input layer "encl_nwell" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL DIFN {
+	COMMENT = "7.5: Minimum width for Diffusion >= 0.09"
+	SPACING<0.09 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.004
+
+EXTERNAL DIFN { 
+	COMMENT = "7.6: Minimum spacing for Diffusion >= 0.09"
+	SPACING<0.09 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.988
+
+AREA DIFN { 
+	COMMENT = "7.7: Minimum area of Diffusion >= 0.05"
+	RANGE = [0.001,0.0499]} (101)
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.785
+
+SELECT DIFN INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_diff
+No output written.
+Layer "encl_diff" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.879
+
+AREA encl_diff { 
+	COMMENT = "7.8: Minimum Enclosed area of Diffusion >= 0.065"
+	RANGE = [0.001,0.0649]} (101)
+Input layer "encl_diff" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.01 Sys=0.00 Mem=14.582
+
+
+INTERNAL POLS {
+	COMMENT = "7.9: Minimum width for Polysilicon >= 0.09"
+	SPACING<0.09 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.004
+
+EXTERNAL POLS { 
+	COMMENT = "7.10: Minimum spacing for Polysilicon >= 0.09"
+	SPACING<0.09 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.988
+
+AREA POLS { 
+	COMMENT = "7.11: Minimum area of Polysilicon >= 0.05"
+	RANGE = [0.001,0.0499]} (101)
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.785
+
+COPY poly_hole { } TEMP=encl_poly
+Input layer "poly_hole" is empty.
+No output written.
+Layer "encl_poly" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+
+AREA encl_poly { 
+	COMMENT = "7.12: Minimum Enclosed area of Polysilicon >= 0.09"
+	RANGE = [0.0001,0.08989999999999999]} (101)
+Input layer "encl_poly" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+
+INTERNAL PPS {
+	COMMENT = "7.13: Minimum width for P+ Material >= 0.2"
+	SPACING<0.2 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.019
+
+EXTERNAL PPS { 
+	COMMENT = "7.14: Minimum spacing for P+ Material >= 0.1"
+	SPACING<0.1 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.004
+
+AREA PPS { 
+	COMMENT = "7.15: Minimum area of P+ Material >= 0.08"
+	RANGE = [0.001,0.0799]} (101)
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.785
+
+SELECT PPS INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_pps
+No output written.
+Layer "encl_pps" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.879
+
+AREA encl_pps { 
+	COMMENT = "7.16: Minimum Enclosed area of P+ Material >= 0.11"
+	RANGE = [0.0001,0.1099]} (101)
+Input layer "encl_pps" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL NPS {
+	COMMENT = "7.17: Minimum width for N+ Material >= 0.2"
+	SPACING<0.2 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.004
+
+EXTERNAL NPS { 
+	COMMENT = "7.18: Minimum spacing for N+ Material >= 0.1"
+	SPACING<0.1 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.988
+
+AREA NPS { 
+	COMMENT = "7.19: Minimum area of N+ Material >= 0.08"
+	RANGE = [0.001,0.0799]} (101)
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.785
+
+SELECT NPS INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_nps
+No output written.
+Layer "encl_nps" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.879
+
+AREA encl_nps { 
+	COMMENT = "7.20: Minimum Enclosed area of N+ Material >= 0.11"
+	RANGE = [0.0001,0.1099]} (101)
+Input layer "encl_nps" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL SAB {
+	COMMENT = "7.21: Minimum width for Poly-Resist oxide >= 0.34"
+	SPACING<0.34 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+Input layer "SAB" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+EXTERNAL SAB { 
+	COMMENT = "7.22: Minimum spacing for Poly-Resist oxide >= 0.34"
+	SPACING<0.34 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "SAB" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA SAB { 
+	COMMENT = "7.23: Minimum area of Poly-Resist oxide >= 0.85"
+	RANGE = [0.001,0.8499]} (101)
+Input layer "SAB" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT SAB INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_rpols
+Input layer "SAB" is empty.
+No output written.
+Layer "encl_rpols" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA encl_rpols { 
+	COMMENT = "7.24: Minimum Enclosed area of Poly-Resist oxide >= 0.85"
+	RANGE = [0.0001,0.8499]} (101)
+Input layer "encl_rpols" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL CONTS {
+	COMMENT = "7.25: Contact width != 0.09"
+	DIMENSIONS = [0.09,0.09] } (101)
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.660
+
+EXTERNAL CONTS { 
+	COMMENT = "7.26: Minimum spacing for contact >= 0.10"
+	SPACING<0.1 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.972
+
+INTERNAL M1S {
+	COMMENT = "7.27: Minimum width for Metal 1 >= 0.1"
+	SPACING<0.1 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.004
+
+EXTERNAL M1S { 
+	COMMENT = "7.29: Minimum spacing for Metal 1 >= 0.1"
+	SPACING<0.1 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.019
+
+AREA M1S { 
+	COMMENT = "7.30: Minimum area of Metal 1 >= 0.04"
+	RANGE = [0.001,0.0399]} (101)
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.785
+
+SELECT M1S INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_m1s
+No output written.
+Layer "encl_m1s" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.894
+
+AREA encl_m1s { 
+	COMMENT = "7.31: Minimum Enclosed area of Metal 1 >= 0.3"
+	RANGE = [0.001,0.299]} (101)
+Input layer "encl_m1s" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.598
+
+
+INTERNAL M2S {
+	COMMENT = "7.32: Minimum width for Metal 2 >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.019
+
+EXTERNAL M2S { 
+	COMMENT = "7.34: Minimum spacing for Metal 2 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.004
+
+AREA M2S { 
+	COMMENT = "7.35: Minimum area of Metal 2 >= 0.06"
+	RANGE = [0.001,0.0599]} (101)
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.785
+
+SELECT M2S INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_m2s
+No output written.
+Layer "encl_m2s" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.879
+
+AREA encl_m2s { 
+	COMMENT = "7.36: Minimum Enclosed area of Metal 2 >= 0.3"
+	RANGE = [0.0001,0.299]} (101)
+Input layer "encl_m2s" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL M3S {
+	COMMENT = "7.37: Minimum width for Metal 3 >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+Input layer "M3S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+EXTERNAL M3S { 
+	COMMENT = "7.39: Minimum spacing for Metal 3 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "M3S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA M3S { 
+	COMMENT = "7.40: Minimum area of Metal 3 >= 0.06"
+	RANGE = [0.001,0.0599]} (101)
+Input layer "M3S" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT M3S INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_m3s
+Input layer "M3S" is empty.
+No output written.
+Layer "encl_m3s" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA encl_m3s { 
+	COMMENT = "7.41: Minimum Enclosed area of Metal 3 >= 0.3"
+	RANGE = [0.0001,0.299]} (101)
+Input layer "encl_m3s" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL M4S {
+	COMMENT = "7.37: Minimum width for Metal 4 >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+Input layer "M4S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+EXTERNAL M4S { 
+	COMMENT = "7.39: Minimum spacing for Metal 4 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "M4S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA M4S { 
+	COMMENT = "7.40: Minimum area of Metal 4 >= 0.06"
+	RANGE = [0.001,0.0599]} (101)
+Input layer "M4S" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT M4S INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_m4s
+Input layer "M4S" is empty.
+No output written.
+Layer "encl_m4s" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA encl_m4s { 
+	COMMENT = "7.41: Minimum Enclosed area of Metal 4 >= 0.3"
+	RANGE = [0.0001,0.299]} (101)
+Input layer "encl_m4s" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL M5S {
+	COMMENT = "7.37: Minimum width for Metal 5 >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+Input layer "M5S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+EXTERNAL M5S { 
+	COMMENT = "7.39: Minimum spacing for Metal 5 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "M5S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA M5S { 
+	COMMENT = "7.50: Minimum area of Metal 5 >= 0.06"
+	RANGE = [0.001,0.0599]} (101)
+Input layer "M5S" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT M5S INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_m5s
+Input layer "M5S" is empty.
+No output written.
+Layer "encl_m5s" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA encl_m5s { 
+	COMMENT = "7.51: Minimum Enclosed area of Metal 5 >= 0.3"
+	RANGE = [0.0001,0.299]} (101)
+Input layer "encl_m5s" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL M6S {
+	COMMENT = "7.37: Minimum width for Metal 6 >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+Input layer "M6S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+EXTERNAL M6S { 
+	COMMENT = "7.39: Minimum spacing for Metal 6 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "M6S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA M6S { 
+	COMMENT = "7.60: Minimum area of Metal 6 >= 0.06"
+	RANGE = [0.001,0.0599]} (101)
+Input layer "M6S" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT M6S INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_m6s
+Input layer "M6S" is empty.
+No output written.
+Layer "encl_m6s" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA encl_m6s { 
+	COMMENT = "7.51: Minimum Enclosed area of Metal 6 >= 0.3"
+	RANGE = [0.0001,0.299]} (101)
+Input layer "encl_m6s" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL M7S {
+	COMMENT = "7.37: Minimum width for Metal 7 >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+Input layer "M7S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+EXTERNAL M7S { 
+	COMMENT = "7.39: Minimum spacing for Metal 7 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "M7S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA M7S { 
+	COMMENT = "7.60: Minimum area of Metal 7 >= 0.06"
+	RANGE = [0.001,0.0599]} (101)
+Input layer "M7S" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT M7S INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_m7s
+Input layer "M7S" is empty.
+No output written.
+Layer "encl_m7s" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA encl_m7s { 
+	COMMENT = "7.51: Minimum Enclosed area of Metal 7 >= 0.3"
+	RANGE = [0.0001,0.299]} (101)
+Input layer "encl_m7s" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL M8S {
+	COMMENT = "7.37: Minimum width for Metal 8 >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+Input layer "M8S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+EXTERNAL M8S { 
+	COMMENT = "7.39: Minimum spacing for Metal 8 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "M8S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA M8S { 
+	COMMENT = "8.60: Minimum area of Metal 8 >= 0.06"
+	RANGE = [0.001,0.0599]} (101)
+Input layer "M8S" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT M8S INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_m8s
+Input layer "M8S" is empty.
+No output written.
+Layer "encl_m8s" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA encl_m8s { 
+	COMMENT = "7.51: Minimum Enclosed area of Metal 8 >= 0.3"
+	RANGE = [0.0001,0.299]} (101)
+Input layer "encl_m8s" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL M9S {
+	COMMENT = "7.42: Minimum width for Metal 9 >= 0.15"
+	SPACING<0.15 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+Input layer "M9S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+EXTERNAL M9S { 
+	COMMENT = "7.44: Minimum spacing for Metal 9 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "M9S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA M9S { 
+	COMMENT = "7.45: Minimum area of Metal 9 >= 0.06"
+	RANGE = [0.001,0.0599]} (101)
+Input layer "M9S" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+SELECT M9S INSIDE_HOLE  {
+	INNER_HOLE_ONLY=TRUE }TEMP=encl_m9s
+Input layer "M9S" is empty.
+No output written.
+Layer "encl_m9s" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+AREA encl_m9s { 
+	COMMENT = "7.46: Minimum Enclosed area of Metal 9 >= 0.3"
+	RANGE = [0.0001,0.299]} (101)
+Input layer "encl_m9s" is empty.
+No output written.
+0 area violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.582
+
+
+INTERNAL V1S {
+	COMMENT = "7.47: Dimension of Via 1 != 0.13"
+	DIMENSIONS = [0.13,0.13] } (101)
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.660
+
+EXTERNAL V1S { 
+	COMMENT = "7.48: Minimum spacing for Via 1 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.972
+
+INTERNAL V2S {
+	COMMENT = "7.47: Dimension of Via 2 != 0.13"
+	DIMENSIONS = [0.13,0.13] } (101)
+Input layer "V2S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+EXTERNAL V2S { 
+	COMMENT = "7.48: Minimum spacing for Via 2 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "V2S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+INTERNAL V3S {
+	COMMENT = "7.47: Dimension of Via 3 != 0.13"
+	DIMENSIONS = [0.13,0.13] } (101)
+Input layer "V3S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+EXTERNAL V3S { 
+	COMMENT = "7.48: Minimum spacing for Via 3 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "V3S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+INTERNAL V4S {
+	COMMENT = "7.47: Dimension of Via 4 != 0.13"
+	DIMENSIONS = [0.13,0.13] } (101)
+Input layer "V4S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+EXTERNAL V4S { 
+	COMMENT = "7.48: Minimum spacing for Via 4 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "V4S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+INTERNAL V5S {
+	COMMENT = "7.47: Dimension of Via 5 != 0.13"
+	DIMENSIONS = [0.13,0.13] } (101)
+Input layer "V5S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+EXTERNAL V5S { 
+	COMMENT = "7.48: Minimum spacing for Via 5 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "V5S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+INTERNAL V6S {
+	COMMENT = "7.47: Dimension of Via 6 != 0.13"
+	DIMENSIONS = [0.13,0.13] } (101)
+Input layer "V6S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+EXTERNAL V6S { 
+	COMMENT = "7.48: Minimum spacing for Via 6 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "V6S" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+INTERNAL V7S {
+	COMMENT = "7.49: Dimension of Via 7 != 0.13"
+	DIMENSIONS = [0.13,0.13] } (101)
+Input layer "V7S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+BOOLEAN V7S NOT CAP_MIMS { } TEMP=v7s_not_cap
+Input layer "V7S" is empty.
+Input layer "CAP_MIMS" is empty.
+No output written.
+Layer "v7s_not_cap" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+EXTERNAL v7s_not_cap { 
+	COMMENT = "7.50: Minimum spacing for Via 7 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "v7s_not_cap" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+
+INTERNAL V8S {
+	COMMENT = "7.51: Dimension of Via 8 != 0.13"
+	DIMENSIONS = [0.13,0.13] } (101)
+Input layer "V8S" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+BOOLEAN V8S NOT CAP_MIMS { } TEMP=v8s_not_cap
+Input layer "V8S" is empty.
+Input layer "CAP_MIMS" is empty.
+No output written.
+Layer "v8s_not_cap" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+EXTERNAL v8s_not_cap { 
+	COMMENT = "7.52: Minimum spacing for Via 8 >= 0.15"
+	SPACING<0.15 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (101)
+Input layer "v8s_not_cap" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+
+EXTERNAL NWELL DIFN { 
+	COMMENT = "7.55: Minimum spacing from Nwell to Diffusion >= 0.22"
+	SPACING<0.22 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.01 Mem=15.097
+
+ENCLOSE DIFN BY NWELL {
+	COMMENT = "7.56: Minimum enclosure of Diffusion within Nwell >= 0.23"
+	SPACING<0.23 } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.097
+
+ENCLOSE POLS BY SAB {
+	COMMENT = "7.57: Minimum enclosure of Polysilicon within SAB >= 0.22"
+	SPACING<0.22 } (102)
+Input layer "SAB" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+EXTERNAL CONTS SAB { 
+	COMMENT = "7.58: Minimum spacing from Contact to SAB >= 0.22"
+	SPACING<0.22 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+Input layer "SAB" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+EXTERNAL CONTS SAB { 
+	COMMENT = "7.86: Minimum spacing of Contact to RPOLY >= 0.22"
+	SPACING<0.22 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+ENCLOSE NWELL BY NWDMY {
+	COMMENT = "7.59: Minimum enclosure of Nwell within NW Resistor (NWDMY) >= 0.2"
+	SPACING<0.2 } (102)
+Input layer "NWDMY" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.567
+
+EXTERNAL POLS DIFN { 
+	COMMENT = "7.61: Minimum spacing from Polysilicon to Diffusion >= 0.045"
+	SPACING<0.045 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.097
+
+ENCLOSE plain_diff BY POLS {
+	COMMENT = "7.62: Minimum enclosure of Diffusion within Polysilicon >= 0.13"
+	SPACING<0.13 } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.113
+
+
+ENCLOSE othervt_diff BY POLS {
+	COMMENT = "7.621: Minimum enclosure of Diffusion within Polysilicon >= 0.16"
+	SPACING<0.16 } (102)
+Input layer "othervt_diff" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+
+ENCLOSE voltage_diff BY POLS {
+	COMMENT = "7.622: Minimum enclosure of Diffusion within Polysilicon >= 0.22"
+	SPACING<0.22 } (102)
+Input layer "voltage_diff" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+
+EXTERNAL DIFN CONTS { 
+	COMMENT = "7.63: Minimum spacing from Diffusion to Contact >= 0.1"
+	SPACING<0.1 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.050
+
+ENCLOSE CONTS BY DIFN {
+	COMMENT = "7.64: Minimum enclosure of Contact within Diffusion >= 0.05"
+	SPACING<0.05 
+	TOUCH=TRUE } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.050
+
+EXTERNAL POLS CONTS { 
+	COMMENT = "7.65: Minimum spacing from Polysilicon to Contact >= 0.08"
+	SPACING<0.08 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.050
+
+ENCLOSE CONTS BY POLS {
+	COMMENT = "7.66: Minimum enclosure of Contact within Polysilicon >= 0.05"
+	SPACING<0.05 
+	TOUCH=TRUE } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.050
+
+ENCLOSE CONTS BY PPS {
+	COMMENT = "7.67: Minimum enclosure of Contact within P+ Material >= 0.06"
+	SPACING<0.06 
+	TOUCH=TRUE } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.050
+
+ENCLOSE CONTS BY NPS {
+	COMMENT = "7.68: Minimum enclosure of Contact within N+ Material >= 0.06"
+	SPACING<0.06 
+	TOUCH=TRUE } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.050
+
+BOOLEAN PPS AND NPS { 
+	COMMENT = "P+ Material should not overlap N+ Material"} (102)
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.754
+
+ENCLOSE CONTS BY M1S {
+	COMMENT = "7.70: Minimum enclosure of Contact within Metal 1 >= 0.005"
+	SPACING<0.005 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.01 Sys=0.00 Mem=15.066
+
+ENCLOSE CONTS BY M1S {
+	COMMENT = "7.70/7.71: Minimum enclosure of Contact within Metal 1 >= 0.005; Minimum end of Line enclosure of contact within M1 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2   PARALLEL=TRUE  ] } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.050
+
+ENCLOSE V1S BY M1S {
+	COMMENT = " 7.72: Minimum enclosure of Via1 within Metal 1 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.066
+
+ENCLOSE V1S BY M1S {
+	COMMENT = "7.72/7.73: Minimum enclosure of via1 within Metal 1 >= 0.01; Minimum end of Line enclosure of via1 within Metal 1 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2   PARALLEL=TRUE  ] } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.113
+
+
+ENCLOSE V1S BY M2S {
+	COMMENT = "7.74: Minimum enclosure of Via1 within Metal 2 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=15.019
+
+ENCLOSE V1S BY M2S {
+	COMMENT = " 7.74/7.75: Minimum enclosure of via1 within Metal 2 >= 0.01; Minimum end of Line enclosure of via1 within Metal 2 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.988
+
+ENCLOSE V2S BY M2S {
+	COMMENT = "7.76: Minimum enclosure of Via2 within Metal 2 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "V2S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.489
+
+ENCLOSE V2S BY M2S {
+	COMMENT = " 7.76/7.77: Minimum enclosure of via2 within Metal 2 >= 0.01; Minimum end of Line enclosure of via2 within Metal 2 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "V2S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.489
+
+
+ENCLOSE V2S BY M3S {
+	COMMENT = "7.78: Minimum enclosure of Via2 within Metal 3 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M3S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V2S BY M3S {
+	COMMENT = " 7.78/7.79: Minimum enclosure of via2 within Metal 3 >= 0.01; Minimum end of Line enclosure of via2 within Metal 3 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M3S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V3S BY M3S {
+	COMMENT = "7.80: Minimum enclosure of Via3 within Metal 3 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M3S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V3S BY M3S {
+	COMMENT = " 7.80/7.81: Minimum enclosure of via3 within Metal 3 >= 0.01; Minimum end of Line enclosure of via3 within Metal 3 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M3S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+
+ENCLOSE V3S BY M4S {
+	COMMENT = "7.82: Minimum enclosure of Via3 within Metal 3 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M4S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V3S BY M4S {
+	COMMENT = " 7.83/7.84: Minimum enclosure of via3 within Metal 4 >= 0.01; Minimum end of Line enclosure of via3 within Metal 4 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M4S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V4S BY M4S {
+	COMMENT = "7.80: Minimum enclosure of Via4 within Metal 4 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M4S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V4S BY M4S {
+	COMMENT = " 7.80/7.81: Minimum enclosure of via4 within Metal 4 >= 0.01; Minimum end of Line enclosure of via4 within Metal 4 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M4S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+
+ENCLOSE V4S BY M5S {
+	COMMENT = "7.82: Minimum enclosure of Via4 within Metal 5 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M5S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V4S BY M5S {
+	COMMENT = " 7.84/7.84: Minimum enclosure of via4 within Metal 5 >= 0.01; Minimum end of Line enclosure of via4 within Metal 5 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M5S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V5S BY M5S {
+	COMMENT = "7.80: Minimum enclosure of Via5 within Metal 5 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M5S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V5S BY M5S {
+	COMMENT = " 7.80/7.81: Minimum enclosure of via5 within Metal 5 >= 0.01; Minimum end of Line enclosure of via5 within Metal 5 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M5S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+
+ENCLOSE V5S BY M6S {
+	COMMENT = "7.82: Minimum enclosure of Via5 within Metal 6 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M6S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V5S BY M6S {
+	COMMENT = " 7.84/7.84: Minimum enclosure of via5 within Metal 6 >= 0.01; Minimum end of Line enclosure of via5 within Metal 6 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M6S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V6S BY M6S {
+	COMMENT = "7.80: Minimum enclosure of Via6 within Metal 6 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M6S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V6S BY M6S {
+	COMMENT = " 7.80/7.81: Minimum enclosure of via6 within Metal 6 >= 0.01; Minimum end of Line enclosure of via6 within Metal 6 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M6S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+
+ENCLOSE V6S BY M7S {
+	COMMENT = "7.82: Minimum enclosure of Via6 within Metal 7 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M7S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V6S BY M7S {
+	COMMENT = " 7.84/7.84: Minimum enclosure of via6 within Metal 7 >= 0.01; Minimum end of Line enclosure of via6 within Metal 7 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M7S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V7S BY M7S {
+	COMMENT = "7.80: Minimum enclosure of Via7 within Metal 7 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M7S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V7S BY M7S {
+	COMMENT = " 7.80/7.81: Minimum enclosure of via7 within Metal 7 >= 0.01; Minimum end of Line enclosure of via7 within Metal 7 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M7S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+
+ENCLOSE V7S BY M8S {
+	COMMENT = "7.82: Minimum enclosure of Via7 within Metal 8 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M8S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V7S BY M8S {
+	COMMENT = " 7.84/7.84: Minimum enclosure of via7 within Metal 8 >= 0.01; Minimum end of Line enclosure of via7 within Metal 8 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M8S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V8S BY M8S {
+	COMMENT = "7.80: Minimum enclosure of Via8 within Metal 8 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M8S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V8S BY M8S {
+	COMMENT = " 7.80/7.81: Minimum enclosure of via8 within Metal 8 >= 0.01; Minimum end of Line enclosure of via8 within Metal 8 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M8S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+
+ENCLOSE V8S BY M9S {
+	COMMENT = "7.82: Minimum enclosure of Via8 within Metal 9 >= 0.01"
+	SPACING<0.01 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (102)
+Input layer "M9S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE V8S BY M9S {
+	COMMENT = " 7.84/7.84: Minimum enclosure of via8 within Metal 9 >= 0.01; Minimum end of Line enclosure of via8 within Metal 9 >= 0.04"
+	RULE = [  SPACING<0.04   ADJ_SPACING<0.04   VIOLATIONS>=2  ] } (102)
+Input layer "M9S" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+EXTERNAL SAB POLS { 
+	COMMENT = "7.84: Minimum spacing from RPOLY to Polysilicon >= 0.22"
+	SPACING<0.22 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+Input layer "SAB" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE POLS BY SAB {
+	COMMENT = "7.85: Minimum enclosure of Polysilicon within RPOLY >= 0.22"
+	SPACING<0.22 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+Input layer "SAB" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+EXTERNAL SAB DIFN { 
+	COMMENT = "7.87: Minimum spacing from RPOLY to Diffusion >= 0.22"
+	SPACING<0.22 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+Input layer "SAB" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE DIFN BY SAB {
+	COMMENT = "7.88: Minimum enclosure of Diffusion within RPOLY >= 0.22"
+	SPACING<0.22 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+Input layer "SAB" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+EXTERNAL PPS DIFN { 
+	COMMENT = "7.89/1.25: Minimum spacing of P+ Material to Diffusion >= 0.02"
+	SPACING<0.02 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.972
+
+BOOLEAN all_ndiff NOT welltie { } TEMP=all_nactive
+No output written.
+Layer "all_nactive" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+BOOLEAN all_pdiff NOT subtie { } TEMP=all_pactive
+No output written.
+Layer "all_pactive" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+ENCLOSE all_nactive BY PPS {
+	COMMENT = "7.90: Minimum enclosure of Diffusion within P+ Material >= 0.13"
+	SPACING<0.13 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+Input layer "all_nactive" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.442
+
+
+ENCLOSE subtie BY PPS {
+	COMMENT = "1.896: Minimum enclosure of Diffusion within P+ Material >= 0.02"
+	SPACING<0.02 
+	NON_PARALLEL=TRUE } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.972
+
+
+EXTERNAL NPS DIFN { 
+	COMMENT = "7.91/1.26: Minimum spacing of N+ Material to Diffusion >= 0.02"
+	SPACING<0.02 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.926
+
+ENCLOSE all_pactive BY NPS {
+	COMMENT = "7.92: Minimum enclosure of Diffusion within N+ Material >= 0.13"
+	SPACING<0.13 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (102)
+Input layer "all_pactive" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.395
+
+
+SIZE V1S { 
+	OVER_UNDER=0.09 } TEMP=V1S_Merge
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.723
+
+SIZE V2S { 
+	OVER_UNDER=0.09 } TEMP=V2S_Merge
+Input layer "V2S" is empty.
+No output written.
+Layer "V2S_Merge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.458
+
+SIZE V3S { 
+	OVER_UNDER=0.09 } TEMP=V3S_Merge
+Input layer "V3S" is empty.
+No output written.
+Layer "V3S_Merge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.458
+
+SIZE V4S { 
+	OVER_UNDER=0.09 } TEMP=V4S_Merge
+Input layer "V4S" is empty.
+No output written.
+Layer "V4S_Merge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.458
+
+SIZE V5S { 
+	OVER_UNDER=0.09 } TEMP=V5S_Merge
+Input layer "V5S" is empty.
+No output written.
+Layer "V5S_Merge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.458
+
+SIZE V6S { 
+	OVER_UNDER=0.09 } TEMP=V6S_Merge
+Input layer "V6S" is empty.
+No output written.
+Layer "V6S_Merge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.458
+
+SIZE V7S { 
+	OVER_UNDER=0.09 } TEMP=V7S_Merge
+Input layer "V7S" is empty.
+No output written.
+Layer "V7S_Merge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.458
+
+SIZE V8S { 
+	OVER_UNDER=0.09 } TEMP=V8S_Merge
+Input layer "V8S" is empty.
+No output written.
+Layer "V8S_Merge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.458
+
+SIZE V1S_Merge { 
+	UNDER_OVER=0.22 
+	LEVEL_NON_ORTHOGONAL=TRUE } TEMP=V1S_MinArray
+No output written.
+Layer "V1S_MinArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.676
+
+
+SIZE V2S_Merge { 
+	UNDER_OVER=0.22 
+	LEVEL_NON_ORTHOGONAL=TRUE } TEMP=V2S_MinArray
+Input layer "V2S_Merge" is empty.
+No output written.
+Layer "V2S_MinArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SIZE V3S_Merge { 
+	UNDER_OVER=0.22 
+	LEVEL_NON_ORTHOGONAL=TRUE } TEMP=V3S_MinArray
+Input layer "V3S_Merge" is empty.
+No output written.
+Layer "V3S_MinArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SIZE V4S_Merge { 
+	UNDER_OVER=0.22 
+	LEVEL_NON_ORTHOGONAL=TRUE } TEMP=V4S_MinArray
+Input layer "V4S_Merge" is empty.
+No output written.
+Layer "V4S_MinArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SIZE V5S_Merge { 
+	UNDER_OVER=0.22 
+	LEVEL_NON_ORTHOGONAL=TRUE } TEMP=V5S_MinArray
+Input layer "V5S_Merge" is empty.
+No output written.
+Layer "V5S_MinArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SIZE V6S_Merge { 
+	UNDER_OVER=0.22 
+	LEVEL_NON_ORTHOGONAL=TRUE } TEMP=V6S_MinArray
+Input layer "V6S_Merge" is empty.
+No output written.
+Layer "V6S_MinArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SIZE V7S_Merge { 
+	UNDER_OVER=0.22 
+	LEVEL_NON_ORTHOGONAL=TRUE } TEMP=V7S_MinArray
+Input layer "V7S_Merge" is empty.
+No output written.
+Layer "V7S_MinArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SIZE V8S_Merge { 
+	UNDER_OVER=0.22 
+	LEVEL_NON_ORTHOGONAL=TRUE } TEMP=V8S_MinArray
+Input layer "V8S_Merge" is empty.
+No output written.
+Layer "V8S_MinArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SELECT V1S_MinArray INTERACT V1S {
+	RANGE = [9,9999999999]}TEMP=V1S_COArray
+Input layer "V1S_MinArray" is empty.
+No output written.
+Layer "V1S_COArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SELECT V2S_MinArray INTERACT V2S {
+	RANGE = [9,9999999999]}TEMP=V2S_COArray
+Input layer "V2S_MinArray" is empty.
+Input layer "V2S" is empty.
+No output written.
+Layer "V2S_COArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SELECT V3S_MinArray INTERACT V3S {
+	RANGE = [9,9999999999]}TEMP=V3S_COArray
+Input layer "V3S_MinArray" is empty.
+Input layer "V3S" is empty.
+No output written.
+Layer "V3S_COArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SELECT V4S_MinArray INTERACT V4S {
+	RANGE = [9,9999999999]}TEMP=V4S_COArray
+Input layer "V4S_MinArray" is empty.
+Input layer "V4S" is empty.
+No output written.
+Layer "V4S_COArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SELECT V5S_MinArray INTERACT V5S {
+	RANGE = [9,9999999999]}TEMP=V5S_COArray
+Input layer "V5S_MinArray" is empty.
+Input layer "V5S" is empty.
+No output written.
+Layer "V5S_COArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SELECT V6S_MinArray INTERACT V6S {
+	RANGE = [9,9999999999]}TEMP=V6S_COArray
+Input layer "V6S_MinArray" is empty.
+Input layer "V6S" is empty.
+No output written.
+Layer "V6S_COArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SELECT V7S_MinArray INTERACT V7S {
+	RANGE = [9,9999999999]}TEMP=V7S_COArray
+Input layer "V7S_MinArray" is empty.
+Input layer "V7S" is empty.
+No output written.
+Layer "V7S_COArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SELECT V8S_MinArray INTERACT V8S {
+	RANGE = [9,9999999999]}TEMP=V8S_COArray
+Input layer "V8S_MinArray" is empty.
+Input layer "V8S" is empty.
+No output written.
+Layer "V8S_COArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SELECT V1S INTERACT V1S_COArray {}TEMP=V1SArray
+Input layer "V1S_COArray" is empty.
+No output written.
+Layer "V1SArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.427
+
+
+SELECT V2S INTERACT V2S_COArray {}TEMP=V2SArray
+Input layer "V2S" is empty.
+Input layer "V2S_COArray" is empty.
+No output written.
+Layer "V2SArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+SELECT V3S INTERACT V3S_COArray {}TEMP=V3SArray
+Input layer "V3S" is empty.
+Input layer "V3S_COArray" is empty.
+No output written.
+Layer "V3SArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+SELECT V4S INTERACT V4S_COArray {}TEMP=V4SArray
+Input layer "V4S" is empty.
+Input layer "V4S_COArray" is empty.
+No output written.
+Layer "V4SArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+SELECT V5S INTERACT V5S_COArray {}TEMP=V5SArray
+Input layer "V5S" is empty.
+Input layer "V5S_COArray" is empty.
+No output written.
+Layer "V5SArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+SELECT V6S INTERACT V6S_COArray {}TEMP=V6SArray
+Input layer "V6S" is empty.
+Input layer "V6S_COArray" is empty.
+No output written.
+Layer "V6SArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+SELECT V7S INTERACT V7S_COArray {}TEMP=V7SArray
+Input layer "V7S" is empty.
+Input layer "V7S_COArray" is empty.
+No output written.
+Layer "V7SArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+SELECT V8S INTERACT V8S_COArray {}TEMP=V8SArray
+Input layer "V8S" is empty.
+Input layer "V8S_COArray" is empty.
+No output written.
+Layer "V8SArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+EXTERNAL V1SArray { 
+	COMMENT = "7.96 Spacing between via1s when there is an array of vias: 3 x 3 (row and column >= 3) with space <=0.18 um] >= 0.17 "
+	SPACING<0.17 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (163)
+Input layer "V1SArray" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+EXTERNAL V2SArray { 
+	COMMENT = "7.96 Spacing between via2s when there is an array of vias:3 x 3 (row and column >= 3) with space <=0.18 um] >= 0.17 "
+	SPACING<0.17 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (163)
+Input layer "V2SArray" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+EXTERNAL V3SArray { 
+	COMMENT = "7.96 Spacing between via3s when there is an array of vias:3 x 3 (row and column >= 3) with space <=0.18 um] >= 0.17 "
+	SPACING<0.17 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (163)
+Input layer "V3SArray" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+EXTERNAL V4SArray { 
+	COMMENT = "7.96 Spacing between via4s when there is an array of vias:3 x 3 (row and column >= 3) with space <=0.18 um] >= 0.17 "
+	SPACING<0.17 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (163)
+Input layer "V4SArray" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+EXTERNAL V5SArray { 
+	COMMENT = "7.96 Spacing between via5s when there is an array of vias:3 x 3 (row and column >= 3) with space <=0.18 um] >= 0.17 "
+	SPACING<0.17 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (163)
+Input layer "V5SArray" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+EXTERNAL V6SArray { 
+	COMMENT = "7.96 Spacing between via6s when there is an array of vias:3 x 3 (row and column >= 3) with space <=0.18 um] >= 0.17 "
+	SPACING<0.17 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (163)
+Input layer "V6SArray" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+EXTERNAL V7SArray { 
+	COMMENT = "7.96 Spacing between via7s when there is an array of vias:3 x 3 (row and column >= 3) with space <=0.18 um] >= 0.17 "
+	SPACING<0.17 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (163)
+Input layer "V7SArray" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+EXTERNAL V8SArray { 
+	COMMENT = "7.96 Spacing between via8s when there is an array of vias:3 x 3 (row and column >= 3) with space <=0.18 um] >= 0.17 "
+	SPACING<0.17 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (163)
+Input layer "V8SArray" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+SIZE CONTS { 
+	OVER_UNDER=0.08 } TEMP=COS2_COMerge
+.
+4 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.692
+
+SIZE COS2_COMerge { 
+	UNDER_OVER=0.17 
+	LEVEL_NON_ORTHOGONAL=TRUE } TEMP=COS21_MinArray
+No output written.
+Layer "COS21_MinArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.629
+
+
+SELECT COS21_MinArray INTERACT CONTS {
+	RANGE = [9,9999999999]}TEMP=COS22_COArray
+Input layer "COS21_MinArray" is empty.
+No output written.
+Layer "COS22_COArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+SELECT CONTS INTERACT COS22_COArray {}TEMP=COS23_COInArray
+Input layer "COS22_COArray" is empty.
+No output written.
+Layer "COS23_COInArray" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+EXTERNAL COS23_COInArray { 
+	COMMENT = "7.97 Spacing between contacts when there is an array of vias:3 x 3 (row and column >= 3) with space <=0.16 um] >= 0.15 "
+	SPACING<0.15 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (163)
+Input layer "COS23_COInArray" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.380
+
+
+MULTI_RULE_ENCLOSE CONTS BY POLS {
+    OUTPUT_OPTIONS = {
+	COMMENT = "7.98  Enclosure by POLY [at least two opposite sides] >= 0.07 "
+    }
+    RULE = {
+	PRIMARY_ERRORS = {
+	    SPACING<0.07000000000000001 
+	    EDGE_45<0.001 
+	    NON_PARALLEL=TRUE 
+	    SET_CORNERS_TO_SPACING=FALSE 
+	    PARALLEL_POINT_PROJECTION=FALSE 
+	    ORTHO_SPACING=TRUE 
+	}
+	ADJACENT_ERRORS = {
+	    SPACING<0.07000000000000001 
+	    EDGE_45<0.001 
+	    NON_PARALLEL=TRUE 
+	    SET_CORNERS_TO_SPACING=FALSE 
+	    PARALLEL_POINT_PROJECTION=FALSE 
+	    ORTHO_SPACING=TRUE 
+	}
+    }
+} (163)
+0 multi rule enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.879
+
+
+ENCLOSE welltie BY NPS {
+	COMMENT = "1.897: Minimum enclosure of Diffusion within N+ Material >= 0.02"
+	SPACING<0.02 
+	NON_PARALLEL=TRUE } (102)
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.863
+
+
+INTERNAL DNWELL {
+	COMMENT = "8.1: Minimum width of DNWELL >= 2.80"
+	SPACING<2.8 
+	NON_PARALLEL=TRUE } (121)
+Input layer "DNWELL" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.286
+
+INTERNAL DNWELL {
+	OUTPUT_EDGES=TRUE 
+	SEGMENT>0} TEMP=vect_dnw
+Input layer "DNWELL" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.286
+
+BOOLEAN vect_dnw NOT NWELL { 
+	COMMENT = "8.2: All DNWELL edges must be covered by NWELL"} (121)
+Input layer "vect_dnw" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.286
+
+
+EXTERNAL DNWELL { 
+	COMMENT = "8.3: DNWELL spacing to DNWELL >= 4.40"
+	SPACING<4.4 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	CHECK_SAME_POLYGON=TRUE } (121)
+Input layer "DNWELL" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.286
+
+INSIDE_EDGE NWELL TO DNWELL {
+	COMMENT = "8.4: Overlap of the inner-edge of NWELL by DNWELL >= 0.8"
+	SPACING<0.8 
+	STAY_INSIDE_NEITHER=FALSE 
+	STAY_INSIDE_LAYER1=FALSE 
+	STAY_INSIDE_LAYER2=FALSE } (121)
+Input layer "DNWELL" is empty.
+0 inside_edge violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.286
+
+ENCLOSE DNWELL BY NWELL {
+	COMMENT = "8.5: Extension of NWELL over DNWELL >= 1.40"
+	SPACING<1.4 
+	TOUCH=TRUE } (121)
+Input layer "DNWELL" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.286
+
+BOOLEAN all_pdiff AND DNWELL AND NWELL { } TEMP=pplus_od
+Input layer "DNWELL" is empty.
+No output written.
+Layer "pplus_od" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.302
+
+
+ENCLOSE pplus_od BY DNWELL {
+	COMMENT = "8.6: Extension of DNWELL over (P+ diffusion inside DNWELL) >= 0.25"
+	SPACING<0.25 
+	TOUCH=TRUE } (121)
+Input layer "DNWELL" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.239
+
+
+BOOLEAN (all_ndiff AND DNWELL) NOT NWELL { } TEMP=nplus_od
+Input layer "DNWELL" is empty.
+No output written.
+Layer "nplus_od" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.239
+
+
+EXTERNAL nplus_od NWELL { 
+	COMMENT = "8.7: (N+ diffusion inside DNWELL) spacing to NWELL >= 0.2"
+	SPACING<0.2 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (121)
+Input layer "nplus_od" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+BOOLEAN CAP_MIMS AND CTM_DMY { } TEMP=cap_mims_ctm
+Input layer "CAP_MIMS" is empty.
+Input layer "CTM_DMY" is empty.
+No output written.
+Layer "cap_mims_ctm" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+BOOLEAN V8S AND CTM_DMY { } TEMP=v8s_ctm
+Input layer "V8S" is empty.
+Input layer "CTM_DMY" is empty.
+No output written.
+Layer "v8s_ctm" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+SELECT v8s_ctm OUTSIDE cap_mims_ctm {}TEMP=v8s_no_ctm
+Input layer "v8s_ctm" is empty.
+Input layer "cap_mims_ctm" is empty.
+No output written.
+Layer "v8s_no_ctm" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+EXTERNAL v8s_no_ctm cap_mims_ctm { 
+	COMMENT = "4.17: Via8 to CTM Space > 0.3"
+	SPACING<0.3 
+	TOUCH=TRUE 
+	OVERLAP=TRUE 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (100)
+Input layer "v8s_no_ctm" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+BOOLEAN cap_mims_ctm AND V8S { } TEMP=v8s_onctm
+Input layer "cap_mims_ctm" is empty.
+Input layer "V8S" is empty.
+No output written.
+Layer "v8s_onctm" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+EXTERNAL v8s_onctm { 
+	COMMENT = "4.17: Via8 Spacing on CTM plate > 0.3"
+	SPACING<0.3 
+	TOUCH=TRUE 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (100)
+Input layer "v8s_onctm" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+BOOLEAN v8s_ctm AND MBCAP { } TEMP=v8s_cap_cbm
+Input layer "v8s_ctm" is empty.
+Input layer "MBCAP" is empty.
+No output written.
+Layer "v8s_cap_cbm" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+SELECT v8s_cap_cbm OUTSIDE cap_mims_ctm {}TEMP=v8s_cap_cbm_noctm
+Input layer "v8s_cap_cbm" is empty.
+Input layer "cap_mims_ctm" is empty.
+No output written.
+Layer "v8s_cap_cbm_noctm" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+EXTERNAL v8s_cap_cbm_noctm { 
+	COMMENT = "4.18: Via8 Spacing on bottom plate > 0.8"
+	SPACING<0.8 
+	TOUCH=TRUE 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (100)
+Input layer "v8s_cap_cbm_noctm" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+ENCLOSE MBCAP BY CTM_DMY {
+	COMMENT = "4.14: Enclosure of MBCAP within CTM_DMY >= 0.1"
+	SPACING<0.1 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "CTM_DMY" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+BOOLEAN POLS AND medvtn { } TEMP=polymvn
+Input layer "medvtn" is empty.
+No output written.
+Layer "polymvn" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+SELECT polymvn ENCLOSING allgate {}TEMP=polymvngates
+Input layer "polymvn" is empty.
+No output written.
+Layer "polymvngates" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+SELECT polymvngates VERTEX  {
+	RANGE = [4,4]}TEMP=polymvn4edge
+No output written.
+Layer "polymvn4edge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+BOOLEAN polymvngates NOT polymvn4edge { 
+	COMMENT = " A Bent Gate Poly is not allowed to put in medvtn region"
+	VERBOSE=TRUE } (121)
+Input layer "polymvngates" is empty.
+Input layer "polymvn4edge" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+BOOLEAN POLS AND medvtp { } TEMP=polymvp
+Input layer "medvtp" is empty.
+No output written.
+Layer "polymvp" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+SELECT polymvp ENCLOSING allgate {}TEMP=polymvpgates
+Input layer "polymvp" is empty.
+No output written.
+Layer "polymvpgates" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.193
+
+
+SELECT polymvpgates VERTEX  {
+	RANGE = [4,4]}TEMP=polymvp4edge
+No output written.
+Layer "polymvp4edge" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.01 Mem=14.146
+
+BOOLEAN polymvpgates NOT polymvp4edge { 
+	COMMENT = " A Bent Gate Poly is not allowed to put in medvtp region"
+	VERBOSE=TRUE } (121)
+Input layer "polymvpgates" is empty.
+Input layer "polymvp4edge" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+
+INTERNAL v8s_ctm {
+	DIMENSIONS = [0.13,0.13] } TEMP=VIA8W1_A
+Input layer "v8s_ctm" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+POLYGON_FEATURES v8s_ctm  {
+	EQUATIONS {
+	EV_SCALE = 1;
+	x1 = EV_VXCOORD_IN[0];  
+	y1 = EV_VYCOORD_IN[0];  
+	x2 = EV_VXCOORD_IN[1];  
+	y2 = EV_VYCOORD_IN[1];  
+	IF ((x1 != x2) && (y1 != y2)) {
+	    FOR (i = 0; i < EV_VNUM_IN; i = i + 1) {
+	        EV_VXCOORD_OUT[i] = EV_VXCOORD_IN[i];  
+	        EV_VYCOORD_OUT[i] = EV_VYCOORD_IN[i];
+	    }
+
+	    EV_SAVE_POLYGON();	}
+ }
+} TEMP=VIA8W1_A_1
+Input layer "v8s_ctm" is empty.
+No output written.
+Layer "VIA8W1_A_1" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+
+BOOLEAN VIA8W1_A OR VIA8W1_A_1 { 
+	COMMENT = "Rule 4.9 CapVia Width (square) (maximum = minimum) = 0.13"} (163)
+Input layer "VIA8W1_A" is empty.
+Input layer "VIA8W1_A_1" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+
+SELECT M9S INSIDE CAP_MIMS {}TEMP=cap_m9
+Input layer "M9S" is empty.
+Input layer "CAP_MIMS" is empty.
+No output written.
+Layer "cap_m9" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+
+INTERNAL cap_m9 {
+	COMMENT = "4.10 : Minimum width of M9 in CTM  >= 0.33"
+	SPACING<0.33 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE } (101)
+Input layer "cap_m9" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+EXTERNAL cap_m9 { 
+	COMMENT = "4.11: Top metal spacing in CTM >= 0.15"
+	SPACING<0.15 
+	CHECK_SAME_POLYGON=TRUE } (100)
+Input layer "cap_m9" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+
+ENCLOSE CAP_MIMS BY MBCAP {
+	COMMENT = "4.15/4.19: Enclosure of CTM by CBM >= 0.24"
+	SPACING<0.24 
+	TOUCH=TRUE 
+	OVERLAP=TRUE } (100)
+Input layer "MBCAP" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+
+EXTERNAL CAP_MIMS { 
+	COMMENT = "4.16: CTM Min Spacing >= 0.8"
+	SPACING<0.8 } (100)
+Input layer "CAP_MIMS" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+
+SELECT POLS INTERACT RTERMMARKER {}TEMP=serp_poly
+Input layer "RTERMMARKER" is empty.
+No output written.
+Layer "serp_poly" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+
+INTERNAL serp_poly {
+	COMMENT = " 2.301 Minimum width of serpentine resistor = 0.09 "
+	SPACING<0.09 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	FLAG_ADJACENT_EDGES=TRUE } (200)
+Input layer "serp_poly" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.146
+
+
+INTERNAL POLS {
+	DIMENSIONS } TEMP=bent_poly
+Flagging all Non-rectangular data.
+No output written.
+Layer "bent_poly" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.224
+
+SELECT bent_poly INTERACT HRIMP {}TEMP=serp_hrpoly
+Input layer "bent_poly" is empty.
+Input layer "HRIMP" is empty.
+No output written.
+Layer "serp_hrpoly" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.130
+
+
+INTERNAL serp_hrpoly {
+	COMMENT = "2.301 Minimum width of serpentine resistor = 0.09"
+	SPACING<0.09 
+	POINT_TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	FLAG_ADJACENT_EDGES=TRUE } (200)
+Input layer "serp_hrpoly" is empty.
+0 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.130
+
+
+BOOLEAN POLS AND DIFN { } TEMP=GATE
+2 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.411
+
+ENCLOSE POLS BY GATE {
+	SPACING<0.001 
+	TOUCH=TRUE 
+	FLAG_ACUTE_ANGLE=FALSE 
+	OUTPUT_EDGES=TRUE } TEMP=GATE_W
+4 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.801
+
+
+INTERNAL GATE_W {
+	FLAG_ACUTE_ANGLE=FALSE 
+	OUTPUT_EDGES=TRUE 
+	SEGMENT<100} TEMP=S_GATE_W1
+4 width violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.645
+
+
+SIZE S_GATE_W1 { 
+	VSIZE_INSIDE=0.005 
+	VSIZE_HEAD=0.12 
+	VSIZE_TAIL=0.12 
+	VSIZE_EDGE=TRUE } TEMP=EX_GATEW_EDGE
+4 unique polygons written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.302
+
+
+ENCLOSE EX_GATEW_EDGE BY POLS {
+	SPACING<0.001 
+	TOUCH=TRUE 
+	FLAG_ACUTE_ANGLE=FALSE 
+	OUTPUT_EDGES=TRUE } TEMP=EX_GATEW_EDGE_T
+4 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.785
+
+
+SELECT EX_GATEW_EDGE_T INTERACT ngate {}TEMP=EX_GATEW_EDGE_T_ngate
+2 unique vector sets written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.520
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_ngate { 
+	COMMENT = "1.12  Poly to Diffusion Spacing N mosfet >= 0.10 "
+	SPACING<0.1 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.723
+
+
+SELECT EX_GATEW_EDGE_T INTERACT nlgate {}TEMP=EX_GATEW_EDGE_T_nlgate
+Input layer "nlgate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_nlgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_nlgate { 
+	COMMENT = "1.12  Poly to Diffusion Spacing NL Mosfet >= 0.10 "
+	SPACING<0.1 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_nlgate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+SELECT EX_GATEW_EDGE_T INTERACT nmgate {}TEMP=EX_GATEW_EDGE_T_nmgate
+Input layer "nmgate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_nmgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_nmgate { 
+	COMMENT = "1.12  Poly to Diffusion Spacing NM Mosfet >= 0.10 "
+	SPACING<0.1 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_nmgate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+SELECT EX_GATEW_EDGE_T INTERACT nangate {}TEMP=EX_GATEW_EDGE_T_nangate
+Input layer "nangate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_nangate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_nangate { 
+	COMMENT = "1.13  Poly to Diffusion Spacing NA Mosfet >= 0.15 "
+	SPACING<0.15 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_nangate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+SELECT EX_GATEW_EDGE_T INTERACT n18gate {}TEMP=EX_GATEW_EDGE_T_n18gate
+Input layer "n18gate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_n18gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_n18gate { 
+	COMMENT = "1.14  Poly to Diffusion Spacing N18 Mosfet >= 0.15 "
+	SPACING<0.15 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_n18gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+SELECT EX_GATEW_EDGE_T INTERACT n25gate {}TEMP=EX_GATEW_EDGE_T_n25gate
+Input layer "n25gate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_n25gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_n25gate { 
+	COMMENT = "1.14  Poly to Diffusion Spacing N25 & NM25 Mosfet >= 0.15 "
+	SPACING<0.15 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_n25gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+SELECT EX_GATEW_EDGE_T INTERACT n33gate {}TEMP=EX_GATEW_EDGE_T_n33gate
+Input layer "n33gate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_n33gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_n33gate { 
+	COMMENT = "1.14  Poly to Diffusion Spacing N33 Mosfet >= 0.15 "
+	SPACING<0.15 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_n33gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+SELECT EX_GATEW_EDGE_T INTERACT na25ngate {}TEMP=EX_GATEW_EDGE_T_na25ngate
+Input layer "na25ngate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_na25ngate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_na25ngate { 
+	COMMENT = "1.15  Poly to Diffusion Spacing NA25 Mosfet >= 0.15 "
+	SPACING<0.15 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_na25ngate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.099
+
+
+SELECT EX_GATEW_EDGE_T INTERACT pgate {}TEMP=EX_GATEW_EDGE_T_pgate
+2 unique vector sets written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.473
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_pgate { 
+	COMMENT = "1.17  Poly to Diffusion Spacing P Mosfet >= 0.1 "
+	SPACING<0.1 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.676
+
+
+SELECT EX_GATEW_EDGE_T INTERACT plgate {}TEMP=EX_GATEW_EDGE_T_plgate
+Input layer "plgate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_plgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_plgate { 
+	COMMENT = "1.17  Poly to Diffusion Spacing PL Mosfet >= 0.10 "
+	SPACING<0.1 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_plgate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+SELECT EX_GATEW_EDGE_T INTERACT p18gate {}TEMP=EX_GATEW_EDGE_T_p18gate
+Input layer "p18gate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_p18gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_p18gate { 
+	COMMENT = "1.16  Poly to Diffusion Spacing P18 Mosfet >= 0.15 "
+	SPACING<0.15 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_p18gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+SELECT EX_GATEW_EDGE_T INTERACT p25gate {}TEMP=EX_GATEW_EDGE_T_p25gate
+Input layer "p25gate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_p25gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_p25gate { 
+	COMMENT = "1.16  Poly to Diffusion Spacing P25 Mosfet >= 0.15 "
+	SPACING<0.15 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_p25gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+SELECT EX_GATEW_EDGE_T INTERACT p33gate {}TEMP=EX_GATEW_EDGE_T_p33gate
+Input layer "p33gate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_p33gate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_p33gate { 
+	COMMENT = "1.16  Poly to Diffusion Spacing P33 Mosfet >= 0.15 "
+	SPACING<0.15 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_p33gate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+SELECT EX_GATEW_EDGE_T INTERACT phgate {}TEMP=EX_GATEW_EDGE_T_phgate
+Input layer "phgate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_phgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_phgate { 
+	COMMENT = "1.17.1  Poly to Diffusion Spacing PH Mosfet >= 0.11 "
+	SPACING<0.11 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_phgate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+SELECT EX_GATEW_EDGE_T INTERACT pmgate {}TEMP=EX_GATEW_EDGE_T_pmgate
+Input layer "pmgate" is empty.
+No output written.
+Layer "EX_GATEW_EDGE_T_pmgate" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.052
+
+
+EXTERNAL DIFN EX_GATEW_EDGE_T_pmgate { 
+	COMMENT = "1.17.1  Poly to Diffusion Spacing PM Mosfet >= 0.11 "
+	SPACING<0.11 
+	TOUCH=TRUE 
+	POINT_TOUCH=FALSE 
+	NON_PARALLEL=TRUE 
+	SET_CORNERS_TO_SPACING=FALSE 
+	PARALLEL_POINT_PROJECTION=FALSE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "EX_GATEW_EDGE_T_pmgate" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=14.005
+
+
+SELECT NWELL INTERACT NWDMY {}TEMP=RNWEL
+Input layer "NWDMY" is empty.
+No output written.
+Layer "RNWEL" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=13.959
+
+
+SELECT RNWEL INTERACT SAB {}TEMP=NWRES
+Input layer "RNWEL" is empty.
+Input layer "SAB" is empty.
+No output written.
+Layer "NWRES" is empty.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=13.912
+
+
+EXTERNAL NWRES SAB { 
+	COMMENT = "2.118  NWELL Space to RPO >= 0.18 "
+	SPACING<0.18 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "NWRES" is empty.
+0 spacing violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=13.912
+
+
+ENCLOSE NWRES BY diff_nwres {
+	COMMENT = "2.119 NW Enclosure by OD >= 0.6 "
+	SPACING<0.6 
+	TOUCH=TRUE 
+	NON_PARALLEL=TRUE 
+	SHADOW_OTHER_LAYER=TRUE } (163)
+Input layer "diff_nwres" is empty.
+0 enclose violations found.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=13.912
+
+SELECT NWRES CUTTING diff_nwres {
+	COMMENT = "2.119 NW Enclosure by OD >= 0.6  "}(163)
+Input layer "NWRES" is empty.
+Input layer "diff_nwres" is empty.
+No output written.
+   Check time = 0:00:00  User=0.00 Sys=0.00 Mem=13.912
+
+
+Checks complete.
+  Total check time = 0:00:00  User=0.04 Sys=0.05 Mem=18.489
+
+Writing stream file /home/itsupport/Desktop/lab1vlsi/inv_result.gds
+   Outstreaming time = 0:00:00  User=0.00 Sys=0.00 Mem=12.881
+
+  Saving ERR & PERM data time = 0:00:00  User=0.00 Sys=0.00 Mem=12.881
+
+ Overall ev_engine time = 0:00:01  User=0.23 Sys=0.09 Mem=19.816
+
+Hercules Run: Time=  0:00:01 User=0.27 System=0.12
+Hercules is done.

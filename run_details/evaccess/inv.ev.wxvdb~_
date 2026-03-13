@@ -1,0 +1,342 @@
+DISCONNECT
+CONNECT {
+	1_0V_BJT_COLL metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_COLL_cont
+	2_5V_BJT_COLL metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_COLL_cont
+	1_0V_BJT_EMIT metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_EMIT_cont
+	2_5V_BJT_EMIT metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_EMIT_cont
+	1_0V_BJT_BASE metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_BASE_cont
+	2_5V_BJT_BASE metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_BASE_cont
+	1_0V_BJT_COLL_NPN metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_COLL_cont_NPN
+	1_0V_BJT_EMIT_NPN metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_EMIT_cont_NPN
+	1_0V_BJT_BASE_NPN metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_BASE_cont_NPN
+	2_5V_BJT_COLL_NPN metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_COLL_cont_NPN
+	2_5V_BJT_EMIT_NPN metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_EMIT_cont_NPN
+	2_5V_BJT_BASE_NPN metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_BASE_cont_NPN
+	1_0V_BJT_COLLL metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_COLL_contL
+	1_0V_BJT_BASEL metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_BASE_contL
+	1_0V_BJT_EMITL metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_EMIT_contL
+	2_5V_BJT_COLLL metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_COLL_contL
+	2_5V_BJT_BASEL metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_BASE_contL
+	2_5V_BJT_EMITL metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_EMIT_contL
+	1_0V_BJT_COLL_NPNL metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_COLL_cont_NPNL
+	1_0V_BJT_EMIT_NPNL metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_EMIT_cont_NPNL
+	1_0V_BJT_BASE_NPNL metal1 BY [ OVERLAP TOUCH ] 1_0V_BJT_BASE_cont_NPNL
+	2_5V_BJT_COLL_NPNL metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_COLL_cont_NPNL
+	2_5V_BJT_EMIT_NPNL metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_EMIT_cont_NPNL
+	2_5V_BJT_BASE_NPNL metal1 BY [ OVERLAP TOUCH ] 2_5V_BJT_BASE_cont_NPNL
+	base_dnw_pnp metal1 BY [ OVERLAP TOUCH ] base_dnw_pnp_cont
+	emit_dnw_pnp metal1 BY [ OVERLAP TOUCH ] emit_dnw_pnp_cont
+} CONNECT_DB = __CONNECT_DB_CMZeO__0001
+CONNECT {
+	coll_dnw_pnp BY [ OVERLAP TOUCH ] psub
+	coll_dnw_pnp BY [ OVERLAP TOUCH ] subtie
+	dnwdiode_pwell BY [ OVERLAP TOUCH ] subtie
+	dnwdiode_nwell BY [ OVERLAP TOUCH ] welltie
+	tiod tndiff tndiff18 tndiff33 BY [ OVERLAP TOUCH ] nodcon
+	pvardio tiod tpdiff BY [ OVERLAP TOUCH ] podcon
+	metal1 subtie varndiff varndiff25 tndiff tndiff18 tndiff33 BY [ OVERLAP TOUCH ] diffCont
+	metal1 poly BY [ OVERLAP TOUCH ] polyCont
+	metal1 welltie tpdiff varpdiff varpdiff25 BY [ OVERLAP TOUCH ] diffCont
+	tndiff_dnwell tndiff_dnwell25 tpdiff_dnwell metal1 BY [ OVERLAP TOUCH ] dnwCont
+	ngate hngate mngate lngate mngate25 ngate25 ngate18 ngate33 natgate natgate25 natgate18 natgate33 varngate varnpoly varngate25 ngate_dnwell ngate_dnwell25 BY [ OVERLAP TOUCH ] poly
+	pgate hpgate lpgate mpgate pgate25 pgate18 pgate33 varpgate varppoly varpgate25 BY [ OVERLAP TOUCH ] poly
+	rpdiff_term resndiff metal1 BY [ OVERLAP TOUCH ] diffCont
+	rpdiff_term_nS resndiff_nS metal1 BY [ OVERLAP TOUCH ] diffCont
+	hrpoly_term_NP hrpoly_term_PP metal1 BY [ OVERLAP TOUCH ] polyCont
+	mom_cap_123_term BY [ OVERLAP TOUCH ] M3S
+	mom_cap_1234_term BY [ OVERLAP TOUCH ] M4S
+	mom_cap_234_term BY [ OVERLAP TOUCH ] M4S
+	varnwell BY [ OVERLAP TOUCH ] NWELL
+	RTERMARKER BY [ OVERLAP TOUCH ] polyCont
+} CONNECT_DB = __CONNECT_DB_CMZeO__0002
+CONNECT {
+	welltie nxwell BY [ OVERLAP TOUCH ] nxwell_scon
+	welltie nxwell_NWDIODE BY [ OVERLAP TOUCH ] nxwell_NWDIODE_scon
+	welltie nxwell_NWDIODE18 BY [ OVERLAP TOUCH ] nxwell_NWDIODE18_scon
+	welltie nxwell_NWDIODE25 BY [ OVERLAP TOUCH ] nxwell_NWDIODE25_scon
+	welltie nxwell_NWDIODE33 BY [ OVERLAP TOUCH ] nxwell_NWDIODE33_scon
+} CONNECT_DB = __CONNECT_DB_CMZeO__0003
+CONNECT {
+	subtie psub BY [ OVERLAP TOUCH ] subtie_scon
+} CONNECT_DB = __CONNECT_DB_CMZeO__0004
+CONNECT {
+	metal1 metal2 BY [ OVERLAP TOUCH ] V1S
+	metal2 metal3 BY [ OVERLAP TOUCH ] V2S
+	metal3 metal4 BY [ OVERLAP TOUCH ] V3S
+	metal4 metal5 BY [ OVERLAP TOUCH ] V4S
+	metal5 metal6 BY [ OVERLAP TOUCH ] V5S
+	metal6 metal7 BY [ OVERLAP TOUCH ] V6S
+	metal1 eighth_top_met BY [ OVERLAP TOUCH ] V1S
+	sec_top_met third_top_met BY [ OVERLAP TOUCH ] sec_top_via
+	third_top_met fourth_top_met BY [ OVERLAP TOUCH ] third_top_via
+	fourth_top_met fifth_top_met BY [ OVERLAP TOUCH ] fourth_top_via
+	fifth_top_met sixth_top_met BY [ OVERLAP TOUCH ] fifth_top_via
+	sixth_top_met seventh_top_met BY [ OVERLAP TOUCH ] sixth_top_via
+	seventh_top_met eighth_top_met BY [ OVERLAP TOUCH ] seventh_top_via
+	top_metex sec_top_met BY [ OVERLAP TOUCH ] top_via
+	top_metex CAP_MIMS BY [ OVERLAP TOUCH ] cap_top_via
+	top_metex CAP_MIMS BY [ OVERLAP TOUCH ] CTM_VIA
+	top_metex CBM BY [ OVERLAP TOUCH ] CBM_VIA
+	pinshield BY [ OVERLAP TOUCH ] M1S
+} CONNECT_DB = __CONNECT_DB_CMZeO__0005
+CONNECT {
+	preshterm BY [ OVERLAP TOUCH ] polyCont
+} CONNECT_DB = __CONNECT_DB_CMZeO__0006
+CONNECT {
+	metal1 rnpoly_poly BY [ OVERLAP TOUCH ] polyCont
+} CONNECT_DB = __CONNECT_DB_CMZeO__0007
+CONNECT {
+	metal1 rppoly_poly BY [ OVERLAP TOUCH ] polyCont
+} CONNECT_DB = __CONNECT_DB_CMZeO__0008
+CONNECT {
+	metal1 BY [ OVERLAP TOUCH ] M1PIN
+	metal2 BY [ OVERLAP TOUCH ] M2PIN
+	metal3 BY [ OVERLAP TOUCH ] M3PIN
+	metal4 BY [ OVERLAP TOUCH ] M4PIN
+	metal5 BY [ OVERLAP TOUCH ] M5PIN
+	metal6 BY [ OVERLAP TOUCH ] M6PIN
+	metal7 BY [ OVERLAP TOUCH ] M7PIN
+	metal8 BY [ OVERLAP TOUCH ] M8PIN
+	metal9 BY [ OVERLAP TOUCH ] M9PIN
+	POLS BY [ OVERLAP TOUCH ] POLYPIN
+	poly BY [ OVERLAP TOUCH ] POLYPIN
+} CONNECT_DB = __CONNECT_DB_CMZeO__0009
+WRITE_EXTRACT_VIEW {
+	LIBRARY_NAME = EXTRACT_VIEW
+	LIBRARY_PATH = ./
+	GROUP_FILES = {
+		rm7_body,
+		metal4,
+		fifth_top_met,
+		resndiff,
+		dnwdiode_pwell,
+		2_5V_BJT_COLL_cont_NPNL,
+		lpgate,
+		nwdiode33_dio,
+		M3PIN,
+		V3S,
+		1_0V_BJT_EMIT_cont_NPNL,
+		pgate33,
+		M8PIN,
+		pgate,
+		2_5V_BJT_BASEL,
+		ngate_dnwell25,
+		rnpoly_poly,
+		1_0V_BJT_COLL_NPNL,
+		1_0V_BJT_COLL_contL,
+		pgate18,
+		1_0V_BJT_EMIT_NPN,
+		seventh_top_via,
+		metal1,
+		2_5V_BJT_EMIT,
+		tndiff,
+		fourth_top_via,
+		pdio_lvt,
+		CAP_MIMS,
+		varpgate,
+		mpgate,
+		eighth_top_met,
+		1_0V_BJT_BASE_cont_NPNL,
+		NWELL,
+		resndiff_nS,
+		1_0V_BJT_COLL,
+		emit_dnw_pnp,
+		1_0V_BJT_BASE_cont_NPN,
+		top_metex,
+		mom_cap_234_body,
+		pvardio,
+		V1S,
+		tiod,
+		pinshield,
+		subtie,
+		sixth_top_via,
+		mom_cap_234_term,
+		metal7,
+		1_0V_BJT_COLL_cont_NPNL,
+		poly,
+		rdiff_res,
+		nxwell_NWDIODE18_scon,
+		sec_top_met,
+		nxwell_NWDIODE33,
+		ngate18,
+		nxwell_NWDIODE25_scon,
+		rm6_body,
+		1_0V_BJT_EMIT_cont_NPN,
+		varngate25,
+		coll_dnw_pnp,
+		1_0V_BJT_EMIT,
+		hngate,
+		nxwell_NWDIODE18,
+		dnwdiode_nwell,
+		podcon,
+		M9PIN,
+		V2S,
+		rppolywo_r,
+		preshterm,
+		subtie_scon,
+		mom_cap_1234_term,
+		ndio_lvt,
+		varpdiff,
+		lngate,
+		RTERMARKER,
+		M1PIN,
+		nwsti_r,
+		fourth_top_met,
+		rpdiff_term_nS,
+		tndiff_dnwell25,
+		M6PIN,
+		rpdiff_term,
+		ndio_na25v_dio,
+		rm4_body,
+		2_5V_BJT_BASE,
+		pres_norf,
+		diffCont,
+		1_0V_BJT_BASE_cont,
+		nwdiode25_dio,
+		mngate,
+		nwdiode_dio,
+		rppoly_poly,
+		fifth_top_via,
+		varpgate25,
+		pgate25,
+		base_dnw_pnp,
+		V6S,
+		natgate,
+		2_5V_BJT_COLL_contL,
+		presh_rf_device,
+		hrpoly,
+		nodcon,
+		natgate33,
+		metal8,
+		1_0V_BJT_EMITL,
+		nxwell_scon,
+		varnpoly,
+		nxwell_NWDIODE,
+		CBM,
+		mom_cap_123_term,
+		2_5V_BJT_BASE_NPNL,
+		jvar_nr,
+		ndio_hvt,
+		natgate18,
+		rm5_body,
+		1_0V_BJT_BASE_contL,
+		POLYPIN,
+		rm3_body,
+		rnpolywo_r,
+		mom_cap_1234_body,
+		rm9_body,
+		psub,
+		2_5V_BJT_BASE_NPN,
+		metal5,
+		1_0V_BJT_COLL_NPN,
+		cap_top_via,
+		1_0V_BJT_EMIT_contL,
+		seventh_top_met,
+		sixth_top_met,
+		CBM_VIA,
+		2_5V_BJT_EMIT_NPN,
+		M7PIN,
+		pn18v_dio,
+		M3S,
+		ngate25,
+		1_0V_BJT_COLLL,
+		welltie,
+		tndiff_dnwell,
+		tndiff18,
+		1_0V_BJT_BASE,
+		rm1_body,
+		nxwell_NWDIODE25,
+		nxwell_NWDIODE33_scon,
+		M4PIN,
+		pdio_hvt,
+		2_5V_BJT_COLL_NPNL,
+		hrppoly,
+		rppolywo_nS,
+		V5S,
+		1_0V_BJT_COLL_cont,
+		2_5V_BJT_EMIT_cont_NPN,
+		1_0V_BJT_BASEL,
+		2_5V_BJT_COLL,
+		M4S,
+		rpdiff,
+		2_5V_BJT_COLL_cont_NPN,
+		ndio_na33v_dio,
+		pn25v_dio,
+		presh_norf,
+		hrpoly_term_NP,
+		nxwell,
+		rm2_body,
+		pdiode,
+		rpdiff_nS,
+		rm8_body,
+		mngate25,
+		hrpoly_term_PP,
+		2_5V_BJT_BASE_cont_NPNL,
+		varndiff,
+		metal6,
+		2_5V_BJT_BASE_contL,
+		varnwell,
+		ngate_dnwell,
+		ind_oct_sym,
+		varpdiff25,
+		rnpolywo_nS,
+		pn33v_dio,
+		tpdiff_dnwell,
+		np18v_dio,
+		POLS,
+		1_0V_BJT_BASE_NPN,
+		M5PIN,
+		tndiff33,
+		2_5V_BJT_EMIT_NPNL,
+		metal3,
+		ind_octagon,
+		sec_top_via,
+		2_5V_BJT_BASE_cont_NPN,
+		base_dnw_pnp_cont,
+		1_0V_BJT_BASE_NPNL,
+		M2PIN,
+		V4S,
+		ndiode,
+		tpdiff,
+		CTM_VIA,
+		varppoly,
+		2_5V_BJT_EMIT_contL,
+		varndiff25,
+		2_5V_BJT_EMITL,
+		ngate33,
+		2_5V_BJT_EMIT_cont_NPNL,
+		ngate,
+		ndio_na_dio,
+		np25v_dio,
+		metal9,
+		nxwell_NWDIODE_scon,
+		ind_oct_symct,
+		mom_cap_123_body,
+		nwdiff_r,
+		third_top_met,
+		pres_rf_device,
+		2_5V_BJT_COLL_NPN,
+		natgate25,
+		1_0V_BJT_COLL_cont_NPN,
+		ndio_na18v_dio,
+		varngate,
+		1_0V_BJT_EMIT_NPNL,
+		rdiff_res_nS,
+		third_top_via,
+		polyCont,
+		RCTM,
+		2_5V_BJT_BASE_cont,
+		2_5V_BJT_COLL_cont,
+		top_via,
+		dnwCont,
+		nwdiode18_dio,
+		np33v_dio,
+		M1S,
+		emit_dnw_pnp_cont,
+		metal2,
+		2_5V_BJT_EMIT_cont,
+		1_0V_BJT_EMIT_cont,
+		hpgate,
+		2_5V_BJT_COLLL
+	}
+}

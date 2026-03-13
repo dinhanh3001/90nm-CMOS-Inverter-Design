@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="inverter/inv/layout" name="xtLPELayLCV"/>
+                <pref value="//" name="xtLPEStarOAPortAnnotationView"/>
+                <pref value="//" name="xtLPEStarOAPropertyAnnotationView"/>
+                <pref value="/home/itsupport/Desktop/lab1vlsi/star_herc_cmd.custom_compiler" name="xtLPEStarOutputRunset"/>
+                <pref value="/home/itsupport/Desktop/lab1vlsi/PDK/starrc/star_herc_cmd" name="xtLPEStarRunsetFile"/>
+                <pref value="StarRC" name="xtLPETool"/>
+                <pref value="/home/itsupport/Desktop/lab1vlsi/PDK/techfiles/reference90RF_layer.map" name="xtPVLayerMapFile"/>
+                <pref value="/home/itsupport/Desktop/lab1vlsi/PDK/starrc/starrc_mapping_9lm" name="xtStarMappingFile"/>
+                <pref value="/home/itsupport/Desktop/lab1vlsi/EXTRACT_VIEW" name="xtStarMilkywayDatabase"/>
+                <pref value="/home/itsupport/Desktop/lab1vlsi/PDK/starrc/device_map" name="xtStarOADeviceMappingFile"/>
+                <pref value="/home/itsupport/Desktop/lab1vlsi/PDK/starrc/output_layer_map" name="xtStarOALayerMappingFile"/>
+                <pref value="0.1" name="xtStarOAMarkerSize"/>
+                <pref value="NO" name="xtStarReduction"/>
+                <pref value="false" name="xtStarRemoveFloatingNets"/>
+                <pref value="/home/itsupport/Desktop/lab1vlsi/synopsys_custom/inv.hercules.lvs/inv.custom_compiler.sp" name="xtStarSpiceSubcktFile"/>
+                <pref value="/home/itsupport/Desktop/lab1vlsi/PDK/starrc/reference_90nm_9lm_typ.nxtgrd" name="xtStarTcadGrdFile"/>
+                <pref value="YES" name="xtStarXref"/>
+        </preferences>
+</file-format>

@@ -1,0 +1,11 @@
+inv Level=0 Count=1
+
+
+		CELL STATISTICS
+
+
+TOP CELL = inv
+	Ports                =	4
+
+CELL = inv
+	Flat Placements      =	0
