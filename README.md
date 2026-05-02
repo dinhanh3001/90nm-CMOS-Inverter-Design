@@ -14,8 +14,10 @@ This project demonstrates a complete custom IC design flow for a high-performanc
 <img width="654" height="675" alt="image" src="https://github.com/user-attachments/assets/2d708d42-f890-44a2-a4e3-c11138646fc9" />
 
 ## Starrc: 
-
 <img width="936" height="692" alt="image" src="https://github.com/user-attachments/assets/95ef73f0-9eff-4c3b-ae28-b6b3ecaaf791" />
+
+## Temperature analysis: 
+<img width="1811" height="688" alt="image" src="https://github.com/user-attachments/assets/341364fd-e288-44c0-8307-a882f974c26e" />
 
 ## Author:
 - Nguyen Dinh Anh
